@@ -1,0 +1,38 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{lipsum} % For dummy text
+\usepackage{multicol} % For multiple columns
+\usepackage[font=small,labelfont=bf]{caption} 
+\usepackage{float}
+
+\begin{document}
+
+\onecolumn % Single column at the top
+
+\title{CSC730: Report for Assignment 1}
+\author{Jacob James, David Mathews, Kris Jensen}
+\date{\today}
+\maketitle
+
+\begin{multicols}{2} % Two columns for the rest of the document
+    \let\clearpage\relax
+    \section{Introduction}
+    \include{sections/introduction.tex}
+
+    \let\clearpage\relax
+    \section{Methodology}
+    \include{sections/methodology.tex}
+
+    \let\clearpage\relax
+    \section{Results}
+    \include{sections/results.tex}
+
+    \let\clearpage\relax
+    \section{Discussion}
+    \include{sections/discussion.tex}
+
+    \let\clearpage\relax
+    \section{Conclusion}
+    \include{sections/conclusion.tex}
+\end{multicols}
+\end{document}

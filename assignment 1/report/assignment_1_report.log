@@ -1,0 +1,247 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 13:51
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex"
+(h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
+(h:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(h:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (h:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (h:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (h:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (h:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (h:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (h:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-11-01 L3 programming layer (loader) 
+ (h:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box51
+))
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count195
+\l__lipsum_a_int=\count196
+\l__lipsum_b_int=\count197
+ (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (h:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count198
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 143.
+
+\mult@box=\box52
+\multicol@leftmargin=\dimen143
+\c@unbalance=\count199
+\c@collectmore=\count266
+\doublecol@number=\count267
+\multicoltolerance=\count268
+\multicolpretolerance=\count269
+\full@width=\dimen144
+\page@free=\dimen145
+\premulticols=\dimen146
+\postmulticols=\dimen147
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box53
+\last@line=\box54
+\mc@boxedresult=\box55
+\maxbalancingoverflow=\dimen148
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@firstbox=\box58
+\mult@gfirstbox=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count270
+\c@columnbadness=\count271
+\c@finalcolumnbadness=\count272
+\last@try=\dimen149
+\multicolovershoot=\dimen150
+\multicolundershoot=\dimen151
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count273
+) (h:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (h:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
+) (h:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks18
+\float@box=\box98
+\@float@everytoks=\toks19
+\@floatcapt=\box99
+) (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+\openout1 = `assignment_1_report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ (h:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count277
+\scratchdimen=\dimen160
+\scratchbox=\box100
+\nofMPsegments=\count278
+\nofMParguments=\count279
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen161
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
+\everyMPtoPDFconversion=\toks21
+) (h:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (h:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+\openout2 = `sections/introduction.aux'.
+
+ (./sections/introduction.tex)
+\openout2 = `sections/methodology.aux'.
+
+ (./sections/methodology.tex
+<./images/image1.png, id=1, 173.14688pt x 180.675pt>
+File: ./images/image1.png Graphic file (type png)
+<use ./images/image1.png>
+Package pdftex.def Info: ./images/image1.png  used on input line 7.
+(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
+<./images/image2.png, id=2, 173.14688pt x 180.675pt>
+File: ./images/image2.png Graphic file (type png)
+<use ./images/image2.png>
+Package pdftex.def Info: ./images/image2.png  used on input line 17.
+(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
+)
+\openout2 = `sections/results.aux'.
+
+ (./sections/results.tex [1
+
+
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png>])
+\openout2 = `sections/discussion.aux'.
+
+ (./sections/discussion.tex)
+\openout2 = `sections/conclusion.aux'.
+
+ (./sections/conclusion.tex) [2] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3426 strings out of 474271
+ 65497 string characters out of 5751521
+ 1932533 words of memory out of 5000000
+ 25603 multiletter control sequences out of 15000+600000
+ 562316 words of font info for 50 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 79i,6n,93p,676b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on assignment_1_report.pdf (2 pages, 103669 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
