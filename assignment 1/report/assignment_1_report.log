@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,12 +23,135 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (h:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+) (h:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-10-27 v7.01d Hypertext links for LaTeX
+ (h:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (h:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (h:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (h:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (h:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+) (h:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (h:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (h:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (h:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (h:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (h:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (h:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-10-05 v2.54 Cross-referencing by name of section
+ (h:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (h:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (h:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count194
+) (h:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
+ (h:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-10-27 v7.01d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (h:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count198
+ (h:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-10-27 v7.01d Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4168.
+Package hyperref Info: Link nesting OFF on input line 4173.
+Package hyperref Info: Hyper index ON on input line 4176.
+Package hyperref Info: Plain pages OFF on input line 4183.
+Package hyperref Info: Backreferencing OFF on input line 4188.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4435.
+\c@Hy@tempcnt=\count199
+ (h:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4773.
+\XeTeXLinkMargin=\dimen142
+ (h:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (h:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count266
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
+Package hyperref Info: Hyper figures OFF on input line 6052.
+Package hyperref Info: Link nesting OFF on input line 6057.
+Package hyperref Info: Hyper index ON on input line 6060.
+Package hyperref Info: backreferencing OFF on input line 6067.
+Package hyperref Info: Link coloring OFF on input line 6072.
+Package hyperref Info: Link coloring with OCG OFF on input line 6077.
+Package hyperref Info: PDF/A mode OFF on input line 6082.
+ (h:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (h:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-10-27 v7.01d Hyperref driver for pdfTeX
+ (h:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
+ (h:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (h:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip50
+) (h:/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+) (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (h:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -39,45 +162,45 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (h:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
 ) (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (h:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (h:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-11-01 L3 programming layer (loader) 
  (h:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
+\l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box51
 ))
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count195
-\l__lipsum_a_int=\count196
-\l__lipsum_b_int=\count197
+\g__lipsum_par_int=\count273
+\l__lipsum_a_int=\count274
+\l__lipsum_b_int=\count275
  (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (h:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count198
+\c@tracingmulticols=\count276
 
 
 Package multicol Warning: May not work with the twocolumn option on input line 143.
 
 \mult@box=\box52
-\multicol@leftmargin=\dimen143
-\c@unbalance=\count199
-\c@collectmore=\count266
-\doublecol@number=\count267
-\multicoltolerance=\count268
-\multicolpretolerance=\count269
-\full@width=\dimen144
-\page@free=\dimen145
-\premulticols=\dimen146
-\postmulticols=\dimen147
-\multicolsep=\skip50
-\multicolbaselineskip=\skip51
+\multicol@leftmargin=\dimen147
+\c@unbalance=\count277
+\c@collectmore=\count278
+\doublecol@number=\count279
+\multicoltolerance=\count280
+\multicolpretolerance=\count281
+\full@width=\dimen148
+\page@free=\dimen149
+\premulticols=\dimen150
+\postmulticols=\dimen151
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
 \partial@page=\box53
 \last@line=\box54
 \mc@boxedresult=\box55
-\maxbalancingoverflow=\dimen148
+\maxbalancingoverflow=\dimen152
 \mult@rightbox=\box56
 \mult@grightbox=\box57
 \mult@firstbox=\box58
@@ -118,34 +241,35 @@ Package multicol Warning: May not work with the twocolumn option on input line 1
 \@tempa=\box93
 \@tempa=\box94
 \@tempa=\box95
-\c@minrows=\count270
-\c@columnbadness=\count271
-\c@finalcolumnbadness=\count272
-\last@try=\dimen149
-\multicolovershoot=\dimen150
-\multicolundershoot=\dimen151
+\c@minrows=\count282
+\c@columnbadness=\count283
+\c@finalcolumnbadness=\count284
+\last@try=\dimen153
+\multicolovershoot=\dimen154
+\multicolundershoot=\dimen155
 \mult@nat@firstbox=\box96
 \colbreak@box=\box97
-\mc@col@check@num=\count273
+\mc@col@check@num=\count285
 ) (h:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (h:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen152
-\captionmargin=\dimen153
-\caption@leftmargin=\dimen154
-\caption@rightmargin=\dimen155
-\caption@width=\dimen156
-\caption@indent=\dimen157
-\caption@parindent=\dimen158
-\caption@hangindent=\dimen159
+\caption@tempdima=\dimen156
+\captionmargin=\dimen157
+\caption@leftmargin=\dimen158
+\caption@rightmargin=\dimen159
+\caption@width=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count274
-\c@continuedfloat=\count275
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+Package caption Info: hyperref package is loaded.
 ) (h:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count276
+\c@float@type=\count288
 \float@exts=\toks18
 \float@box=\box98
 \@float@everytoks=\toks19
@@ -154,57 +278,64 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (h:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (h:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count277
-\Gm@cntv=\count278
-\c@Gm@tempcnt=\count279
-\Gm@bindingoffset=\dimen160
-\Gm@wd@mp=\dimen161
-\Gm@odd@mp=\dimen162
-\Gm@even@mp=\dimen163
-\Gm@layoutwidth=\dimen164
-\Gm@layoutheight=\dimen165
-\Gm@layouthoffset=\dimen166
-\Gm@layoutvoffset=\dimen167
+)
+\Gm@cnth=\count289
+\Gm@cntv=\count290
+\c@Gm@tempcnt=\count291
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks20
 ) (h:/texlive/2023/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip52
-\thanksmargin=\skip53
-\droptitle=\skip54
+\thanksmarkwidth=\skip53
+\thanksmargin=\skip54
+\droptitle=\skip55
 ) (h:/texlive/2023/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2023-07-04 v5.06 eXternal References (DPC)
 ) (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
 \openout1 = `assignment_1_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+Package hyperref Info: Link coloring OFF on input line 20.
+ (./assignment_1_report.out) (./assignment_1_report.out)
+\@outlinefile=\write3
+\openout3 = `assignment_1_report.out'.
+
  (h:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen168
+\scratchcounter=\count292
+\scratchdimen=\dimen172
 \scratchbox=\box100
-\nofMPsegments=\count281
-\nofMParguments=\count282
+\nofMPsegments=\count293
+\nofMParguments=\count294
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen169
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen173
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
 \everyMPtoPDFconversion=\toks22
 ) (h:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -251,120 +382,149 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 29.
 \openout2 = `sections/introduction.aux'.
 
 (./sections/introduction.tex)
 \openout2 = `sections/methodology.aux'.
 
  (./sections/methodology.tex
-<./images/image1.png, id=1, 173.14688pt x 180.675pt>
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<./images/image1.png, id=26, 173.14688pt x 180.675pt>
 File: ./images/image1.png Graphic file (type png)
 <use ./images/image1.png>
-Package pdftex.def Info: ./images/image1.png  used on input line 7.
+Package pdftex.def Info: ./images/image1.png  used on input line 6.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
-<./images/image2.png, id=2, 173.14688pt x 180.675pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 7.
+See the caption package documentation for explanation.
+
+<./images/image2.png, id=27, 173.14688pt x 180.675pt>
 File: ./images/image2.png Graphic file (type png)
 <use ./images/image2.png>
-Package pdftex.def Info: ./images/image2.png  used on input line 12.
+Package pdftex.def Info: ./images/image2.png  used on input line 11.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
-<./images/image3.png, id=3, 173.14688pt x 180.675pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 12.
+See the caption package documentation for explanation.
+
+<./images/image3.png, id=30, 173.14688pt x 180.675pt>
 File: ./images/image3.png Graphic file (type png)
 <use ./images/image3.png>
-Package pdftex.def Info: ./images/image3.png  used on input line 19.
+Package pdftex.def Info: ./images/image3.png  used on input line 18.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
-<./images/image4.png, id=4, 173.14688pt x 180.675pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 19.
+See the caption package documentation for explanation.
+
+<./images/image4.png, id=31, 173.14688pt x 180.675pt>
 File: ./images/image4.png Graphic file (type png)
 <use ./images/image4.png>
-Package pdftex.def Info: ./images/image4.png  used on input line 24.
+Package pdftex.def Info: ./images/image4.png  used on input line 23.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 
-
-LaTeX Warning: Reference `fig:image5' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: Reference `fig:image6' on page 1 undefined on input line 29.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 24.
+See the caption package documentation for explanation.
 
 [1
 
 
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png> <./images/image3.png> <./images/image4.png>]
-<./images/image5.png, id=16, 173.14688pt x 180.675pt>
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png> <./images/image3.png>]
+<./images/image5.png, id=49, 173.14688pt x 180.675pt>
 File: ./images/image5.png Graphic file (type png)
 <use ./images/image5.png>
-Package pdftex.def Info: ./images/image5.png  used on input line 32.
+Package pdftex.def Info: ./images/image5.png  used on input line 31.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
-<./images/image6.png, id=17, 173.14688pt x 180.675pt>
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 32.
+See the caption package documentation for explanation.
+
+<./images/image6.png, id=50, 173.14688pt x 180.675pt>
 File: ./images/image6.png Graphic file (type png)
 <use ./images/image6.png>
-Package pdftex.def Info: ./images/image6.png  used on input line 37.
+Package pdftex.def Info: ./images/image6.png  used on input line 36.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 37.
+See the caption package documentation for explanation.
 
-LaTeX Warning: Reference `fig:image7' on page 2 undefined on input line 41.
-
-
-LaTeX Warning: Reference `fig:image8' on page 2 undefined on input line 41.
-
-<./images/image7.png, id=18, 173.14688pt x 180.675pt>
+<./images/image7.png, id=53, 173.14688pt x 180.675pt>
 File: ./images/image7.png Graphic file (type png)
 <use ./images/image7.png>
-Package pdftex.def Info: ./images/image7.png  used on input line 44.
+Package pdftex.def Info: ./images/image7.png  used on input line 43.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
-<./images/image8.png, id=19, 173.14688pt x 180.675pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 44.
+See the caption package documentation for explanation.
+
+<./images/image8.png, id=54, 173.14688pt x 180.675pt>
 File: ./images/image8.png Graphic file (type png)
 <use ./images/image8.png>
-Package pdftex.def Info: ./images/image8.png  used on input line 49.
+Package pdftex.def Info: ./images/image8.png  used on input line 48.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 
-LaTeX Warning: Reference `fig:image9' on page 2 undefined on input line 53.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 49.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:image10' on page 2 undefined on input line 53.
+LaTeX Warning: Reference `fig:image10' on page 2 undefined on input line 51.
 
-<./images/image9.png, id=20, 173.14688pt x 180.675pt>
+<./images/image9.png, id=56, 173.14688pt x 180.675pt>
 File: ./images/image9.png Graphic file (type png)
 <use ./images/image9.png>
-Package pdftex.def Info: ./images/image9.png  used on input line 56.
+Package pdftex.def Info: ./images/image9.png  used on input line 53.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
-<./images/image10.png, id=21, 173.14688pt x 180.675pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 54.
+See the caption package documentation for explanation.
+
+<./images/image10.png, id=57, 173.14688pt x 180.675pt>
 File: ./images/image10.png Graphic file (type png)
 <use ./images/image10.png>
-Package pdftex.def Info: ./images/image10.png  used on input line 61.
+Package pdftex.def Info: ./images/image10.png  used on input line 58.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 
-LaTeX Warning: Reference `fig:image11' on page 2 undefined on input line 65.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 59.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:image12' on page 2 undefined on input line 65.
+LaTeX Warning: Reference `fig:image11' on page 2 undefined on input line 62.
+
+
+LaTeX Warning: Reference `fig:image12' on page 2 undefined on input line 62.
 
 )
 \openout2 = `sections/results.aux'.
 
- (./sections/results.tex)
+ (./sections/results.tex [2 <./images/image4.png> <./images/image5.png> <./images/image6.png> <./images/image7.png> <./images/image8.png> <./images/image9.png>])
 \openout2 = `sections/discussion.aux'.
 
- (./sections/discussion.tex) [2
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Mean Image}}{2}{}\protected@file@percent }
-\newlabel{fig:image5}{{5}{2}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Threshold set to 128 of mean image}}{2}{}\protected@file@percent }
-\newlabel{fig:image6}{{6}{2}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Subtraction of experiment image and mean image for experiment 1000}}{2}{}\protected@file@percent }
-\newlabel{fig:image7}{{7}{2}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Subtraction of experiment image and mean image for experiment 4000}}{2}{}\protected@file@percent }
-\newlabel{fig:image8}{{8}{2}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 1000}}{2}{}\protected@file@percent }
-\newlabel{fig:image9}{{9}{2}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 4000}}{2}{}\protected@file@percent }
-\newlabel{fig:image10}{{10}{2}{}{}{}}
- <./images/image5.png> <./images/image6.png> <./images/image7.png> <./images/image8.png> <./images/image9.png> <./images/image10.png>]
+ (./sections/discussion.tex)
 \openout2 = `sections/conclusion.aux'.
 
- (./sections/conclusion.tex) [3] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ (./sections/conclusion.tex) [3
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 4000}}{3}{figure.10}\protected@file@percent }
+\newlabel{fig:image10}{{10}{3}{Square of the subtraction of experiment image and mean image for experiment 4000}{figure.10}{}}
+\newlabel{fig:image10@cref}{{[figure][10][]10}{[1][2][]3}}
+ <./images/image10.png>] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -373,20 +533,22 @@ L3 programming layer <2023-11-01>
 
 LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `assignment_1_report.out' has not changed.
+(rerunfilecheck)             Checksum: 1B9FA6AB19B90F9EED2A28F1D3455155;465.
  ) 
 Here is how much of TeX's memory you used:
- 4176 strings out of 474271
- 77570 string characters out of 5751521
- 1934533 words of memory out of 5000000
- 26334 multiletter control sequences out of 15000+600000
+ 12852 strings out of 474271
+ 223253 string characters out of 5751521
+ 1938533 words of memory out of 5000000
+ 34885 multiletter control sequences out of 15000+600000
  562624 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,676b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,93p,676b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on assignment_1_report.pdf (3 pages, 183036 bytes).
+Output written on assignment_1_report.pdf (3 pages, 184448 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
