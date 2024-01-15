@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,23 +174,25 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip52
 \thanksmargin=\skip53
 \droptitle=\skip54
+) (h:/texlive/2023/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2023-07-04 v5.06 eXternal References (DPC)
 ) (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
 \openout1 = `assignment_1_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  (h:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
@@ -249,11 +251,11 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 23.
 \openout2 = `sections/introduction.aux'.
 
 (./sections/introduction.tex)
@@ -268,22 +270,79 @@ Package pdftex.def Info: ./images/image1.png  used on input line 7.
 <./images/image2.png, id=2, 173.14688pt x 180.675pt>
 File: ./images/image2.png Graphic file (type png)
 <use ./images/image2.png>
-Package pdftex.def Info: ./images/image2.png  used on input line 16.
+Package pdftex.def Info: ./images/image2.png  used on input line 12.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 <./images/image3.png, id=3, 173.14688pt x 180.675pt>
 File: ./images/image3.png Graphic file (type png)
 <use ./images/image3.png>
-Package pdftex.def Info: ./images/image3.png  used on input line 25.
+Package pdftex.def Info: ./images/image3.png  used on input line 19.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 <./images/image4.png, id=4, 173.14688pt x 180.675pt>
 File: ./images/image4.png Graphic file (type png)
 <use ./images/image4.png>
-Package pdftex.def Info: ./images/image4.png  used on input line 31.
+Package pdftex.def Info: ./images/image4.png  used on input line 24.
 (pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
- [1
 
 
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png> <./images/image3.png> <./images/image4.png>])
+LaTeX Warning: Reference `fig:image5' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:image6' on page 1 undefined on input line 29.
+
+[1
+
+
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png> <./images/image3.png> <./images/image4.png>]
+<./images/image5.png, id=16, 173.14688pt x 180.675pt>
+File: ./images/image5.png Graphic file (type png)
+<use ./images/image5.png>
+Package pdftex.def Info: ./images/image5.png  used on input line 32.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+<./images/image6.png, id=17, 173.14688pt x 180.675pt>
+File: ./images/image6.png Graphic file (type png)
+<use ./images/image6.png>
+Package pdftex.def Info: ./images/image6.png  used on input line 37.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+
+
+LaTeX Warning: Reference `fig:image7' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:image8' on page 2 undefined on input line 41.
+
+<./images/image7.png, id=18, 173.14688pt x 180.675pt>
+File: ./images/image7.png Graphic file (type png)
+<use ./images/image7.png>
+Package pdftex.def Info: ./images/image7.png  used on input line 44.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+<./images/image8.png, id=19, 173.14688pt x 180.675pt>
+File: ./images/image8.png Graphic file (type png)
+<use ./images/image8.png>
+Package pdftex.def Info: ./images/image8.png  used on input line 49.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+
+LaTeX Warning: Reference `fig:image9' on page 2 undefined on input line 53.
+
+
+LaTeX Warning: Reference `fig:image10' on page 2 undefined on input line 53.
+
+<./images/image9.png, id=20, 173.14688pt x 180.675pt>
+File: ./images/image9.png Graphic file (type png)
+<use ./images/image9.png>
+Package pdftex.def Info: ./images/image9.png  used on input line 56.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+<./images/image10.png, id=21, 173.14688pt x 180.675pt>
+File: ./images/image10.png Graphic file (type png)
+<use ./images/image10.png>
+Package pdftex.def Info: ./images/image10.png  used on input line 61.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+
+LaTeX Warning: Reference `fig:image11' on page 2 undefined on input line 65.
+
+
+LaTeX Warning: Reference `fig:image12' on page 2 undefined on input line 65.
+
+)
 \openout2 = `sections/results.aux'.
 
  (./sections/results.tex)
@@ -292,25 +351,45 @@ Package pdftex.def Info: ./images/image4.png  used on input line 31.
  (./sections/discussion.tex)
 \openout2 = `sections/conclusion.aux'.
 
- (./sections/conclusion.tex) [2] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ (./sections/conclusion.tex)
+Overfull \vbox (13.35318pt too high) has occurred while \output is active []
+
+ [2
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Mean Image}}{2}{}\protected@file@percent }
+\newlabel{fig:image5}{{5}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Threshold set to 128 of mean image}}{2}{}\protected@file@percent }
+\newlabel{fig:image6}{{6}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Subtraction of experiment image and mean image for experiment 1000}}{2}{}\protected@file@percent }
+\newlabel{fig:image7}{{7}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Subtraction of experiment image and mean image for experiment 4000}}{2}{}\protected@file@percent }
+\newlabel{fig:image8}{{8}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 1000}}{2}{}\protected@file@percent }
+\newlabel{fig:image9}{{9}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 4000}}{2}{}\protected@file@percent }
+\newlabel{fig:image10}{{10}{2}{}{}{}}
+ <./images/image5.png> <./images/image6.png> <./images/image7.png> <./images/image8.png> <./images/image9.png> <./images/image10.png>] [3] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 4073 strings out of 474271
- 75525 string characters out of 5751521
- 1934533 words of memory out of 5000000
- 26235 multiletter control sequences out of 15000+600000
- 562316 words of font info for 50 fonts, out of 8000000 for 9000
+ 4176 strings out of 474271
+ 77570 string characters out of 5751521
+ 1938533 words of memory out of 5000000
+ 26334 multiletter control sequences out of 15000+600000
+ 562624 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,676b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on assignment_1_report.pdf (2 pages, 117842 bytes).
+ 79i,6n,93p,676b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on assignment_1_report.pdf (3 pages, 180974 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
