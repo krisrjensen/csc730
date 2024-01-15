@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,39 +209,55 @@ Package pdftex.def Info: ./images/image1.png  used on input line 7.
 <./images/image2.png, id=2, 173.14688pt x 180.675pt>
 File: ./images/image2.png Graphic file (type png)
 <use ./images/image2.png>
-Package pdftex.def Info: ./images/image2.png  used on input line 17.
+Package pdftex.def Info: ./images/image2.png  used on input line 16.
+(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
+<./images/image3.png, id=3, 173.14688pt x 180.675pt>
+File: ./images/image3.png Graphic file (type png)
+<use ./images/image3.png>
+Package pdftex.def Info: ./images/image3.png  used on input line 25.
+(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
+ [1
+
+
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png>]
+<./images/image4.png, id=15, 173.14688pt x 180.675pt>
+File: ./images/image4.png Graphic file (type png)
+<use ./images/image4.png>
+Package pdftex.def Info: ./images/image4.png  used on input line 31.
 (pdftex.def)             Requested size: 117.25pt x 122.3501pt.
 )
 \openout2 = `sections/results.aux'.
 
- (./sections/results.tex [1
-
-
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png>])
+ (./sections/results.tex)
 \openout2 = `sections/discussion.aux'.
 
  (./sections/discussion.tex)
 \openout2 = `sections/conclusion.aux'.
 
- (./sections/conclusion.tex) [2] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ (./sections/conclusion.tex) [2
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Threshold set to 128 of handwriting sample 1000}}{2}{}\protected@file@percent }
+\newlabel{fig:sample3}{{3}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Threshold set to 128 of handwriting sample 4000}}{2}{}\protected@file@percent }
+\newlabel{fig:sample4}{{4}{2}{}{}{}}
+ <./images/image3.png> <./images/image4.png>] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3426 strings out of 474271
- 65497 string characters out of 5751521
- 1932533 words of memory out of 5000000
- 25603 multiletter control sequences out of 15000+600000
+ 3440 strings out of 474271
+ 65859 string characters out of 5751521
+ 1931533 words of memory out of 5000000
+ 25617 multiletter control sequences out of 15000+600000
  562316 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,6n,93p,676b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on assignment_1_report.pdf (2 pages, 103669 bytes).
+Output written on assignment_1_report.pdf (2 pages, 117904 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1705351893 "h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex" "assignment_1_report.pdf" "assignment_1_report" 1705351895 0
-  "assignment_1_report.aux" 1705351894 687 ac6f7b8fed49417ab6a9fbdbb26679d3 "pdflatex"
+["pdflatex"] 1705352747 "h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex" "assignment_1_report.pdf" "assignment_1_report" 1705352748 0
+  "assignment_1_report.aux" 1705352748 687 6405fd258490e0afa4e94ba55957e46b "pdflatex"
   "assignment_1_report.tex" 1705351866 955 e5529a23360ecd0ec6ec844fef264939 ""
   "h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex" 1705351866 955 e5529a23360ecd0ec6ec844fef264939 ""
   "h:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1699122188 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -49,15 +49,17 @@
   "h:/texlive/2023/texmf.cnf" 1699127285 713 e69b156964470283e0530f5060668171 ""
   "images/image1.png" 1705347707 11647 2d4c102f4782fa1ec89f9fe8d56f0f8c ""
   "images/image2.png" 1705347742 9655 ad477c9cdf328aaeee23b6096422d292 ""
-  "sections/conclusion.aux" 1705351894 522 fee262ce68879eca78e95fb930020a6a "pdflatex"
+  "images/image3.png" 1705347754 7405 f4cac8de919f30c3d5842f26f3dff41d ""
+  "images/image4.png" 1705347773 7258 755c25e7e5c6ef158a5d5691c3cd4a30 ""
+  "sections/conclusion.aux" 1705352748 522 a3ecd71d9e9257394f7de0130c4d8e4a "pdflatex"
   "sections/conclusion.tex" 1705348025 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sections/discussion.aux" 1705351894 522 df7bc69595cefd04c66d04ef7ffa01a8 "pdflatex"
+  "sections/discussion.aux" 1705352748 522 f9bfd598fdffb1ab04288c20fd0fd84f "pdflatex"
   "sections/discussion.tex" 1705348006 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sections/introduction.aux" 1705351894 524 f815fdd910720807553f15bacafb5d50 "pdflatex"
+  "sections/introduction.aux" 1705352748 524 f815fdd910720807553f15bacafb5d50 "pdflatex"
   "sections/introduction.tex" 1705347203 673 dddbd1c7472d90a161ea1026efef3a1e ""
-  "sections/methodology.aux" 1705351894 523 180985db51e9533c818117c019ee7444 "pdflatex"
-  "sections/methodology.tex" 1705351890 1712 553fe50f41d7d4b563eca112e4319c44 ""
-  "sections/results.aux" 1705351894 845 e975d1359e5bde579fd657e2b47de4aa "pdflatex"
+  "sections/methodology.aux" 1705352748 849 b7d2a30db1bcbe42adf70cd4e800ca3f "pdflatex"
+  "sections/methodology.tex" 1705352745 2038 3821274b4c7e56da87be2238770015ec ""
+  "sections/results.aux" 1705352748 519 3ff685ce035ccdc04ba19d02f251c3b5 "pdflatex"
   "sections/results.tex" 1705348097 353 9d4c497d6ee37fa950ac5d74b92a0bc9 ""
   (generated)
   "assignment_1_report.aux"
