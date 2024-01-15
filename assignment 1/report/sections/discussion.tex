@@ -1,0 +1,12 @@
+Rather than reducing the dimensions using previous statistical methods like PCA, our group’s hypothesis
+was that most of the information contained in the image was found in the surface area of given pixel
+values. The skewed MNIST dataset contained images with only white and black pixel values, thus the
+surface area was captured using a specified median criterion of a typical [0,255] domain.
+Our second hypothesis was that each class followed a distribution, and thus a difference from the mean
+could be used as an anomaly score, thus the mean was subtracted from each count of white pixels
+contained in each image. Lastly, this value was squared to ensure values further away from the mean
+would give a larger score regardless of being greater or less than the mean.
+As discussed in the results section, the accuracy for this method was 65.5 \%. To develop a baseline
+comparison, a simulation was created which assigned random anomalous scores for each sample
+achieved an anomalous accuracy of 33.3 \%, which shows our method achieved nearly double the
+accuracy of a baseline random guess.

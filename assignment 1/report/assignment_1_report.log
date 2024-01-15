@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,13 +348,7 @@ LaTeX Warning: Reference `fig:image12' on page 2 undefined on input line 65.
  (./sections/results.tex)
 \openout2 = `sections/discussion.aux'.
 
- (./sections/discussion.tex)
-\openout2 = `sections/conclusion.aux'.
-
- (./sections/conclusion.tex)
-Overfull \vbox (13.35318pt too high) has occurred while \output is active []
-
- [2
+ (./sections/discussion.tex) [2
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Mean Image}}{2}{}\protected@file@percent }
 \newlabel{fig:image5}{{5}{2}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Threshold set to 128 of mean image}}{2}{}\protected@file@percent }
@@ -367,7 +361,10 @@ Overfull \vbox (13.35318pt too high) has occurred while \output is active []
 \newlabel{fig:image9}{{9}{2}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 4000}}{2}{}\protected@file@percent }
 \newlabel{fig:image10}{{10}{2}{}{}{}}
- <./images/image5.png> <./images/image6.png> <./images/image7.png> <./images/image8.png> <./images/image9.png> <./images/image10.png>] [3] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ <./images/image5.png> <./images/image6.png> <./images/image7.png> <./images/image8.png> <./images/image9.png> <./images/image10.png>]
+\openout2 = `sections/conclusion.aux'.
+
+ (./sections/conclusion.tex) [3] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -380,13 +377,13 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4176 strings out of 474271
  77570 string characters out of 5751521
- 1938533 words of memory out of 5000000
+ 1934533 words of memory out of 5000000
  26334 multiletter control sequences out of 15000+600000
  562624 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,6n,93p,676b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on assignment_1_report.pdf (3 pages, 180974 bytes).
+Output written on assignment_1_report.pdf (3 pages, 183036 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream

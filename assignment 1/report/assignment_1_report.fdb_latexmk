@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1705356575 "h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex" "assignment_1_report.pdf" "assignment_1_report" 1705356577 0
-  "assignment_1_report.aux" 1705356577 687 b6fba06d3421a6f5145f9138f3a35ff6 "pdflatex"
+["pdflatex"] 1705357719 "h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex" "assignment_1_report.pdf" "assignment_1_report" 1705357721 0
+  "assignment_1_report.aux" 1705357721 687 72f21941948f1b5a8128107c9cac664e "pdflatex"
   "assignment_1_report.tex" 1705356530 1168 4747af6a4fb5131e74d379b7c73e72e0 ""
   "h:/dev/git/csc730/assignment 1/report/assignment_1_report.tex" 1705356530 1168 4747af6a4fb5131e74d379b7c73e72e0 ""
   "h:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1699122188 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -64,15 +64,15 @@
   "images/image7.png" 1705347843 8933 d7423531140726204d33345d4d8da1f9 ""
   "images/image8.png" 1705347857 8826 3e3aeae2b96abf9ef4c21efb9c28f1ce ""
   "images/image9.png" 1705347881 8284 e0373d8a74ef2d976d14a30e1c4ed157 ""
-  "sections/conclusion.aux" 1705356576 523 d00cbb6a9d3a7a726991a06e2a269885 "pdflatex"
+  "sections/conclusion.aux" 1705357721 523 080460e625cf6ab54484d574e2f1dfed "pdflatex"
   "sections/conclusion.tex" 1705348025 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sections/discussion.aux" 1705356576 523 3830037d3db3e1208e004a614e774bc0 "pdflatex"
-  "sections/discussion.tex" 1705348006 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sections/introduction.aux" 1705356576 524 f815fdd910720807553f15bacafb5d50 "pdflatex"
+  "sections/discussion.aux" 1705357720 523 3830037d3db3e1208e004a614e774bc0 "pdflatex"
+  "sections/discussion.tex" 1705357717 1105 ae3adec415ff202da8833cd84aefaa8c ""
+  "sections/introduction.aux" 1705357720 524 f815fdd910720807553f15bacafb5d50 "pdflatex"
   "sections/introduction.tex" 1705347203 673 dddbd1c7472d90a161ea1026efef3a1e ""
-  "sections/methodology.aux" 1705356576 1220 3426f5921bad21170f1a963defa7a65e "pdflatex"
+  "sections/methodology.aux" 1705357720 1220 3426f5921bad21170f1a963defa7a65e "pdflatex"
   "sections/methodology.tex" 1705356574 3483 cc4350c670034c176ef045707a95ca46 ""
-  "sections/results.aux" 1705356576 520 ef3c54f91986cb585448517d9f051a1c "pdflatex"
+  "sections/results.aux" 1705357720 520 ef3c54f91986cb585448517d9f051a1c "pdflatex"
   "sections/results.tex" 1705348097 353 9d4c497d6ee37fa950ac5d74b92a0bc9 ""
   (generated)
   "assignment_1_report.aux"
