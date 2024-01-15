@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  15 JAN 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -150,36 +150,60 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box98
 \@float@everytoks=\toks19
 \@floatcapt=\box99
+) (h:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (h:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (h:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks20
+) (h:/texlive/2023/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip52
+\thanksmargin=\skip53
+\droptitle=\skip54
 ) (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
 \openout1 = `assignment_1_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  (h:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen160
+\scratchcounter=\count280
+\scratchdimen=\dimen168
 \scratchbox=\box100
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen161
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks21
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen169
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks22
 ) (h:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -189,15 +213,50 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 18.
 \openout2 = `sections/introduction.aux'.
 
- (./sections/introduction.tex)
+(./sections/introduction.tex)
 \openout2 = `sections/methodology.aux'.
 
  (./sections/methodology.tex
@@ -205,27 +264,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: ./images/image1.png Graphic file (type png)
 <use ./images/image1.png>
 Package pdftex.def Info: ./images/image1.png  used on input line 7.
-(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 <./images/image2.png, id=2, 173.14688pt x 180.675pt>
 File: ./images/image2.png Graphic file (type png)
 <use ./images/image2.png>
 Package pdftex.def Info: ./images/image2.png  used on input line 16.
-(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
 <./images/image3.png, id=3, 173.14688pt x 180.675pt>
 File: ./images/image3.png Graphic file (type png)
 <use ./images/image3.png>
 Package pdftex.def Info: ./images/image3.png  used on input line 25.
-(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
- [1
-
-
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png>]
-<./images/image4.png, id=15, 173.14688pt x 180.675pt>
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+<./images/image4.png, id=4, 173.14688pt x 180.675pt>
 File: ./images/image4.png Graphic file (type png)
 <use ./images/image4.png>
 Package pdftex.def Info: ./images/image4.png  used on input line 31.
-(pdftex.def)             Requested size: 117.25pt x 122.3501pt.
-)
+(pdftex.def)             Requested size: 117.43875pt x 122.54858pt.
+ [1
+
+
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/image1.png> <./images/image2.png> <./images/image3.png> <./images/image4.png>])
 \openout2 = `sections/results.aux'.
 
  (./sections/results.tex)
@@ -234,27 +292,22 @@ Package pdftex.def Info: ./images/image4.png  used on input line 31.
  (./sections/discussion.tex)
 \openout2 = `sections/conclusion.aux'.
 
- (./sections/conclusion.tex) [2
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Threshold set to 128 of handwriting sample 1000}}{2}{}\protected@file@percent }
-\newlabel{fig:sample3}{{3}{2}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Threshold set to 128 of handwriting sample 4000}}{2}{}\protected@file@percent }
-\newlabel{fig:sample4}{{4}{2}{}{}{}}
- <./images/image3.png> <./images/image4.png>] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ (./sections/conclusion.tex) [2] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3440 strings out of 474271
- 65859 string characters out of 5751521
- 1931533 words of memory out of 5000000
- 25617 multiletter control sequences out of 15000+600000
+ 4073 strings out of 474271
+ 75525 string characters out of 5751521
+ 1934533 words of memory out of 5000000
+ 26235 multiletter control sequences out of 15000+600000
  562316 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,676b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,93p,676b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on assignment_1_report.pdf (2 pages, 117904 bytes).
+Output written on assignment_1_report.pdf (2 pages, 117842 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
