@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  16 JAN 2024 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  17 JAN 2024 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,48 +393,48 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `sections/methodology.aux'.
 
  (./sections/methodology.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 <./images/image1.png, id=26, 462.528pt x 346.896pt>
 File: ./images/image1.png Graphic file (type png)
 <use ./images/image1.png>
-Package pdftex.def Info: ./images/image1.png  used on input line 6.
+Package pdftex.def Info: ./images/image1.png  used on input line 16.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 7.
+(caption)                particular \caption on input line 17.
 See the caption package documentation for explanation.
 
 <./images/image2.png, id=28, 462.528pt x 346.896pt>
 File: ./images/image2.png Graphic file (type png)
 <use ./images/image2.png>
-Package pdftex.def Info: ./images/image2.png  used on input line 11.
+Package pdftex.def Info: ./images/image2.png  used on input line 21.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 12.
+(caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
 <./images/image3.png, id=31, 462.528pt x 346.896pt>
 File: ./images/image3.png Graphic file (type png)
 <use ./images/image3.png>
-Package pdftex.def Info: ./images/image3.png  used on input line 18.
+Package pdftex.def Info: ./images/image3.png  used on input line 28.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 19.
+(caption)                particular \caption on input line 29.
 See the caption package documentation for explanation.
 
 <./images/image4.png, id=32, 462.528pt x 346.896pt>
 File: ./images/image4.png Graphic file (type png)
 <use ./images/image4.png>
-Package pdftex.def Info: ./images/image4.png  used on input line 23.
+Package pdftex.def Info: ./images/image4.png  used on input line 33.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 24.
+(caption)                particular \caption on input line 34.
 See the caption package documentation for explanation.
 
 [1
@@ -444,119 +444,113 @@ See the caption package documentation for explanation.
 <./images/image5.png, id=53, 462.528pt x 346.896pt>
 File: ./images/image5.png Graphic file (type png)
 <use ./images/image5.png>
-Package pdftex.def Info: ./images/image5.png  used on input line 31.
+Package pdftex.def Info: ./images/image5.png  used on input line 41.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 32.
+(caption)                particular \caption on input line 42.
 See the caption package documentation for explanation.
 
 <./images/image6.png, id=54, 462.528pt x 346.896pt>
 File: ./images/image6.png Graphic file (type png)
 <use ./images/image6.png>
-Package pdftex.def Info: ./images/image6.png  used on input line 36.
+Package pdftex.def Info: ./images/image6.png  used on input line 46.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 37.
+(caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
 <./images/image7.png, id=57, 462.528pt x 346.896pt>
 File: ./images/image7.png Graphic file (type png)
 <use ./images/image7.png>
-Package pdftex.def Info: ./images/image7.png  used on input line 43.
-(pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 44.
-See the caption package documentation for explanation.
-
-<./images/image8.png, id=58, 462.528pt x 346.896pt>
-File: ./images/image8.png Graphic file (type png)
-<use ./images/image8.png>
-Package pdftex.def Info: ./images/image8.png  used on input line 48.
-(pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 49.
-See the caption package documentation for explanation.
-
-<./images/image9.png, id=59, 462.528pt x 346.896pt>
-File: ./images/image9.png Graphic file (type png)
-<use ./images/image9.png>
-Package pdftex.def Info: ./images/image9.png  used on input line 53.
+Package pdftex.def Info: ./images/image7.png  used on input line 53.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 54.
 See the caption package documentation for explanation.
 
-<./images/image10.png, id=60, 462.528pt x 346.896pt>
-File: ./images/image10.png Graphic file (type png)
-<use ./images/image10.png>
-Package pdftex.def Info: ./images/image10.png  used on input line 58.
+<./images/image8.png, id=58, 462.528pt x 346.896pt>
+File: ./images/image8.png Graphic file (type png)
+<use ./images/image8.png>
+Package pdftex.def Info: ./images/image8.png  used on input line 58.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 59.
 See the caption package documentation for explanation.
 
+<./images/image9.png, id=59, 462.528pt x 346.896pt>
+File: ./images/image9.png Graphic file (type png)
+<use ./images/image9.png>
+Package pdftex.def Info: ./images/image9.png  used on input line 63.
+(pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
-LaTeX Warning: Reference `fig:image11' on page 2 undefined on input line 62.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 64.
+See the caption package documentation for explanation.
+
+<./images/image10.png, id=60, 462.528pt x 346.896pt>
+File: ./images/image10.png Graphic file (type png)
+<use ./images/image10.png>
+Package pdftex.def Info: ./images/image10.png  used on input line 68.
+(pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 69.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:image12' on page 2 undefined on input line 62.
+LaTeX Warning: Reference `fig:image11' on page 2 undefined on input line 72.
+
+
+LaTeX Warning: Reference `fig:image12' on page 2 undefined on input line 72.
 
 <./images/image11.png, id=61, 462.528pt x 346.896pt>
 File: ./images/image11.png Graphic file (type png)
 <use ./images/image11.png>
-Package pdftex.def Info: ./images/image11.png  used on input line 65.
+Package pdftex.def Info: ./images/image11.png  used on input line 75.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 66.
+(caption)                particular \caption on input line 76.
 See the caption package documentation for explanation.
 
 [2 <./images/image4.png> <./images/image5.png> <./images/image6.png> <./images/image7.png> <./images/image8.png> <./images/image9.png> <./images/image10.png>]
 <./images/image12.png, id=79, 462.528pt x 346.896pt>
 File: ./images/image12.png Graphic file (type png)
 <use ./images/image12.png>
-Package pdftex.def Info: ./images/image12.png  used on input line 70.
+Package pdftex.def Info: ./images/image12.png  used on input line 80.
 (pdftex.def)             Requested size: 164.41711pt x 123.31567pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 71.
+(caption)                particular \caption on input line 81.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:image11' on page 3 undefined on input line 74.
+LaTeX Warning: Reference `fig:image11' on page 3 undefined on input line 84.
 
 
-LaTeX Warning: Reference `fig:image12' on page 3 undefined on input line 74.
+LaTeX Warning: Reference `fig:image12' on page 3 undefined on input line 84.
 
 )
 \openout2 = `sections/results.aux'.
 
  (./sections/results.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
 <./images/class_histogram.png, id=80, 462.528pt x 346.896pt>
 File: ./images/class_histogram.png Graphic file (type png)
 <use ./images/class_histogram.png>
-Package pdftex.def Info: ./images/class_histogram.png  used on input line 27.
+Package pdftex.def Info: ./images/class_histogram.png  used on input line 22.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 27--29
- [] 
- []
-
-<./images/class_histogram_anomalousness.png, id=81, 419.166pt x 328.8285pt>
-File: ./images/class_histogram_anomalousness.png Graphic file (type png)
-<use ./images/class_histogram_anomalousness.png>
-Package pdftex.def Info: ./images/class_histogram_anomalousness.png  used on input line 33.
-(pdftex.def)             Requested size: 234.8775pt x 184.2581pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 33--35
+Overfull \hbox (5.0pt too wide) in paragraph at lines 22--24
  [] 
  []
 
@@ -566,17 +560,14 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 33--35
  (./sections/discussion.tex)
 \openout2 = `sections/conclusion.aux'.
 
- (./sections/conclusion.tex)
-Overfull \vbox (30.1145pt too high) has occurred while \output is active []
-
- [3
+ (./sections/conclusion.tex) [3
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 1000}}{3}{figure.11}\protected@file@percent }
 \newlabel{fig:image9}{{11}{3}{Square of the subtraction of experiment image and mean image for experiment 1000}{figure.11}{}}
 \newlabel{fig:image9@cref}{{[figure][11][]11}{[1][3][]3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Square of the subtraction of experiment image and mean image for experiment 4000}}{3}{figure.12}\protected@file@percent }
 \newlabel{fig:image10}{{12}{3}{Square of the subtraction of experiment image and mean image for experiment 4000}{figure.12}{}}
 \newlabel{fig:image10@cref}{{[figure][12][]12}{[1][3][]3}}
- <./images/image11.png> <./images/image12.png> <./images/class_histogram.png> <./images/class_histogram_anomalousness.png>] [4] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
+ <./images/image11.png> <./images/image12.png> <./images/class_histogram.png>] (./assignment_1_report.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -589,18 +580,18 @@ Package rerunfilecheck Info: File `assignment_1_report.out' has not changed.
 (rerunfilecheck)             Checksum: 1B9FA6AB19B90F9EED2A28F1D3455155;465.
  ) 
 Here is how much of TeX's memory you used:
- 12892 strings out of 474271
- 224453 string characters out of 5751521
- 1938533 words of memory out of 5000000
- 34922 multiletter control sequences out of 15000+600000
+ 12884 strings out of 474271
+ 224055 string characters out of 5751521
+ 1940533 words of memory out of 5000000
+ 34915 multiletter control sequences out of 15000+600000
  562624 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,676b,839s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,93p,510b,839s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on assignment_1_report.pdf (4 pages, 324671 bytes).
+Output written on assignment_1_report.pdf (3 pages, 308089 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -229,10 +229,6 @@ INPUT ./images/class_histogram.png
 INPUT ./images/class_histogram.png
 INPUT ./images/class_histogram.png
 INPUT ./images/class_histogram.png
-INPUT ./images/class_histogram_anomalousness.png
-INPUT ./images/class_histogram_anomalousness.png
-INPUT ./images/class_histogram_anomalousness.png
-INPUT ./images/class_histogram_anomalousness.png
 INPUT ./sections/discussion.tex
 OUTPUT sections/discussion.aux
 INPUT ./sections/discussion.tex
