@@ -6,7 +6,9 @@ Our second hypothesis was that each class followed a distribution, and thus a di
 could be used as an anomaly score, thus the mean was subtracted from each count of white pixels
 contained in each image. Lastly, this value was squared to ensure values further away from the mean
 would give a larger score regardless of being greater or less than the mean.
-As discussed in the results section, the accuracy for this method was 65.5~\%. To develop a baseline
+As discussed in the results section, the accuracy for this method was 32.7~\%. To develop a baseline
 comparison, a simulation was created which assigned random anomalous scores for each sample
-achieved an anomalous accuracy of 33.3~\%, which shows our method achieved nearly double the
-accuracy of a baseline random guess.
+achieved an anomalous accuracy of 33.3~\%, which shows our hypothesis for this method was incorrect. 
+
+We then examined another method that utilized the FFT as the primary data analysis tool. This method utlimately calculatesd a score from the peaks that result in each power sprectral density.
+Our results for this method exceeded the random baseline as well as the other methods we examined.

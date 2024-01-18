@@ -9,7 +9,10 @@ The four peaks are used to generate the anomaly score, by using their locations 
 This distance from the origin is the anomaly score.  
 
 The remainder of this section will provide graphical details of the algorithm in action.
-
+\newline
+\newline
+\newline
+\newline
 An example of two handwriting samples is shown as images in figure~\ref{fig:image1} and figure~\ref{fig:image2}. These images were produced using the imshow function from the matplotlib python library.\newline
 
 \begin{center}
@@ -42,6 +45,7 @@ The count of white pixels for the thresholded mean image is 38, figure~\ref{fig:
 \captionof{figure}{Mean Image\label{fig:image5}}
 \end{center}
 
+
 \begin{center}
 \includegraphics[width=0.35\textwidth]{image6.png}
 \captionof{figure}{Threshold set to 128 of mean image\label{fig:image6}}
@@ -69,7 +73,7 @@ The next step requires subtracting the experiment data from the mean data. The g
 \captionof{figure}{Square of the subtraction of experiment image and mean image for experiment 4000\label{fig:image10}}
 \end{center}
 
-Now that the subtraction of the experiment image and the mean image has occurred, the resultant value is squared. Refer to figure~\ref{fig:image11} and Figure~\ref{fig:image12} for the graphical results.
+Now that the subtraction of the experiment image and the mean image has occurred, the resultant value is squared. Refer to figure 9 and Figure 10 for the graphical results.
 
 \begin{center}
 \includegraphics[width=0.35\textwidth]{image11.png}
@@ -81,4 +85,67 @@ Now that the subtraction of the experiment image and the mean image has occurred
 \captionof{figure}{Square of the subtraction of experiment image and mean image for experiment 4000\label{fig:image10}}
 \end{center}
 
-The final step is to sum the values of the squared subtraction of the experiment image and the mean image. The results are shown in figure~\ref{fig:image11} and figure~\ref{fig:image12}.
+The final step is to sum the values of the squared subtraction of the experiment image and the mean image. The results are shown in figure 11 and figure 12.
+
+The images of the power spectral density plots by class will listed in the following ten figures.
+
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_0.png}
+\captionof{figure}{PSD of Class 0 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_1.png}
+\captionof{figure}{PSD of Class 1 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_2.png}
+\captionof{figure}{PSD of Class 2 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_3.png}
+\captionof{figure}{PSD of Class 3 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_4.png}
+\captionof{figure}{PSD of Class 4 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_5.png}
+\captionof{figure}{PSD of Class 5 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_6.png}
+\captionof{figure}{PSD of Class 6 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_7.png}
+\captionof{figure}{PSD of Class 7 handwriting data}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_8.png}
+\captionof{figure}{PSD of Class 8 handwriting data}
+\end{center}
+    
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{fft_9.png}
+\captionof{figure}{PSD of Class 9 handwriting data}
+\end{center}
+
+
+\begin{center}
+\includegraphics[width=0.35\textwidth]{sorted_fft_scores.png}
+\captionof{figure}{Sorted FFT scores}
+\end{center}
+
+    
+        
