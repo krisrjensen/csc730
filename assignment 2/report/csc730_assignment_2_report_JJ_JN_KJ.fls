@@ -70,6 +70,16 @@ INPUT h:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT h:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT h:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT h:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT h:/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT h:/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT h:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -159,6 +169,9 @@ INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./sections/introduction.tex
@@ -172,7 +185,8 @@ INPUT ./sections/methodology.tex
 INPUT ./sections/methodology.tex
 INPUT sections/methodology.tex
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT ./images/image1.png
 INPUT ./images/image1.png
 INPUT ./images/image1.png
@@ -188,6 +202,8 @@ OUTPUT sections/results.aux
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex
 INPUT sections/results.tex
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./sections/discussion.tex
 OUTPUT sections/discussion.aux
 INPUT ./sections/discussion.tex
@@ -203,7 +219,6 @@ OUTPUT sections/references.aux
 INPUT ./sections/references.tex
 INPUT ./sections/references.tex
 INPUT sections/references.tex
-INPUT h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT csc730_assignment_2_report_JJ_JN_KJ.aux
 INPUT ./sections/introduction.aux
 INPUT ./sections/introduction.aux
@@ -229,6 +244,7 @@ INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
