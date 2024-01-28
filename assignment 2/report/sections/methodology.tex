@@ -2,7 +2,7 @@
 
 Implement fuzzy-cmeans from scratch
 
-The paper this will be implmented from is titled: 'A Survey of Clustering Algorithms for Big Data: Taxonomy and Empirical Analysis'
+The paper this will be implemented from is titled, \textit{A Survey of Clustering Algorithms for Big Data: Taxonomy and Empirical Analysis}
 
 
 [1]  
@@ -10,18 +10,18 @@ FCM pseudo-code:
 Input: Given the dataset, set the desire number of clusters c, the fuzzy parameter m (a constant > 1), and the stopping condition, initialize the fuzzy partition matrix, and set stop = false.  
 Step 1. Do:  
 Step 2. Calculate the cluster centroids and the objective value J.  
-$\LARGE{v_{k}=\frac{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}{{\underline{p_{i}}}}}}}{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}}}}}$ 
+${v_{k}=\frac{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}{{\underline{p_{i}}}}}}}{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}}}}}$ 
    
      
-$\LARGE{{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert}=\sqrt{\sum_{i=1}^{n}{({\underline{x_{i}}}-{\underline{v_{k}}})^2}}}$  
+${{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert}=\sqrt{\sum_{i=1}^{n}{({\underline{x_{i}}}-{\underline{v_{k}}})^2}}}$  
   
 
-$\LARGE{J=\sum_{i=1}^{n}{\sum_{k=1}^{c}{\mu^{m}_{{i}{k}}{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}}}$  
+${J=\sum_{i=1}^{n}{\sum_{k=1}^{c}{\mu^{m}_{{i}{k}}{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}}}$  
   
 
 Step 3. Compute the membership values stored in the matrix.  
 
-$\LARGE{{\mu^{m}_{{i}{k}}}=\frac{1}{\sum_{l=1}^{c}{(\frac{{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}{{\vert{\underline{p_{i}}}-{\underline{v_{l}}}\vert^{2}}})}^{\frac{2}{m-1}}}}$
+${{\mu^{m}_{{i}{k}}}=\frac{1}{\sum_{l=1}^{c}{(\frac{{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}{{\vert{\underline{p_{i}}}-{\underline{v_{l}}}\vert^{2}}})}^{\frac{2}{m-1}}}}$
   
     
 Step 4. If the value of J between consecutive iterations is less than the stopping condition, then stop = true.  

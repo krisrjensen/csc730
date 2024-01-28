@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  28 JAN 2024 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  28 JAN 2024 09:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -180,10 +180,6 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
  (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (h:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count276
-
-
-Package multicol Warning: May not work with the twocolumn option on input line 143.
-
 \mult@box=\box52
 \multicol@leftmargin=\dimen147
 \c@unbalance=\count277
@@ -368,14 +364,14 @@ Package caption Info: End \AtBeginDocument code.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumntrue
+* \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -397,18 +393,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 13.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 13.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 16.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 19.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 24.
 
 
 LaTeX Warning: Reference `fig:image1' on page 1 undefined on input line 32.
@@ -453,13 +437,7 @@ See the caption package documentation for explanation.
  (./sections/conclusion.tex)
 \openout2 = `sections/references.aux'.
 
- (./sections/references.tex)
-Overfull \vbox (6.34554pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.08893pt too high) has occurred while \output is active []
-
- [1
+ (./sections/references.tex) [1
 
 
 {h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -482,18 +460,18 @@ Package rerunfilecheck Info: File `csc730_assignment_2_report_JJ_JN_KJ.out' has 
 (rerunfilecheck)             Checksum: 401FC16CE7AE7D893F258BE5E66564C3;558.
  ) 
 Here is how much of TeX's memory you used:
- 12782 strings out of 474271
- 222399 string characters out of 5751521
- 1955533 words of memory out of 5000000
- 34816 multiletter control sequences out of 15000+600000
- 562624 words of font info for 51 fonts, out of 8000000 for 9000
+ 12784 strings out of 474271
+ 222420 string characters out of 5751521
+ 1944533 words of memory out of 5000000
+ 34817 multiletter control sequences out of 15000+600000
+ 562970 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,9n,93p,527b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on csc730_assignment_2_report_JJ_JN_KJ.pdf (2 pages, 187287 bytes).
+ 79i,9n,93p,527b,753s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on csc730_assignment_2_report_JJ_JN_KJ.pdf (2 pages, 202078 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  59 words of extra memory for PDF output out of 10000 (max. 10000000)
 

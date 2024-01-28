@@ -171,6 +171,7 @@ OUTPUT sections/methodology.aux
 INPUT ./sections/methodology.tex
 INPUT ./sections/methodology.tex
 INPUT sections/methodology.tex
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./images/image1.png
 INPUT ./images/image1.png
@@ -239,3 +240,4 @@ INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
