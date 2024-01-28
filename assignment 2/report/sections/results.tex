@@ -4,13 +4,36 @@ The objective function is a function that is used to measure the quality of a cl
 When clustering is finished we need to compare the clusters that were produced to the actual labels of the data. We will use the rand index to compare the clusters to the labels. The rand index is defined as follows:
 \begin{equation}
 \label{eq:rand_index}
-RI = \frac{n_{00} + n_{11}}{n_{00} + n_{11} +n_{01} + n_{10}} 
+RI = \frac{n_{00} + n_{11}}{n_{00} + n_{11} +n_{01} + n_{10}} = \frac{n_{00} + n_{11}}{{n \choose 2}}
 \end{equation}
-where $n_{11}$ is the number of pairs of elements that are in the same cluster and in the same class, $n_{00}$ is the number of pairs of elements that are in different clusters and in different classes, and $C_{n}^{2}$ is the total number of pairs of elements in the dataset. The rand index is a value between 0 and 1. A value of 1 indicates that the clusters are identical to the labels. A value of 0 indicates that the clusters are completely different from the labels. The rand index is a good measure of the accuracy of the clustering algorithm. The rand index is defined in the scikit-learn library as the adjusted rand index. The adjusted rand index is defined as follows:
-\begin{equation}
-\label{eq:adjusted_rand_index}
-ARI = \frac{RI - Expected(RI)}{max(RI) - Expected(RI)}
-\end{equation}
+where $n_{11}$ is the number of pairs of elements that are in the same cluster and in the same class, $n_{00}$ is the number of pairs of elements that are in different clusters and in different classes, and ${n} \choose {2}$ is the total number of pairs of elements in the dataset. 
+The rand index is a value between 0 and 1. 
+A value of 1 indicates that the clusters are identical to the labels.
+A value of 0 indicates that the clusters are completely different from the labels. 
+The rand index is a good measure of the accuracy of the clustering algorithm. 
+
+While the FCM algorithm was running, we decided to review the progression of J~\ref{eq:objective_function}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{objective_function_iterations.png}
+    \caption{St. Dev. Normalized obejective functions through runtime of the FCM algorithm}
+    \label{fig:objective_function_iterations}    
+\end{figure}
+
+The RI results for the full data set resulted in a value of 0.692 and the PCA dataset resulted in a value of 0.672.
+
+We also plotted the results of FCM applied to the PCA dataset. The clusters are graphed according by color according to their class label. 
+There is also a black X to indicate the cluster center.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pca_cluster_means.png}
+    \caption{Clusters produced by FCM applied to the PCA dataset}
+    \label{fig:pca_clusters}
+\end{figure}
+
+
 
 
 

@@ -276,7 +276,6 @@ INPUT sections/methodology.tex
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./images/image1.png
 INPUT ./images/image1.png
 INPUT ./images/image1.png
@@ -293,6 +292,14 @@ OUTPUT sections/results.aux
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex
 INPUT sections/results.tex
+INPUT ./images/objective_function_iterations.png
+INPUT ./images/objective_function_iterations.png
+INPUT ./images/objective_function_iterations.png
+INPUT ./images/objective_function_iterations.png
+INPUT ./images/pca_cluster_means.png
+INPUT ./images/pca_cluster_means.png
+INPUT ./images/pca_cluster_means.png
+INPUT ./images/pca_cluster_means.png
 INPUT ./sections/discussion.tex
 OUTPUT sections/discussion.aux
 INPUT ./sections/discussion.tex
@@ -329,7 +336,6 @@ INPUT ./sections/references.aux
 INPUT sections/references.aux
 INPUT ./csc730_assignment_2_report_JJ_JN_KJ.out
 INPUT ./csc730_assignment_2_report_JJ_JN_KJ.out
-INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

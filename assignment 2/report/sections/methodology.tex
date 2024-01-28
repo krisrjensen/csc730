@@ -47,18 +47,44 @@ The fourth step in the psuedo code requires checking the value of J between cons
 If the value of J between consecutive iterations is less than the stopping condition, then stop = true. 
 The fifth step in the psuedo code requires looping back to step 2. 
 The output of the psuedo code is a list of c cluster centres and a partition matrix. \newline
-An example of two handwriting samples is shown as images in figure~\ref{fig:image1} and figure~\ref{fig:image2}. These images were produced using the imshow function from the matplotlib python library.
+\begin{figure}[H]
+    \centering    
+    \includegraphics[width=0.5\textwidth]{image1.png}
+    \caption{Handwriting Sample 1000}
+    \label{fig:image1}    
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image2.png}
+    \caption{Handwriting Sample 4000}
+    \label{fig:image2}    
+\end{figure}
+
+An example of two handwriting samples is shown as images in Figure~\ref{fig:image1} and Figure~\ref{fig:image2}. 
+These images were produced using the `imshow' function from the `matplotlib' Python library.
 
 Our group independently implemented the FCM algorithm in python then compared results among the group members. After comparison of results, we determined corrected issues where necessary. The final implmentation of the FCM code has been attached via D2L in an appropriately named Jupyter notebook.
 
+The FCM algorithm was ran against two versions of the skewed MNIST dataset.
+The first version retained the 784 dimensions, while a second version utilized principal component analysis to reduce the dimensionality of the dataset to 2 dimensions. 
+The results of the FCM algorithm were compared to the actual labels of the dataset using the rand index.
+The rand index is a value between 0 and 1. 
+A value of 1 indicates that the clusters are identical to the labels.
+A value of 0 indicates that the clusters are completely different from the labels. 
+The rand index is a good measure of the accuracy of the clustering algorithm.
 
-\begin{center}
-\includegraphics[width=0.35\textwidth]{image1.png}
-\captionof{figure}{Handwriting Sample 1000\label{fig:image1}}
-\end{center}
 
-\begin{center}
-\includegraphics[width=0.35\textwidth]{image2.png}
-\captionof{figure}{Handwriting Sample 4000\label{fig:image2}}
-\end{center}    
+
+
+%\begin{center}
+%\includegraphics[width=0.35\textwidth]{image1.png}
+%\captionof{figure}{Handwriting Sample 1000\label{fig:image3}}
+%\end{center}
+
+%\begin{center}
+%\includegraphics[width=0.35\textwidth]{image2.png}
+%\captionof{figure}{Handwriting Sample 4000\label{fig:image4}}
+%\end{center}    
         
