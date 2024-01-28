@@ -9,26 +9,31 @@ The paper this will be implemented from is titled, \textit{A Survey of Clusterin
 FCM pseudo-code:  
 Input: Given the dataset, set the desire number of clusters c, the fuzzy parameter m (a constant > 1), and the stopping condition, initialize the fuzzy partition matrix, and set stop = false.  
 Step 1. Do:  
-Step 2. Calculate the cluster centroids and the objective value J.  
-${v_{k}=\frac{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}{{\underline{p_{i}}}}}}}{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}}}}}$ 
-   
-     
-${{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert}=\sqrt{\sum_{i=1}^{n}{({\underline{x_{i}}}-{\underline{v_{k}}})^2}}}$  
-  
-
-${J=\sum_{i=1}^{n}{\sum_{k=1}^{c}{\mu^{m}_{{i}{k}}{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}}}$  
-  
-
+Step 2. Calculate the cluster centroids and the objective value J.
 Step 3. Compute the membership values stored in the matrix.  
-
-${{\mu^{m}_{{i}{k}}}=\frac{1}{\sum_{l=1}^{c}{(\frac{{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}{{\vert{\underline{p_{i}}}-{\underline{v_{l}}}\vert^{2}}})}^{\frac{2}{m-1}}}}$
-  
-    
 Step 4. If the value of J between consecutive iterations is less than the stopping condition, then stop = true.  
 Step 5. While (!stop)  
 Output: A list of c cluster centres and a partition matrix are produced.   
 
+\begin{equation}
+\label{eq:vk}
+v_{k}=\frac{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}{{\underline{p_{i}}}}}}}{\sum_{i=1}^n{{\mu^{m}_{{i}{k}}}}}
+\end{equation}
+   
+\begin{equation}
+\label{eq:distance}     
+{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert}=\sqrt{\sum_{i=1}^{n}{({\underline{x_{i}}}-{\underline{v_{k}}})^2}}
+\end{equation}
+  
+\begin{equation}
+\label{eq:objective_function}
+J=\sum_{i=1}^{n}{\sum_{k=1}^{c}{\mu^{m}_{{i}{k}}{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}}
+\end{equation}  
 
+\begin{equation}
+\label{eq:membership_value}
+{\mu^{m}_{{i}{k}}}=\frac{1}{\sum_{l=1}^{c}{(\frac{{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}{{\vert{\underline{p_{i}}}-{\underline{v_{l}}}\vert^{2}}})}^{\frac{2}{m-1}}}
+\end{equation}
 An example of two handwriting samples is shown as images in figure~\ref{fig:image1} and figure~\ref{fig:image2}. These images were produced using the imshow function from the matplotlib python library.\newline
 
 \begin{center}

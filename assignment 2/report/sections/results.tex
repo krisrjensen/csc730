@@ -6,7 +6,7 @@ When clustering is finished we need to compare the clusters that were produced t
 \label{eq:rand_index}
 RI = \frac{n_{00} + n_{11}}{n_{00} + n_{11} +n_{01} + n_{10}} 
 \end{equation}
-where $a$ is the number of pairs of elements that are in the same cluster and in the same class, $b$ is the number of pairs of elements that are in different clusters and in different classes, and $C_{n}^{2}$ is the total number of pairs of elements in the dataset. The rand index is a value between 0 and 1. A value of 1 indicates that the clusters are identical to the labels. A value of 0 indicates that the clusters are completely different from the labels. The rand index is a good measure of the accuracy of the clustering algorithm. The rand index is defined in the scikit-learn library as the adjusted rand index. The adjusted rand index is defined as follows:
+where $n_{11}$ is the number of pairs of elements that are in the same cluster and in the same class, $n_{00}$ is the number of pairs of elements that are in different clusters and in different classes, and $C_{n}^{2}$ is the total number of pairs of elements in the dataset. The rand index is a value between 0 and 1. A value of 1 indicates that the clusters are identical to the labels. A value of 0 indicates that the clusters are completely different from the labels. The rand index is a good measure of the accuracy of the clustering algorithm. The rand index is defined in the scikit-learn library as the adjusted rand index. The adjusted rand index is defined as follows:
 \begin{equation}
 \label{eq:adjusted_rand_index}
 ARI = \frac{RI - Expected(RI)}{max(RI) - Expected(RI)}
