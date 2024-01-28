@@ -1,19 +1,21 @@
-<insert text here>
-
 Implement fuzzy-cmeans from scratch
 
 The paper this will be implemented from is titled, \textit{A Survey of Clustering Algorithms for Big Data: Taxonomy and Empirical Analysis}
 
 
-[1]  
-FCM pseudo-code:  
-Input: Given the dataset, set the desire number of clusters c, the fuzzy parameter m (a constant > 1), and the stopping condition, initialize the fuzzy partition matrix, and set stop = false.  
-Step 1. Do:  
-Step 2. Calculate the cluster centroids and the objective value J.
-Step 3. Compute the membership values stored in the matrix.  
-Step 4. If the value of J between consecutive iterations is less than the stopping condition, then stop = true.  
-Step 5. While (!stop)  
+From reference [1], the FCM algorithm is defined as follows: \newline
+
+\begin{tcolorbox}
+FCM pseudo-code:  \newline
+Input: Given the dataset, set the desire number of clusters c, the fuzzy parameter m (a constant $> 1$), and the stopping condition, initialize the fuzzy partition matrix, and set stop = false.  \newline
+Step 1. Do:  \newline
+Step 2. Calculate the cluster centroids and the objective value J.\newline
+Step 3. Compute the membership values stored in the matrix.  \newline
+Step 4. If the value of J between consecutive iterations is less than the stopping condition, then stop = true.  \newline
+Step 5. While (!stop)  \newline
 Output: A list of c cluster centres and a partition matrix are produced.   
+\end{tcolorbox}  
+
 
 \begin{equation}
 \label{eq:vk}
