@@ -16,6 +16,7 @@ Step 5. While (!stop)  \newline
 Output: A list of c cluster centres and a partition matrix are produced.   
 \end{tcolorbox}  
 
+The equations that are used in the FCM algorithm are defined as follows: \newline
 
 \begin{equation}
 \label{eq:vk}
@@ -36,7 +37,20 @@ J=\sum_{i=1}^{n}{\sum_{k=1}^{c}{\mu^{m}_{{i}{k}}{\vert{\underline{p_{i}}}-{\unde
 \label{eq:membership_value}
 {\mu^{m}_{{i}{k}}}=\frac{1}{\sum_{l=1}^{c}{(\frac{{\vert{\underline{p_{i}}}-{\underline{v_{k}}}\vert^{2}}}{{\vert{\underline{p_{i}}}-{\underline{v_{l}}}\vert^{2}}})}^{\frac{2}{m-1}}}
 \end{equation}
-An example of two handwriting samples is shown as images in figure~\ref{fig:image1} and figure~\ref{fig:image2}. These images were produced using the imshow function from the matplotlib python library.\newline
+
+The first step in the psuedocode sets up a loop to run until the stop condition is met. 
+The stop condition is met when the value of J between consecutive iterations is less than the stopping condition. 
+The second step in the psuedo code requires generating a random $\mu$ matrix, 
+then calculating the cluster centroids from eq.~\ref{eq:vk} and the objective value J from eq.~\ref{eq:objective_function}. 
+The third step in the psuedo code requires calculating the membership values from eq.~\ref{eq:membership_value}. 
+The fourth step in the psuedo code requires checking the value of J between consecutive iterations. 
+If the value of J between consecutive iterations is less than the stopping condition, then stop = true. 
+The fifth step in the psuedo code requires looping back to step 2. 
+The output of the psuedo code is a list of c cluster centres and a partition matrix. \newline
+An example of two handwriting samples is shown as images in figure~\ref{fig:image1} and figure~\ref{fig:image2}. These images were produced using the imshow function from the matplotlib python library.
+
+Our group independently implemented the FCM algorithm in python then compared results among the group members. After comparison of results, we determined corrected issues where necessary. The final implmentation of the FCM code has been attached via D2L in an appropriately named Jupyter notebook.
+
 
 \begin{center}
 \includegraphics[width=0.35\textwidth]{image1.png}
