@@ -42,9 +42,26 @@ There is also a black X to indicate the cluster center.
 \end{figure}
 \begin{multicols}{2}
 
-Additionaly, we wanted to evaluate the PCA dataset with different cluster amounts. We ran the FCM algorithm with cluster amounts of 2, 3, 4, 5, 6, 7, 8, 9, and 10. The results are shown in figure~\ref{fig:pca_cluster_amounts}.
+Additionaly, we wanted to evaluate the PCA dataset with different cluster amounts. We ran the FCM algorithm with cluster amounts of 2, 3, 4, 5, 6, 7, 8, 9, and 10. The results are shown in figure~\ref{fig:pca_cluster_amounts}.\newline
 
-
+\begin{center}    
+    \begin{tabular}{ccc}
+        %Cluster Evaluation & Metrics for PCA & Dataset \\
+        \hline
+        Clusters & PCA Rand Index & Scaled All Dim Rand Index \\
+        \hline
+        2 & 0.6927 & 0.6884 \\
+        3 & 0.6799 & 0.6938 \\
+        4 & 0.6809 & 0.6922 \\
+        5 & 0.6739 & 0.6922 \\
+        6 & 0.6766 & 0.6903 \\
+        7 & 0.6766 & 0.6917 \\
+        8 & 0.6753 & 0.6923 \\
+        9 & 0.6726 & 0.6922 \\
+        10 & 0.6737 & 0.6713 \\
+        \hline
+    \end{tabular}        
+\end{center}
 
 
 
