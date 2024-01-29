@@ -16,7 +16,7 @@ While the FCM algorithm was running, we decided to review the progression of J, 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{objective_function_iterations.png}
+    \includegraphics[width=0.5\textwidth]{objective_function_iterations.png}
     \caption{St. Dev. Normalized obejective functions through runtime of the FCM algorithm}
     \label{fig:objective_function_iterations}    
 \end{figure}
@@ -28,10 +28,21 @@ There is also a black X to indicate the cluster center.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{pca_cluster_means.png}
+    \includegraphics[width=0.5\textwidth]{pca_cluster_means.png}
     \caption{Clusters produced by FCM applied to the PCA dataset}
     \label{fig:pca_clusters}
 \end{figure}
+
+\end{multicols}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{X_pca_multiple_cluster_experiment.png}
+    \caption{RI results for different cluster amounts applied to the PCA dataset}
+    \label{fig:pca_cluster_amounts}
+\end{figure}
+\begin{multicols}{2}
+
+Additionaly, we wanted to evaluate the PCA dataset with different cluster amounts. We ran the FCM algorithm with cluster amounts of 2, 3, 4, 5, 6, 7, 8, 9, and 10. The results are shown in figure~\ref{fig:pca_cluster_amounts}.
 
 
 
