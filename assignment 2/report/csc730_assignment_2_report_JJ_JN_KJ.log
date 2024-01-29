@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  28 JAN 2024 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  28 JAN 2024 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,7 +729,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  83i,7n,93p,1049b,690s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on csc730_assignment_2_report_JJ_JN_KJ.pdf (3 pages, 703730 bytes).
+Output written on csc730_assignment_2_report_JJ_JN_KJ.pdf (3 pages, 703734 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams
