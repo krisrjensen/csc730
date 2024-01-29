@@ -282,11 +282,11 @@ INPUT ./images/image1.png
 INPUT ./images/image1.png
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT ./images/image2.png
+INPUT ./images/image2.png
+INPUT ./images/image2.png
+INPUT ./images/image2.png
 INPUT h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./images/image2.png
-INPUT ./images/image2.png
-INPUT ./images/image2.png
-INPUT ./images/image2.png
 INPUT ./sections/results.tex
 OUTPUT sections/results.aux
 INPUT ./sections/results.tex
