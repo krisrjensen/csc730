@@ -1,9 +1,10 @@
 Typical real world clustering problems run can have subjective clustering numbers. For this reason, an experiment was done to determine the rand index for all integers in $[2,10]$ cluster means in order to determine the optimal cluster amount which represents our particular sqewed MNIST dataset. Using the histogram in figure~\ref{fig:hist1}, we can estimate the appropriate amount of clusters which would perform the highest Rand Index, and determine the validity of our hypothesis with our experiment. Given the results discussed in the Results section, it appears that four clusters in the PCA representation and 3 clusters in the fully dimensioned representation of the sqewed MNIST gave the best rand index score, even though ten unique labels were used in the truth labels. In the future, this experiment can be run with different sqewed representations of the MNIST dataset to determine if the results are consistent. \par
 
-\begin{center}
-\includegraphics[width=0.35\textwidth]{class_histogram.png}
-\captionof{figure}{Class Representation in Sqewed MNIST Dataset\label{fig:hist1}}
-\end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{class_histogram.png}
+    \caption{Class Representation in Sqewed MNIST Dataset\label{fig:hist1}}    
+\end{figure}
 
 Additionally, consideration must be taken regarding the rand index metric on a soft clustering algorithm like FCM. The implementation of the rand index in this assignment took the maximum probability a point would be within a given $k^{th}$ cluster, and then implemented the rand index as described in the methods section. The rand index calculates the similarities of points in different clusters as a fixed yes or no. As FCM is a soft clustering algorithm, the probabilities of points being within all clusters are returned, therefore a different metrics could potentially give more insight to the accuracy of soft clustering algorithms. \par
 
