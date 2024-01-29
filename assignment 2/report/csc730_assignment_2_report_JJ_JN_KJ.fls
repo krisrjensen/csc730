@@ -305,6 +305,11 @@ OUTPUT sections/discussion.aux
 INPUT ./sections/discussion.tex
 INPUT ./sections/discussion.tex
 INPUT sections/discussion.tex
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./images/class_histogram.png
+INPUT ./images/class_histogram.png
+INPUT ./images/class_histogram.png
+INPUT ./images/class_histogram.png
 INPUT ./sections/conclusion.tex
 OUTPUT sections/conclusion.aux
 INPUT ./sections/conclusion.tex
@@ -336,6 +341,7 @@ INPUT ./sections/references.aux
 INPUT sections/references.aux
 INPUT ./csc730_assignment_2_report_JJ_JN_KJ.out
 INPUT ./csc730_assignment_2_report_JJ_JN_KJ.out
+INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
