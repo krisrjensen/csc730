@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  28 JAN 2024 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  28 JAN 2024 19:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -818,8 +818,8 @@ Package pdftex.def Info: ./images/class_histogram.png  used on input line 5.
 \openout2 = `sections/references.aux'.
 
  (./sections/references.tex) [4
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Class Representation in Sqewed MNIST Dataset}}{4}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:hist1}{{6}{4}{Class Representation in Sqewed MNIST Dataset}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Class Representation in Skewed MNIST Dataset}}{4}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:hist1}{{6}{4}{Class Representation in Skewed MNIST Dataset}{figure.caption.6}{}}
 \newlabel{fig:hist1@cref}{{[figure][6][]6}{[1][4][]4}}
  <./images/class_histogram.png>] (./csc730_assignment_2_report_JJ_JN_KJ.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
  ***********
@@ -836,9 +836,9 @@ Here is how much of TeX's memory you used:
  49198 multiletter control sequences out of 15000+600000
  564628 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,93p,1055b,1146s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,7n,93p,1051b,1146s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on csc730_assignment_2_report_JJ_JN_KJ.pdf (4 pages, 950371 bytes).
+Output written on csc730_assignment_2_report_JJ_JN_KJ.pdf (4 pages, 950337 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
