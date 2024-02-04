@@ -1,0 +1,11 @@
+The OptiGrid algorithms works on a dataset by first determining if the dataset can be contracted, dimensionally reduced, by projecting the data onto a d-1 space. 
+This means that if the dataset can be divided into two seperate spaces by a plane, then the dataset can be seperated into at least two classes. Simply drawing a plane through the data is insufficient to determine the best plane to divide the data.\par
+
+The algorithm will determine if a plane exists to divide the data by calculating the score of the plane. 
+The score is determined by applying a kernel density estimation function to the data in the current dataset.
+Depending on the kernel density esimation function and bandwidth, the score will contains some number of peaks.
+If there are zero or one peaks, then the splitting for this dataset is complete. If the score is above a certain threshold, then the plane is considered a good plane to divide the data.
+The data is then labeled as being left or right, or above or below the plane.\par
+We will refer to left or top as A and right or bottom as B. 
+The total dataset, D, is the union of A and B. Upon succesfull splitting of A and B, then the algorithm will recursively apply the same process to A and B.
+The algorithm will continue to split the dataset until the dataset is no longer able to be split. 

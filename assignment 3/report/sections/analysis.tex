@@ -4,12 +4,13 @@ Let's begin by setting the stage for the OptiGrid code, by analyzing the pseudoc
 \begin{tcolorbox}[breakable, title={$OptiGrid(dataset~D,~q,~min\_cut\_score)$}]
     %use numbers list
     \footnotesize     
-    \begin{enumerate}        
+    
+    \begin{enumerate}[label=\arabic*., leftmargin=0.2cm]
         \item Determine a set of contracting projections P = \{$P_0$, . . ., $P_k$\}
         \item Calculate all projections of the dataset $D \to P_{0}(D)$, . . ., $P_{k}(D)$
-        \item Initialize a list of cutting plances $BEST\_CUTS \leftarrow \emptyset, CUT \leftarrow \emptyset$
+        \item Initialize a list of cutting planes $BEST\_CUTS \leftarrow \emptyset, CUT \leftarrow \emptyset$
         \item FOR i=0 TO k Do
-        \begin{enumerate}
+        \begin{enumerate}[label=\alph*., leftmargin=0.2cm]
             \item CUT $\leftarrow$ Determine best\_local\_cuts($P_i(D)$)
             \item CUT\_SCORE $\leftarrow$ score\_best\_local\_cuts($P_i(D)$)
             \item Insert all cutting planes with a score $\geq$ min\_cut\_score into $BEST\_CUTS$            
@@ -30,7 +31,10 @@ Let's begin by setting the stage for the OptiGrid code, by analyzing the pseudoc
 \begin{enumerate}    
     \item $\_\_init\_\_$\newline
     {The $\_\_init\_\_$ functions acts as the class constructor. It initializes the class variables and sets the default values for the parameters. 
-    The parameters include dataset dimension (d), number of cuts per iteration (q), the max cut score density of a plane ($max\_cut\_score$), noise level for dataset($noise\_level$), several parameters related to the kernel density estimation including bandwidth ($kde\_bandwidth$), grid ticks ($kde\_grid\_ticks$), sample size ($kde\_num\_samples$), tolerance ($kde\_atol$) and ($kde\_rtol$), and finally an argument for turning on or off output (verbose) . This function sets the initial conditions of the OptiGrid algorithm.}
+    The parameters include dataset dimension (\textbf{d}), number of cuts per iteration (\textbf{q}), the max cut score density of a plane ({$\mathbf{max\_cut\_score}$}), 
+    noise level for dataset($\mathbf{noise\_level}$), several parameters related to the kernel density estimation including bandwidth ($\mathbf{kde\_bandwidth}$), 
+    grid ticks ($\mathbf{kde\_grid\_ticks}$), sample size ($\mathbf{kde\_num\_samples}$), tolerance ($\mathbf{kde\_atol}$) and ($\mathbf{kde\_rtol}$), 
+    and finally an argument for turning on or off output (\textbf{verbose}) . This function sets the initial conditions of the OptiGrid algorithm.}
     \item fit
     \item $\_iteration$
     \item $\_fill\_grid$

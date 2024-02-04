@@ -18,11 +18,16 @@
 \usepackage{booktabs}
 \usepackage{subcaption}
 \usepackage{siunitx} % Add the siunitx package for proper alignment of numbers in the table
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
 %\usepackage{listings}
 %\usepackage{tabular}
 \tcbuselibrary{breakable}
 
 \graphicspath{{./images/}}
+
+
 
 \begin{document}
 
@@ -39,10 +44,14 @@
     \let\clearpage\relax
     \section{Introduction}
     \include{sections/introduction.tex}
+    
+    \let\clearpage\relax
+    \section{Description of OptiGrid}
+    \include{sections/description.tex}
 
     \let\clearpage\relax
-    \section{Methodology}
-    \include{sections/methodology.tex}
+    \section{Analysis of OptiGrid Code}
+    \include{sections/analysis.tex}
 
     \let\clearpage\relax
     \section{Results}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  4 FEB 2024 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  4 FEB 2024 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,56 +609,70 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip60
 \backup@length=\skip61
 \ar@cellbox=\box126
-)) (h:/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+)) (h:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (h:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks39
+\inpenc@posthook=\toks40
+) (h:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip62
+\enit@outerparindent=\dimen300
+\enit@toks=\toks41
+\enit@inbox=\box127
+\enit@count@id=\count339
+\enitdp@description=\count340
+) (h:/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.1.0'
 (h:/texlive/2023/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box127
-\tcb@totalupperbox=\box128
-\tcb@totallowerbox=\box129
+\tcb@testbox=\box128
+\tcb@totalupperbox=\box129
+\tcb@totallowerbox=\box130
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 27.
- (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 32.
+ (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
 \openout1 = `csc730_assignment_3_report_CP_KJ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-Package hyperref Info: Link coloring OFF on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+Package hyperref Info: Link coloring OFF on input line 32.
  (./csc730_assignment_3_report_CP_KJ.out) (./csc730_assignment_3_report_CP_KJ.out)
 \@outlinefile=\write4
 \openout4 = `csc730_assignment_3_report_CP_KJ.out'.
 
  (h:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen300
-\scratchbox=\box130
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen301
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count341
+\scratchdimen=\dimen301
+\scratchbox=\box131
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen302
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks43
 ) (h:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -706,40 +720,29 @@ Package caption Info: End \AtBeginDocument code.
 (h:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 27.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 32.
 \openout2 = `sections/introduction.aux'.
 
  (./sections/introduction.tex)
-\openout2 = `sections/methodology.aux'.
+\openout2 = `sections/description.aux'.
 
- (./sections/methodology.tex
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8.
- (h:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+ (./sections/description.tex)
+\openout2 = `sections/analysis.aux'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\OT1/cmr/m/n/8 Initialize a list of cut-ting plances
+ (./sections/analysis.tex
+Underfull \hbox (badness 7273) in paragraph at lines 16--17
+[]\T1/cmr/m/n/8 Insert all cut-ting planes with a score $\OMS/cmsy/m/n/8 ^^U$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-[]\OT1/cmr/m/n/8 CUT $\OMS/cmsy/m/n/8  $ \OT1/cmr/m/n/8 De-ter-mine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]\OT1/cmr/m/n/8 CUT[]SCORE $\OMS/cmsy/m/n/8  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--26
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
 
  []
 
-)
+[1
+
+
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{h:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
 \openout2 = `sections/results.aux'.
 
  (./sections/results.tex)
@@ -751,34 +754,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--26
  (./sections/conclusion.tex)
 \openout2 = `sections/references.aux'.
 
- (./sections/references.tex) [1
-
-
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Functions of class OptiGrid}{1}{subsection.2.1}\protected@file@percent }
-] [2
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Functions of class GridLevel}{2}{subsection.2.2}\protected@file@percent }
-] (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
+ (./sections/references.tex) [2
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Functions of class GridLevel}{2}{subsection.3.2}\protected@file@percent }
+] (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `csc730_assignment_3_report_CP_KJ.out' has not changed.
-(rerunfilecheck)             Checksum: 174F5C5220D06BEA911F4CCD0CDB5CFA;965.
+(rerunfilecheck)             Checksum: 50C8080717C25E742D3B0564F8403805;1208.
  ) 
 Here is how much of TeX's memory you used:
- 27675 strings out of 474271
- 577366 string characters out of 5751521
- 1957533 words of memory out of 5000000
- 49443 multiletter control sequences out of 15000+600000
- 563144 words of font info for 54 fonts, out of 8000000 for 9000
+ 28227 strings out of 474271
+ 585718 string characters out of 5751521
+ 1952533 words of memory out of 5000000
+ 49968 multiletter control sequences out of 15000+600000
+ 571314 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,7n,93p,504b,1203s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on csc730_assignment_3_report_CP_KJ.pdf (2 pages, 145444 bytes).
+ 83i,6n,93p,504b,1275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on csc730_assignment_3_report_CP_KJ.pdf (2 pages, 229880 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
