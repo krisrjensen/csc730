@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.stats import gaussian_kde
 
-from grid_level import GridLevel
+from optigrid.grid_level import GridLevel
 
 class Optigrid:
     """ Implementation of the Optigrid Algorithm described in "Optimal Grid-Clustering: Towards Breaking the Curse of Dimensionality in High-Dimensional Clustering" by Hinneburg and Keim """

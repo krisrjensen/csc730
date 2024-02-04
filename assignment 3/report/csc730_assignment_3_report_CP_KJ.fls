@@ -313,10 +313,10 @@ INPUT h:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
-INPUT h:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT h:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT h:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT h:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT ./sections/results.tex
