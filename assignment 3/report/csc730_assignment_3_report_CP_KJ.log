@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  3 FEB 2024 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  4 FEB 2024 12:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,7 +609,16 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip60
 \backup@length=\skip61
 \ar@cellbox=\box126
-))
+)) (h:/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.1.0'
+(h:/texlive/2023/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box127
+\tcb@totalupperbox=\box128
+\tcb@totallowerbox=\box129
+)
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 27.
  (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
 \openout1 = `csc730_assignment_3_report_CP_KJ.aux'.
@@ -641,7 +650,7 @@ Package hyperref Info: Link coloring OFF on input line 27.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count339
 \scratchdimen=\dimen300
-\scratchbox=\box127
+\scratchbox=\box130
 \nofMPsegments=\count340
 \nofMParguments=\count341
 \everyMPshowfont=\toks39
@@ -703,7 +712,34 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
  (./sections/introduction.tex)
 \openout2 = `sections/methodology.aux'.
 
- (./sections/methodology.tex)
+ (./sections/methodology.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8.
+ (h:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/8 Initialize a list of cut-ting plances
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/8 CUT $\OMS/cmsy/m/n/8  $ \OT1/cmr/m/n/8 De-ter-mine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\OT1/cmr/m/n/8 CUT[]SCORE $\OMS/cmsy/m/n/8  $
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--26
+
+ []
+
+)
 \openout2 = `sections/results.aux'.
 
  (./sections/results.tex)
@@ -718,27 +754,31 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
  (./sections/references.tex) [1
 
 
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Functions of class OptiGrid}{1}{subsection.2.1}\protected@file@percent }
+] [2
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Functions of class GridLevel}{2}{subsection.2.2}\protected@file@percent }
+] (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `csc730_assignment_3_report_CP_KJ.out' has not changed.
-(rerunfilecheck)             Checksum: 401FC16CE7AE7D893F258BE5E66564C3;558.
+(rerunfilecheck)             Checksum: 174F5C5220D06BEA911F4CCD0CDB5CFA;965.
  ) 
 Here is how much of TeX's memory you used:
- 27255 strings out of 474271
- 566993 string characters out of 5751521
- 1930533 words of memory out of 5000000
- 49062 multiletter control sequences out of 15000+600000
- 562383 words of font info for 51 fonts, out of 8000000 for 9000
+ 27675 strings out of 474271
+ 577366 string characters out of 5751521
+ 1957533 words of memory out of 5000000
+ 49443 multiletter control sequences out of 15000+600000
+ 563144 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,93p,504b,1085s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on csc730_assignment_3_report_CP_KJ.pdf (1 page, 61156 bytes).
+ 83i,7n,93p,504b,1203s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on csc730_assignment_3_report_CP_KJ.pdf (2 pages, 145444 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
