@@ -29,7 +29,7 @@ class Optigrid:
         self.kde_atol = kde_atol
         self.kde_rtol = kde_rtol
 
-        self.verbose = verbose
+        self.verbose = verbose        
 
     def fit(self, data, weights=None):
         """ Find all clusters in the data. Clusters are stored as indices pointing to the passed data, i.e. if '10' is in cluster '0' means, that data[10] is in cluster 0.
@@ -67,6 +67,7 @@ class Optigrid:
         for i in range(self.d): # First create all best cuts
             cuts_iteration += self._create_cuts_kde(data, cluster_indices, current_dimension=i, percentage_of_values=percentage_of_values, weights=weights)
         
+        
         if not cuts_iteration:
             last_cluster_name[0] += 1
             if self.verbose:
@@ -75,6 +76,7 @@ class Optigrid:
             return GridLevel(cutting_planes=None, cluster_index=last_cluster_name[0]), [cluster_indices]
     
         cuts_iteration = sorted(cuts_iteration, key=lambda x: x[2])[:self.q] # Sort the cuts based on the density at the minima and select the q best ones
+
         if self.verbose:
             print("Found following cuts: {}".format(cuts_iteration))
 
