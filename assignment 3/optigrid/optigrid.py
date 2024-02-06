@@ -212,6 +212,9 @@ class Optigrid:
         min_val = np.amin(datapoints)
         max_val = np.amax(datapoints)
 
+        if self.verbose == True:
+            print(f'{min_val=}, {max_val=}')
+
         std = datapoints.std(ddof=1)
         if np.isclose(std, 0, atol=1e-6):
             return 0, np.infty
