@@ -67,7 +67,10 @@ Let's begin by setting the stage for the OptiGrid code, by analyzing the pseudoc
     \item $\mathbf{\_find\_peaks\_distribution}$\newline
     {}
     \item $\mathbf{\_estimate\_distribution}$\newline
-    {}
+    {This is function that applies the kernel density estimation to the data. The first step is to create a grid of points that will be used to estimate the density. 
+    The point grid sample size is determined by the number of samples parameter, unless it exceeds the length of the data, in which case the sample size is set to the length of the data.
+    Then a sample set of data is createed using the np.random.choice function. The minimum and maximum values of the data are used to create a one-dimensional grid of points with uniform spacing.
+    The KDE is evaluated on the data against the linear grid of points. The KDE is then normalized and the grid of points and the KDE are returned.}
     \item $\mathbf{score\_samples}$\newline
     {}
     \item $\mathbf{\_score\_sample}$\newline
