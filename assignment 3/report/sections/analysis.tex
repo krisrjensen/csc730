@@ -60,13 +60,19 @@ Let's begin by setting the stage for the OptiGrid code, by analyzing the pseudoc
     {The semi-private method $\_fill\_grid$ is called to fill the grid with the data and cluster indices. Reviewing the pseudocode, this function accomplishes step 8. 
     A labelling scheme described in definition 5 and definition 6 of [2] is used to label the data bifurcated by the cutting planes. 
     The method loops through all the cuts and sets the $grid\_index$ location to either 0 or ${2^i}$ depending on the conditional broadcasting that determines on which side of the plane the datapoints lie.}
-    \item $\mathbf{\_create\_cuts\_kde(data, cluster\_indices,cuts,  ... )}$\newline
-    {}
-    \item $\mathbf{\_find\_best\_cuts}$\newline
-    {}
-    \item $\mathbf{\_find\_peaks\_distribution}$\newline
-    {}
-    \item $\mathbf{\_estimate\_distribution}$\newline
+    \item $\mathbf{\_create\_cuts\_kde(data, cluster\_indices,}$\newline $\mathbf{~~~~cuts,  ... )}$\newline
+    {The $\_create\_cuts\_kde$ function is a high level function that accomplishes the pseudocode step 3 through step 6. 
+    The workflow of the function is to first create a kernel density estimation of the data. Following this, the function finds the peaks in the KDE and then finds the best cuts.
+    The best cuts are selected in the the $\_find\_best\_cuts$ function.}
+    \item $\mathbf{\_find\_best\_cuts(grid, kde, peaks, }$\newline $\mathbf{~~~~current\_dimension)}$\newline
+    {The $\_find\_best\_cuts$ function is called to find the best cuts for the current dimension. This is accomplished by searching between peaks for the minimum value.
+    If the current value is less than the minimum value, then the current value is set to the minimum value. In this way, the algorithm finds the deepest valleys between peaks and adds that location to a list called $best\_cuts$. }
+
+    \item $\mathbf{\_find\_peaks\_distribution(kde)}$\newline
+    {This function iterates throug the KDE data searching for peaks. A peak is defined as a point that is greater than the points to the left and right of it. 
+    This algorithm is fairly naive and could be improved by using a more sophisticated peak finding algorithm. For instance a a sawtooth pattern would be detected as a series of peaks.T
+    The peak finding algorithm from scipy.signal would be a better choice.}\newline
+    \item $\mathbf{\_estimate\_distribution( data, }$\newline $\mathbf{~~~~ cluster\_indices, current\_dimension,}$\newline $\mathbf{~~~~  percentage\_of\_values,~weights )}$\newline
     {This is function that applies the kernel density estimation to the data. The first step is to create a grid of points that will be used to estimate the density. 
     The point grid sample size is determined by the number of samples parameter, unless it exceeds the length of the data, in which case the sample size is set to the length of the data.
     Then a sample set of data is createed using the np.random.choice function. The minimum and maximum values of the data are used to create a one-dimensional grid of points with uniform spacing.
