@@ -92,11 +92,15 @@ Let's begin by setting the stage for the OptiGrid code, by analyzing the pseudoc
 \subsection{Functions of class GridLevel}
 \begin{enumerate}    
     \item $\mathbf{\_\_init\_\_}$\newline
-    {}
+    {The initializer function for the $GridLevel$ class sets up the lists used within other functions of $GridLevel$.
+    This set up includes initializing the cutting planes that subdivide the cluster and the cluster index. If this level of the grid is not subdivided enough, the $cluster\_index$ is set to None.}
     \item $\mathbf{add\_subgrid}$\newline
-    {}
+    {The method $add\_subgrid$ is called to add another layer to the tree grid structure.
+    Lists for the subgrids within this $GridLevel$ and the indices of the subgrid are added to lists to track them within the tree structure.}
     \item $\mathbf{get\_sublevel}$\newline
-    {}
+    {The method $get\_sublevel$ is called to recursively search for the subgrid that a given datapoint lies in.
+    The method searches to find if the datapoint is on the left or right side of each cutting plane while encoding the grid index according to the binary system discussed in definition 6 of [2].
+    The index calculated is then used to search through each of the subgrids of the current level which continues until the point's grid section is found.}
 \end{enumerate}
 
 
