@@ -246,9 +246,6 @@ INPUT sections/analysis.aux
 INPUT ./sections/results.aux
 INPUT ./sections/results.aux
 INPUT sections/results.aux
-INPUT ./sections/discussion.aux
-INPUT ./sections/discussion.aux
-INPUT sections/discussion.aux
 INPUT ./sections/conclusion.aux
 INPUT ./sections/conclusion.aux
 INPUT sections/conclusion.aux
@@ -358,11 +355,6 @@ INPUT ./images/3d_img3.png
 INPUT ./images/3d_img3.png
 INPUT ./images/3d_img3.png
 INPUT ./images/3d_img3.png
-INPUT ./sections/discussion.tex
-OUTPUT sections/discussion.aux
-INPUT ./sections/discussion.tex
-INPUT ./sections/discussion.tex
-INPUT sections/discussion.tex
 INPUT ./sections/conclusion.tex
 OUTPUT sections/conclusion.aux
 INPUT ./sections/conclusion.tex
@@ -386,9 +378,6 @@ INPUT sections/analysis.aux
 INPUT ./sections/results.aux
 INPUT ./sections/results.aux
 INPUT sections/results.aux
-INPUT ./sections/discussion.aux
-INPUT ./sections/discussion.aux
-INPUT sections/discussion.aux
 INPUT ./sections/conclusion.aux
 INPUT ./sections/conclusion.aux
 INPUT sections/conclusion.aux

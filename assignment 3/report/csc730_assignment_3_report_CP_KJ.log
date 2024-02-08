@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  6 FEB 2024 19:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  7 FEB 2024 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,7 +634,7 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@totallowerbox=\box130
 )
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 32.
- (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
+ (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/conclusion.aux) (./sections/references.aux))
 \openout1 = `csc730_assignment_3_report_CP_KJ.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -757,26 +757,11 @@ Overfull \hbox (13.12474pt too wide) in paragraph at lines 79--84
 \T1/cmr/m/n/10 The semi-private mathod $[]\OML/cmm/m/it/10 estimate[]distribution$
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
 )
 \openout2 = `sections/results.aux'.
 
  (./sections/results.tex
-<./images/2d_img0.png, id=96, 1569.61406pt x 1578.64781pt>
+<./images/2d_img0.png, id=92, 1569.61406pt x 1578.64781pt>
 File: ./images/2d_img0.png Graphic file (type png)
 <use ./images/2d_img0.png>
 Package pdftex.def Info: ./images/2d_img0.png  used on input line 19.
@@ -786,7 +771,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
-<./images/2d_img1.png, id=98, 1548.53531pt x 1548.53531pt>
+<./images/2d_img1.png, id=94, 1548.53531pt x 1548.53531pt>
 File: ./images/2d_img1.png Graphic file (type png)
 <use ./images/2d_img1.png>
 Package pdftex.def Info: ./images/2d_img1.png  used on input line 26.
@@ -796,8 +781,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-[3 <./images/2d_img0.png>]
-<./images/3d_cluster_raw.png, id=116, 294.1389pt x 284.7438pt>
+[3]
+<./images/3d_cluster_raw.png, id=109, 294.1389pt x 284.7438pt>
 File: ./images/3d_cluster_raw.png Graphic file (type png)
 <use ./images/3d_cluster_raw.png>
 Package pdftex.def Info: ./images/3d_cluster_raw.png  used on input line 53.
@@ -807,7 +792,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
-<./images/3d_img_xy.png, id=117, 1254.6875pt x 1254.6875pt>
+<./images/3d_img_xy.png, id=110, 1254.6875pt x 1254.6875pt>
 File: ./images/3d_img_xy.png Graphic file (type png)
 <use ./images/3d_img_xy.png>
 Package pdftex.def Info: ./images/3d_img_xy.png  used on input line 62.
@@ -817,7 +802,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
-<./images/3d_img_xz.png, id=118, 1254.6875pt x 1254.6875pt>
+[4 <./images/2d_img0.png> <./images/2d_img1.png> <./images/3d_cluster_raw.png>]
+<./images/3d_img_xz.png, id=122, 1254.6875pt x 1254.6875pt>
 File: ./images/3d_img_xz.png Graphic file (type png)
 <use ./images/3d_img_xz.png>
 Package pdftex.def Info: ./images/3d_img_xz.png  used on input line 69.
@@ -827,8 +813,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-[4 <./images/2d_img1.png> <./images/3d_cluster_raw.png>]
-<./images/3d_img_yz.png, id=127, 1254.6875pt x 1254.6875pt>
+<./images/3d_img_yz.png, id=123, 1254.6875pt x 1254.6875pt>
 File: ./images/3d_img_yz.png Graphic file (type png)
 <use ./images/3d_img_yz.png>
 Package pdftex.def Info: ./images/3d_img_yz.png  used on input line 76.
@@ -838,7 +823,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 76--77
  [][] 
  []
 
-<./images/3d_img1.png, id=128, 1254.6875pt x 1254.6875pt>
+<./images/3d_img1.png, id=124, 1254.6875pt x 1254.6875pt>
 File: ./images/3d_img1.png Graphic file (type png)
 <use ./images/3d_img1.png>
 Package pdftex.def Info: ./images/3d_img1.png  used on input line 83.
@@ -848,7 +833,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
-<./images/3d_img3.png, id=129, 1254.6875pt x 1254.6875pt>
+<./images/3d_img3.png, id=125, 1254.6875pt x 1254.6875pt>
 File: ./images/3d_img3.png Graphic file (type png)
 <use ./images/3d_img3.png>
 Package pdftex.def Info: ./images/3d_img3.png  used on input line 90.
@@ -864,7 +849,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 90--91
 \newlabel{fig:3d_cluster_0@cref}{{[figure][4][]4}{[1][4][]5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces XZ plane perspective of 3-d data}}{5}{figure.caption.5}\protected@file@percent }
 \newlabel{fig:3d_cluster_1}{{5}{5}{XZ plane perspective of 3-d data}{figure.caption.5}{}}
-\newlabel{fig:3d_cluster_1@cref}{{[figure][5][]5}{[1][4][]5}}
+\newlabel{fig:3d_cluster_1@cref}{{[figure][5][]5}{[1][5][]5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces YZ plane perspective of 3-d data}}{5}{figure.caption.6}\protected@file@percent }
 \newlabel{fig:3d_cluster_2}{{6}{5}{YZ plane perspective of 3-d data}{figure.caption.6}{}}
 \newlabel{fig:3d_cluster_2@cref}{{[figure][6][]6}{[1][5][]5}}
@@ -872,9 +857,6 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 90--91
 \newlabel{fig:3d_cluster_3}{{7}{5}{Perspective 1 of 3-d data}{figure.caption.7}{}}
 \newlabel{fig:3d_cluster_3@cref}{{[figure][7][]7}{[1][5][]5}}
  <./images/3d_img_xy.png> <./images/3d_img_xz.png> <./images/3d_img_yz.png> <./images/3d_img1.png>]
-\openout2 = `sections/discussion.aux'.
-
- (./sections/discussion.tex)
 \openout2 = `sections/conclusion.aux'.
 
  (./sections/conclusion.tex)
@@ -884,27 +866,27 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 90--91
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Perspective 2 of 3-d data}}{6}{figure.caption.8}\protected@file@percent }
 \newlabel{fig:3d_cluster_4}{{8}{6}{Perspective 2 of 3-d data}{figure.caption.8}{}}
 \newlabel{fig:3d_cluster_4@cref}{{[figure][8][]8}{[1][5][]6}}
- <./images/3d_img3.png>] (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/discussion.aux) (./sections/conclusion.aux) (./sections/references.aux))
+ <./images/3d_img3.png>] (./csc730_assignment_3_report_CP_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/conclusion.aux) (./sections/references.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `csc730_assignment_3_report_CP_KJ.out' has not changed.
-(rerunfilecheck)             Checksum: 7E87BD2B71E4972BFCC7891D822F1AF7;1440.
+(rerunfilecheck)             Checksum: 80202258E4639B54ABE565C936D42342;1346.
  ) 
 Here is how much of TeX's memory you used:
- 28343 strings out of 474271
- 588327 string characters out of 5751521
+ 28316 strings out of 474271
+ 587469 string characters out of 5751521
  1953533 words of memory out of 5000000
- 50068 multiletter control sequences out of 15000+600000
+ 50049 multiletter control sequences out of 15000+600000
  572855 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,6n,93p,504b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on csc730_assignment_3_report_CP_KJ.pdf (6 pages, 1396059 bytes).
+Output written on csc730_assignment_3_report_CP_KJ.pdf (6 pages, 1397793 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
