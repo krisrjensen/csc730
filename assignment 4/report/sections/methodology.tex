@@ -1,7 +1,7 @@
 
 The third part of this assignment will be to classify the dataset using a wrapper method starting with the two-point dataset.
 
-The wrapper method will be implemented using the random forest classifier. The random forest classifier is an ensemble method that uses multiple decision trees to make predictions. This method has been studied by others for use in co-training [3].\par
+The wrapper method will be implemented using the random forest classifier. The random forest classifier is an ensemble method that uses multiple decision trees to make predictions. This method has been studied by others for use in semi-supervised learning [3].\par
 
 \begin{tcolorbox}[breakable, title={Pseudocode for Wrapper Method for Semi-Supervised Learning}]
     \footnotesize     
@@ -10,17 +10,18 @@ The wrapper method will be implemented using the random forest classifier. The r
         \item Create a list for psuedo labeling
         \item Add first two data points and labels to psuedo set
         \item Start with a high probability threshold, 0.9
-        \item Call fit using ground truth data: X, y
-        \item Predict membership of each point in the dataset against the initial fit
+        \item Call fit() using labeled data: $X\_L$, $y\_L$
+        \item Predict membership of each point in the $X\_U$ dataset against the initial fit
         \item If datapoint probability exceeds threshold
         \begin{enumerate}
             \item Add pseudolabel and datapoint to tracked points
             \item Delete point from master list of points
         \end{enumerate}
-        \item Run model.fit on new dataset
+        \item Run fit() on new dataset
         \item Adjust probability threshold for next iteration
         \item plot data for this iteration
         \item check stopping condition
+        \item If stopping condition is not met, go to step 5
     \end{enumerate}
 \end{tcolorbox}
 \normalsize
