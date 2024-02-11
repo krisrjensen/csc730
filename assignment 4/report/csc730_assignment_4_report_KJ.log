@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  10 FEB 2024 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  10 FEB 2024 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,7 +634,7 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@totallowerbox=\box130
 )
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 32.
- (./csc730_assignment_4_report_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/conclusion.aux))
+ (./csc730_assignment_4_report_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/conclusion.aux) (./sections/references.aux))
 \openout1 = `csc730_assignment_4_report_KJ.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -726,39 +726,192 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
  (./sections/introduction.tex)
 \openout2 = `sections/description.aux'.
 
- (./sections/description.tex)
-\openout2 = `sections/analysis.aux'.
+ (./sections/description.tex
+<images/img0.png, id=32, 304.2567pt x 314.3745pt>
+File: images/img0.png Graphic file (type png)
+<use images/img0.png>
+Package pdftex.def Info: images/img0.png  used on input line 10.
+(pdftex.def)             Requested size: 234.8775pt x 242.6927pt.
 
- (./sections/analysis.tex)
+Overfull \hbox (5.0pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+)
+\openout2 = `sections/methodology.aux'.
+
+ (./sections/methodology.tex
+Underfull \hbox (badness 7888) in paragraph at lines 17--18
+[]\T1/cmr/m/n/8 Add pseu-dola-bel and dat-a-point to
+ []
+
+[1
+
+
+{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{h:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./images/img0.png>])
 \openout2 = `sections/results.aux'.
 
- (./sections/results.tex)
+ (./sections/results.tex
+<images/img1.png, id=51, 385.1991pt x 314.3745pt>
+File: images/img1.png Graphic file (type png)
+<use images/img1.png>
+Package pdftex.def Info: images/img1.png  used on input line 7.
+(pdftex.def)             Requested size: 234.8775pt x 191.6962pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 7--8
+ [][] 
+ []
+
+<images/img2.png, id=52, 307.8702pt x 314.3745pt>
+File: images/img2.png Graphic file (type png)
+<use images/img2.png>
+Package pdftex.def Info: images/img2.png  used on input line 14.
+(pdftex.def)             Requested size: 234.8775pt x 239.8433pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+<images/img3.png, id=55, 403.9893pt x 314.3745pt>
+File: images/img3.png Graphic file (type png)
+<use images/img3.png>
+Package pdftex.def Info: images/img3.png  used on input line 24.
+(pdftex.def)             Requested size: 234.8775pt x 182.77385pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+<images/img4.png, id=56, 302.8113pt x 329.5512pt>
+File: images/img4.png Graphic file (type png)
+<use images/img4.png>
+Package pdftex.def Info: images/img4.png  used on input line 31.
+(pdftex.def)             Requested size: 234.8775pt x 255.62581pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+[2 <./images/img1.png> <./images/img2.png>]
+<images/img5.png, id=87, 385.1991pt x 314.3745pt>
+File: images/img5.png Graphic file (type png)
+<use images/img5.png>
+Package pdftex.def Info: images/img5.png  used on input line 42.
+(pdftex.def)             Requested size: 234.8775pt x 191.6962pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+<images/img6.png, id=88, 419.166pt x 314.3745pt>
+File: images/img6.png Graphic file (type png)
+<use images/img6.png>
+Package pdftex.def Info: images/img6.png  used on input line 49.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+<images/img7.png, id=89, 419.166pt x 314.3745pt>
+File: images/img7.png Graphic file (type png)
+<use images/img7.png>
+Package pdftex.def Info: images/img7.png  used on input line 56.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+<images/img8.png, id=90, 419.166pt x 314.3745pt>
+File: images/img8.png Graphic file (type png)
+<use images/img8.png>
+Package pdftex.def Info: images/img8.png  used on input line 63.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 63--64
+ [][] 
+ []
+
+[3 <./images/img3.png> <./images/img4.png> <./images/img5.png> <./images/img6.png> <./images/img7.png>]
+<images/img9.png, id=102, 419.166pt x 314.3745pt>
+File: images/img9.png Graphic file (type png)
+<use images/img9.png>
+Package pdftex.def Info: images/img9.png  used on input line 70.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+<images/img10.png, id=103, 419.166pt x 314.3745pt>
+File: images/img10.png Graphic file (type png)
+<use images/img10.png>
+Package pdftex.def Info: images/img10.png  used on input line 77.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 77--78
+ [][] 
+ []
+
+<images/img11.png, id=104, 419.166pt x 314.3745pt>
+File: images/img11.png Graphic file (type png)
+<use images/img11.png>
+Package pdftex.def Info: images/img11.png  used on input line 84.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 84--85
+ [][] 
+ []
+
+<images/img12.png, id=105, 419.166pt x 314.3745pt>
+File: images/img12.png Graphic file (type png)
+<use images/img12.png>
+Package pdftex.def Info: images/img12.png  used on input line 91.
+(pdftex.def)             Requested size: 234.8775pt x 176.15884pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 91--92
+ [][] 
+ []
+
+[4 <./images/img8.png> <./images/img9.png> <./images/img10.png> <./images/img11.png> <./images/img12.png>]
+<images/img13.png, id=121, 782.6841pt x 826.7688pt>
+File: images/img13.png Graphic file (type png)
+<use images/img13.png>
+Package pdftex.def Info: images/img13.png  used on input line 106.
+(pdftex.def)             Requested size: 422.77664pt x 446.59988pt.
+)
 \openout2 = `sections/conclusion.aux'.
 
- (./sections/conclusion.tex) [1
+ (./sections/conclusion.tex)
+\openout2 = `sections/references.aux'.
 
+ (./sections/references.tex
+Overfull \hbox (8.1562pt too wide) in paragraph at lines 1--4
+\T1/cmr/m/n/10 [2] $\OML/cmm/m/it/10 https \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==scikit \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 learn:org=stable=auto[]examples=$ 
+ []
 
-{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{h:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./csc730_assignment_4_report_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/analysis.aux) (./sections/results.aux) (./sections/conclusion.aux))
+) [5 <./images/img13.png>] (./csc730_assignment_4_report_KJ.aux (./sections/introduction.aux) (./sections/description.aux) (./sections/methodology.aux) (./sections/results.aux) (./sections/conclusion.aux) (./sections/references.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `csc730_assignment_4_report_KJ.out' has not changed.
-(rerunfilecheck)             Checksum: C198ABDF6632B131BD108E384A3F677F;455.
+(rerunfilecheck)             Checksum: B73B96489702A9765527FF82B080A14A;563.
  ) 
 Here is how much of TeX's memory you used:
- 28072 strings out of 474271
- 582212 string characters out of 5751521
- 1928533 words of memory out of 5000000
- 49867 multiletter control sequences out of 15000+600000
- 565317 words of font info for 53 fonts, out of 8000000 for 9000
+ 28324 strings out of 474271
+ 587487 string characters out of 5751521
+ 1944533 words of memory out of 5000000
+ 50075 multiletter control sequences out of 15000+600000
+ 569610 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,93p,501b,1063s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on csc730_assignment_4_report_KJ.pdf (1 page, 50326 bytes).
+ 83i,6n,93p,501b,1180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><h:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on csc730_assignment_4_report_KJ.pdf (5 pages, 408304 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
