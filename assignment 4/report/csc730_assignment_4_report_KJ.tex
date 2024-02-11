@@ -1,0 +1,65 @@
+\documentclass{article}
+
+\usepackage{hyperref} % For cross-referencing
+\usepackage{amsmath}
+\usepackage{cleveref} % For clever cross-referencing
+\usepackage{graphicx}
+\usepackage{lipsum} % For dummy text
+\usepackage{multicol} % For multiple columns
+\usepackage[font=small,labelfont=bf]{caption} 
+\usepackage{float}
+\usepackage[margin=1in]{geometry}
+\usepackage{titling}
+\usepackage{caption}
+\usepackage{xr}
+\usepackage{rerunfilecheck}
+\usepackage{tcolorbox}
+\usepackage{framed}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{siunitx} % Add the siunitx package for proper alignment of numbers in the table
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+%\usepackage{listings}
+%\usepackage{tabular}
+\tcbuselibrary{breakable}
+
+\graphicspath{{./images/}}
+
+
+
+\begin{document}
+
+
+\onecolumn % Single column at the top
+\setlength{\droptitle}{-6em} 
+\title{CSC730: Report for Assignment 4 \\ \large South Dakota School of Mines and Technology}
+\author{Kris Jensen}
+
+\date{\today}
+\maketitle
+
+\begin{multicols}{2} % Two columns for the rest of the document
+    \let\clearpage\relax
+    \section{Introduction}
+    \include{sections/introduction.tex}
+    
+    \let\clearpage\relax
+    \section{Description}
+    \include{sections/description.tex}
+
+    \let\clearpage\relax
+    \section{Analysis}
+    \include{sections/analysis.tex}
+
+    \let\clearpage\relax
+    \section{Results}
+    \include{sections/results.tex}
+
+    \let\clearpage\relax
+    \section{Conclusion}
+    \include{sections/conclusion.tex}
+
+\end{multicols}
+\end{document}
