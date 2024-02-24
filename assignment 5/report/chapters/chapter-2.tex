@@ -1,0 +1,46 @@
+\section{Homework Objectives}
+
+During class we were provided a set of requirements for the homework. The requirements were clarified in\ \cite{assignment5} a as follows:
+\begin{itemize}
+    \item Install ADBench
+    \item Verify the installation is working
+    \item Use `skewed$\_$MNIST' dataset
+    \item Treat the two sparsest classes as anomalies
+    \item Select two algorithms from the ADBench library
+    \item Apply the selected algorithms to the dataset
+    \item Characterize the results
+    \item Comment code
+    \item Write a report
+    \item Submit the code and report
+\end{itemize}
+
+\section{Methodology}
+\subsection{Installing ADBench}
+Installing ADBench was a difficult and time consuming task. The authors did not document the versions of the libraries they used during their paper.
+This also leads to a potential source of error in reproducing results.\par
+
+The first attempt to install ADBench was on a Windows 10 machine using a fresh python 3.10 environment. The first calls to RunPipeline failed due to 
+a deprecation error within scikit-learn originating from the parallel processing libary. Upon further research it was noticed that the authors 
+requirements file did not fix the versions of the libraries. This was the first source of error. The version os scikit-learn that was installed
+ by default was produced after the paper was published.\par
+
+When this error was realized, a search of the Github pull requests began to locate the timeline and potential versions used by the authors. 
+After several iterations of downgrading the libraries, the installation was successful. The final requirements file is located in the repository.\par
+
+\subsection{Running ADBench}
+When the installation issues were resolved and confirmation that the ADBench tool was running properly, the next step was to load the `skewed$\_$MNIST'
+dataset. The dataset was loaded and the two sparsest classes were identified. The two sparsest classes were then treated as anomalies.
+To treat these sparsest classes as anomalies, the labels were changed to 1 for the two sparsest classes and 0 for the rest of the classes. \par
+
+The chosen models were multi-layer perception (MLP) and CatBoost (CatB). These two models were arbitrarily chosen. The models were then applied to the dataset 
+and the results were characterized. The dataset was split using the $train\_test\_split$ from the $model\_selection$ class of scikit-learn. 
+The specification for this split was that 20\% of the data would be reserved for testing. 
+Results characterization includes descriptive statistics, plotting the classes in a high-bin count histogram, then calculating confusion matrices data and accuracy based on verious thresholds. 
+The results are discussed in the next section.\par
+
+
+
+
+
+
+
