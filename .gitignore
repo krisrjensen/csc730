@@ -1,2 +1,5 @@
 
 data/DSU_output_FINAL.csv
+data/mnist/
+data/mnist_c/
+/data
