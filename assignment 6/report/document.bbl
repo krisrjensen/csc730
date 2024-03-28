@@ -1,0 +1,111 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{han2022adbench}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=7e3c1629b845102072127286262053ae}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Songqiao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77c5155ec6f73594cfa4271056f777be}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xiyang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2d73ae08c6ee8321c8a6f301e2d479d7}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Hailiang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=70ef1d4abe0f48edaa3d47e2089b9149}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Mingqi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ba51490fdfee4e053d199f28e82dad4f}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{b83cd125ea2bde19159ffa82e4a4586e}
+      \strng{fullhash}{bf581da27b5dd1b76ac8ad96d88a598a}
+      \strng{bibnamehash}{bf581da27b5dd1b76ac8ad96d88a598a}
+      \strng{authorbibnamehash}{bf581da27b5dd1b76ac8ad96d88a598a}
+      \strng{authornamehash}{b83cd125ea2bde19159ffa82e4a4586e}
+      \strng{authorfullhash}{bf581da27b5dd1b76ac8ad96d88a598a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Neural Information Processing Systems (NeurIPS)}
+      \field{title}{ADBench: Anomaly Detection Benchmark}
+      \field{year}{2022}
+    \endentry
+    \entry{assignment5}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=a9f18d3185ffee52aaa3ca0b45ae2985}{%
+           family={Loveland},
+           familyi={L\bibinitperiod},
+           given={Rohan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{fullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{bibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorbibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authornamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorfullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{From SDSMT D2L Website}
+      \field{title}{Assignment\_5.pdf}
+      \field{year}{2024}
+    \endentry
+    \entry{precision_recall_wiki}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c2897d4738d8fd643743ca427344b1f3}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{fullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{bibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authorbibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authornamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{authorfullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://en.wikipedia.org/wiki/Precision\_and\_recall}
+      \field{title}{Precision and recall}
+      \field{year}{20 Feb. 2024}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
