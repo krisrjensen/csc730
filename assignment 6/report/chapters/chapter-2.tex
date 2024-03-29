@@ -1,42 +1,82 @@
 \section{Homework Objectives}
 
-During class we were provided a set of requirements for the homework. The requirements were clarified in\ \cite{assignment5} a as follows:
+The specific objectives of this assignment are as follows \cite{assignment6}:
 \begin{itemize}
-    \item Install ADBench
-    \item Verify the installation is working
-    \item Use `skewed$\_$MNIST' dataset
-    \item Treat the two sparsest classes as anomalies
-    \item Select two algorithms from the ADBench library
-    \item Apply the selected algorithms to the dataset
-    \item Characterize the results
-    \item Comment code
-    \item Write a report
-    \item Submit the code and report
+    \item Get the MNIST and MNIST-C dataset.
+    \item Select 3 different types of image corruption (e.g., canny edges) from MNIST-C.
+    \item Create mixed datasets for training and test using the original MNIST and corrupted images at a 100/1 ratio for each corruption type.
+    \item Create a probability density-based anomaly detector.
+    \item Using a range of probability thresholds, create the corresponding ROC and precision-recall curves.
 \end{itemize}
 
+
 \section{Methodology}
-\subsection{Installing ADBench}
-Installing ADBench was a difficult and time consuming task. The authors did not document the versions of the libraries they used during their paper.
-This also leads to a potential source of error in reproducing results.\par
+\subsection{Data Preparation}
+The first step in the assignment was to download the MNIST and MNIST-C datasets. 
+We then selected three different types of image corruptions from the MNIST-C dataset.
+For each type of corruption, we created a mixed dataset for training and testing. 
+This mixed dataset combined the original MNIST images with the corrupted images at a ratio of 100/1. 
+This resulted in a dataset that was predominantly composed of normal images, with a small proportion of anomalous (i.e., corrupted) images.\par
 
-The first attempt to install ADBench was on a Windows 10 machine using a fresh python 3.10 environment. The first calls to RunPipeline failed due to 
-a deprecation error within scikit-learn originating from the parallel processing libary. Upon further research it was noticed that the authors 
-requirements file did not fix the versions of the libraries. This was the first source of error. The version os scikit-learn that was installed
- by default was produced after the paper was published.\par
+Three mixed datasets were created using three seperate selections of corruptions.
+The sets of corruptions, chosen randomly, were: "canny, dotted, stripe", "shear, canny, spatter", and "stripe, motion, scale".
 
-When this error was realized, a search of the Github pull requests began to locate the timeline and potential versions used by the authors. 
-After several iterations of downgrading the libraries, the installation was successful. The final requirements file is located in the repository.\par
+\subsection{Visual Review}
+We visually reviewed the mixed datasets to ensure that the normal data, fig.~\ref{fig1}, and anomalous images fig(s).~\ref{fig2} through fig(s).~\ref{fig8} were correctly labeled. This step was important to ensure that the anomaly detector was trained on the correct data.\par
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/original_data.png}}
+    \caption{Original MNIST data}\label{fig1}
+\end{figure}
 
-\subsection{Running ADBench}
-When the installation issues were resolved and confirmation that the ADBench tool was running properly, the next step was to load the `skewed$\_$MNIST'
-dataset. The dataset was loaded and the two sparsest classes were identified. The two sparsest classes were then treated as anomalies.
-To treat these sparsest classes as anomalies, the labels were changed to 1 for the two sparsest classes and 0 for the rest of the classes. \par
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_canny_edges.png}}
+    \caption{MNIST-C, canny edges}\label{fig2}
+\end{figure}
 
-The chosen models were multi-layer perception (MLP) and CatBoost (CatB). These two models were arbitrarily chosen. The models were then applied to the dataset 
-and the results were characterized. The dataset was split using the $train\_test\_split$ from the $model\_selection$ class of scikit-learn. 
-The specification for this split was that 20\% of the data would be reserved for testing. 
-Results characterization includes descriptive statistics, plotting the classes in a high-bin count histogram, then calculating confusion matrices data and accuracy based on verious thresholds. 
-The results are discussed in the next section.\par
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_dotted_line.png}}
+    \caption{MNIST-C, dotted line}\label{fig3}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_stripe.png}}
+    \caption{MNIST-C, stripe}\label{fig4}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_shear.png}}
+    \caption{MNIST-C, shear}\label{fig5}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_spatter.png}}
+    \caption{MNIST-C, spatter}\label{fig6}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_motion_blur.png}}
+    \caption{MNIST-C, motion blur}\label{fig7}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/corrupted_data_scale.png}}
+    \caption{MNIST-C, scale}\label{fig8}   
+\end{figure}
+
+
+\subsection{Anomaly Detection}
+We implemented a probability density-based anomaly detector using the implementation from scikit-learn of K-Nearest Neighbors (KNN) and Random Forest(RF). 
+This is a supervised learning algorithm where labels of anomaly and normal data are used to train the model.
+The anomaly label is 1 for anomalous data and 0 for nominal data.\par
+
+\subsection{Performance Evaluation}
+We evaluated the performance of the anomaly detector using ROC and PR curves. 
+The ROC curve plots the true positive rate against the false positive rate at different probability thresholds.
+A true positive is an instance where the model correctly predicts the positive class, while a false positive is an instance where the model incorrectly predicts the positive class.\par
+The PR curve plots the precision against the recall at different probability thresholds. 
+Precision is the ratio of true positives to the sum of true positives and false positives, while recall is the ratio of true positives to the sum of true positives and false negatives.\cite{precision_recall_wiki}\par
+These curves provide a visual representation of the trade-off between true positives and false positives, and between precision and recall, respectively.\par
+
 
 
 

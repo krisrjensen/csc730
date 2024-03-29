@@ -1,125 +1,113 @@
 \section{Results}
+We ran three data trials: “canny, dotted, stripe”, “shear, canny, spatter”, and “stripe, motion, scale”. For each trial, we applied the KNN and the RF classifiers from the scikit-learn library. The KNN was executed from k=3 to k=10000, and the RF was fit with estimators of 3, 10, and 30.
 
-The skewed data set contains 12244 datapoints each containing 784 dimensions of data. 
-Review table~\ref{tab1} for the counts of the split dataset. 
-The results of the MLP model and the CatB model are shown in Figures~\ref{fig1} and~\ref{fig2} respectively.
-The same dataset was used for both models.
-
-\begin{table}[htbp]
-    \caption{Data set counts}\label{tab1}
-    \begin{center}
-        \begin{tabular}{c c c}
-            \toprule            
-            \textbf{Data}  & \textbf{\textit{Normal}}           & \textbf{\textit{Anomaly}} \\
-            \textbf{Set}  & \textbf{\textit{0}}           & \textbf{\textit{1}} \\
-            \midrule
-            Training  & 9769 & 26 \\
-            Test & 2441 & 8 \\
-            \bottomrule           
-        \end{tabular}
-    \end{center}
-\end{table}
-
-After the models were fit to the data, the results were characterized. The first step in characterizing the results was to generate descriptive statistics.
-The statistics for the MLP model are shown in Table~\ref{tab2} and the statistics for the CatB model are shown in Table~\ref{tab3}.
-
-\begin{table}[htbp]
-    \caption{MLP model descriptive statistics}\label{tab2}
-    \begin{center}
-        \begin{tabular}{c c c}
-            \toprule            
-            \textbf{Statistic}  & \textbf{\textit{Normal}}& \textbf{\textit{Anomaly}} \\
-            \midrule
-            Mean  & 0.0011367 & 0.516422\\
-            Standard Deviation & 0.0326209 & 0.482698\\
-            Minimum & 0.0000000 & 0.0000000 \\
-            Maximum & 1.0000000 & 1.0000000\\
-            \bottomrule
-        \end{tabular}
-    \end{center}
-\end{table}
-
-\begin{table}[htbp]
-    \caption{CatB model descriptive statistics}\label{tab3}
-    \begin{center}
-        \begin{tabular}{c c c}
-            \toprule            
-            \textbf{Statistic}  & \textbf{\textit{Normal}} & \textbf{\textit{Anomaly}}\\
-            \midrule
-            Mean & 0.000452 & 0.365747 \\
-            Standard Deviation & 0.004549 & 0.317829 \\
-            Minimum &0.000000 & 0.000976 \\
-            Maximum &0.160315& 0.782518 \\
-            \bottomrule
-        \end{tabular}
-    \end{center}
-\end{table}
-        
+The KNN performance was heavily sensitive to the data selected, whereas the RF was not so sensitive. In general, the KNN had poor performance, while the RF did a very good job detecting the anomalies.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{resources/ch3/fig1.png}}
-    \caption{Multi-layer perception model results.}\label{fig1}
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/roc_curve_knn_canny_edges_dotted_line_stripe.png}}    
+    \caption{ROC Curve for KNN: with canny edges, dotted lines and striped}\label{fig9}
 \end{figure}
-
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{resources/ch3/fig2.png}}
-    \caption{CatBoost model results.}\label{fig2}
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/roc_curve_rf_canny_edges_dotted_line_stripe.png}}    
+    \caption{ROC Curve for RF: with canny edges, dotted lines and striped}\label{fig10}
 \end{figure}
 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/precision_recall_knn_canny_edges_dotted_line_stripe.png}}    
+    \caption{PR Curve for KNN: with canny edges, dotted lines and striped}\label{fig11}
+\end{figure}
 
-After reviewing the descriptive statistics and the histogram plots of the results there appears to be a seperation between the anomalous data and the normal data.
-To further characterize the results, confusion matrices were generated for the MLP model and the CatB model. The confusion matrices are shown in Table~\ref{tab4} and Table~\ref{tab5} respectively.
-Also, the accuracy of the models were calculated. Due to the large number of non-anomalous data points, the accuracy is not a good measure of the model's performance.
-A better measure of the model's performance is the precision and recall\ \cite{precision_recall_wiki}. The precision and recall for each model with varying thresholds are shown with their confusion matrix data.
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/precision_recall_rf_canny_edges_dotted_line_stripe.png}}    
+    \caption{PR Curve for RF: with canny edges, dotted lines and striped}\label{fig12}
+\end{figure}
 
-\begin{table}[htbp]
-    \caption{MLP model confusion matrix}\label{tab4}
-    \begin{center}
-        \begin{tabular}{c|cc|cc|cc|cc}
-            \toprule 
-                & $0.5\sigma$& &  $1.0\sigma$ & & $2.0\sigma$ & & $3.0\sigma$\\           
-            \textbf{Predicted}  & \textbf{\textit{N}} & \textbf{\textit{A}}& \textbf{\textit{N}} & \textbf{\textit{A}}& \textbf{\textit{N}} & \textbf{\textit{A}}& \textbf{\textit{N}} & \textbf{\textit{A}}\\
-            \midrule
-            Actual Normal & 2438 & 3 & 2438 & 3& 2438 & 3& 2438 & 3\\
-            Actual Anomaly & 3 & 5 & 3 & 5& 3 & 5& 3 & 5\\
-            \midrule
-            Accuracy & 0.9975 & & 0.9975 & & 0.9975 & & 0.9975 & \\
-            Threshold & 0.0175 & & 0.0338 & & 0.0664 & & 0.0990 & \\
-            Precision & 0.625 & & 0.625 & & 0.625 & & 0.625 & \\
-            Recall & 0.625 & & 0.625 & & 0.625 & & 0.625 & \\
-            \bottomrule
-        \end{tabular}
-    \end{center}
-\end{table}
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/roc_curve_knn_shear_canny_edges_spatter.png}}    
+    \caption{ROC Curve for KNN: with shear, canny edges, and spatter}\label{fig13}
+\end{figure}
 
-\begin{table}[htbp]
-    \caption{CatB model confusion matrix}\label{tab5}
-    \begin{center}
-        \begin{tabular}{c|cc|cc|cc|cc}
-            \toprule 
-                & $0.5\sigma$& &  $1.0\sigma$ & & $2.0\sigma$ & & $3.0\sigma$\\           
-            \textbf{Predicted}  & \textbf{\textit{N}} & \textbf{\textit{A}}& \textbf{\textit{N}} & \textbf{\textit{A}}& \textbf{\textit{N}} & \textbf{\textit{A}}& \textbf{\textit{N}} & \textbf{\textit{A}}\\
-            \midrule
-            Actual Normal & 2394 & 47 & 2415 & 26 & 2428 & 13 & 2431 & 10\\
-            Actual Anomaly & 1 & 7 & 1 & 7& 2 & 6 & 2 & 6\\
-            \midrule
-            Accuracy & 0.9804 & & 0.9890 & & 0.9938 & & 0.9951 & \\
-            Threshold & 0.0027 & & 0.0050 & & 0.0096 & & 0.0141 & \\
-            Precision & 0.130 & & 0.212 & & 0.316 & & 0.375 & \\
-            Recall & 0.875 & & 0.875 & & 0.750 & & 0.750 & \\
-            \bottomrule
-        \end{tabular}
-    \end{center}
-\end{table}
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/roc_curve_rf_shear_canny_edges_spatter.png}}    
+    \caption{ROC Curve for RF: with shear, canny edges, and spatter}\label{fig14}
+\end{figure}
 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/precision_recall_knn_shear_canny_edges_spatter.png}}    
+    \caption{PR Curve for KNN: with shear, canny edges, and spatter}\label{fig15}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/precision_recall_rf_shear_canny_edges_spatter.png}}    
+    \caption{PR Curve for RF: with shear, canny edges, and spatter}\label{fig16}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/roc_curve_knn_stripe_motion_blur_scale.png}}    
+    \caption{ROC Curve for KNN: with striped, motion blur, and scale}\label{fig17}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/roc_curve_rf_stripe_motion_blur_scale.png}}    
+    \caption{ROC Curve for RF: with striped, motion blur, and scale}\label{fig18}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/precision_recall_knn_stripe_motion_blur_scale.png}}    
+    \caption{PR Curve for KNN: with striped, motion blur, and scale}\label{fig19}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{resources/precision_recall_rf_stripe_motion_blur_scale.png}}    
+    \caption{PR Curve for RF: with striped, motion blur, and scale}\label{fig20}
+\end{figure}
 
 \section{Conclusion}
 
-Assignment 5 was a time consuming task due to the installation issues with ADBench. The authors did not document the versions of the libraries they used during their paper.
-Withstanding the installation issues, the results of the MLP model and the CatB model show that the models are able to distinguish between the normal data and the anomalous data.
-However, the precision and recall of these simple and untuned models are not ideal. This was a good excercise in understanding anomaly detection in general and the capabilities compiled by the Authors within ADBench.
+This assignment provided valuable experience to use various probability density-based anomaly detectors and evaluating their performance using ROC and PR curves.
+Despite the challenges posed by the MNIST-C dataset, the RF classifier performed well in detecting anomalies, while the KNN classifier struggled to achieve similar results. 
+The RF classifier was less sensitive to the data selected, which made it a more robust choice for anomaly detection in this context.   
 
+
+\section{Appendix: Code Summary}
+
+
+
+
+
+The provided Python code, $csc730\_assignment\_6\_KJ.ipynb$ ,  is a comprehensive Jupyter notebook for processing and analyzing the MNIST dataset, a large database of handwritten digits. The code also handles corrupted versions of the MNIST dataset, which are used to simulate anomalies in the data. 
+The analysis involves the use of machine learning algorithms, specifically the k-nearest neighbors classifier (KNN) and the random forest classifier (RF).
+The code begins by setting up several variables related to the MNIST and corrupted MNIST datasets (MNIST-C), including paths to the data, flags indicating whether the data has been downloaded or files have been generated, and parameters for the corruption process. 
+It also initializes empty lists to store the results of the machine learning models.\par
+
+The $process\_data$ function is defined to handle the downloading and preprocessing of the MNIST data. 
+If the data has not been downloaded, it fetches the MNIST dataset from OpenML. 
+If the MNIST files have not been generated, it loads the data, converts it to numpy arrays, reshapes the images, and saves the processed data to disk. 
+It also splits the data into training and testing sets.\par
+
+If the $generate\_corrupted\_data$ flag is set, the code generates corrupted versions of the MNIST data.
+It randomly selects a number (default=3) of corruption types, applies them to a subset of the data, and concatenates the corrupted data with the original MNIST data. 
+The labels for the corrupted data are also generated and saved. These generated labels follow this function.\par
+$L_a(x) = 
+\begin{cases} 
+1 & \text{if } x = 1 \text{ (anomalous)} \\
+0 & \text{if } x = 0 \text{ (nominal)}
+\end{cases}$ \par
+
+The code then loads the MNIST and corrupted MNIST data and labels from disk. 
+It reshapes the images into a 2D format suitable for the machine learning models and splits the data into training and testing sets.\par
+
+For each specified number of neighbors in $knnc\_test\_scenarios$, the code fits a KNN model to the training data, makes predictions on the testing data, and stores the predicted labels and probabilities. 
+It does a similar process for the specified number of estimators in $rf\_test\_scenarios$ using a RF model.\par
+
+The $generate\_roc\_curve$ function is defined to generate a ROC curve for the KNN and RF models. 
+For each model and each threshold, it calculates the true positive rate (TPR) and false positive rate (FPR), and plots these rates to create the ROC curve.\par
+
+The $generate\_precision\_recall\_curve$ function is defined to generate a PR curve for the KNN and RF models. 
+For each model and each threshold, it calculates the precision and recall, and plots these values to create the PR curve.\par
+
+Finally, the code calls the $generate\_roc\_curve$ and $generate\_precision\_recall\_curve$ functions to generate and save the ROC and PR curves for the KNN and RF models. The curves are saved as PNG images and displayed in the notebook.\par
 
 
 
