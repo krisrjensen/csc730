@@ -19,7 +19,44 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{assignment6}{unpublished}{}
+    \entry{liu2008isolation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=231b376c1eeea575643f44deb86338c4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fei\bibnamedelima Tony},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9bc17f24d02724c02d418a27dfea50bb}{%
+           family={Ting},
+           familyi={T\bibinitperiod},
+           given={Kai\bibnamedelima Ming},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6b1a37e820a730061851a81dcca2d154}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhi-Hua},
+           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{fullhash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{bibnamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{authorbibnamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{authornamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{authorfullhash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2008 Eighth IEEE International Conference on Data Mining}
+      \field{title}{Isolation forest}
+      \field{year}{2008}
+      \field{pages}{413\bibrangedash 422}
+      \range{pages}{10}
+    \endentry
+    \entry{assignment7}{unpublished}{}
       \name{author}{1}{}{%
         {{hash=a9f18d3185ffee52aaa3ca0b45ae2985}{%
            family={Loveland},
@@ -33,35 +70,13 @@
       \strng{authorbibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
       \strng{authornamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
       \strng{authorfullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{From SDSMT D2L Website}
-      \field{title}{Assignment\_6.pdf}
-      \field{year}{2024}
-    \endentry
-    \entry{precision_recall_wiki}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=c2897d4738d8fd643743ca427344b1f3}{%
-           family={Contributors},
-           familyi={C\bibinitperiod},
-           given={Wikipedia},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{c2897d4738d8fd643743ca427344b1f3}
-      \strng{fullhash}{c2897d4738d8fd643743ca427344b1f3}
-      \strng{bibnamehash}{c2897d4738d8fd643743ca427344b1f3}
-      \strng{authorbibnamehash}{c2897d4738d8fd643743ca427344b1f3}
-      \strng{authornamehash}{c2897d4738d8fd643743ca427344b1f3}
-      \strng{authorfullhash}{c2897d4738d8fd643743ca427344b1f3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://en.wikipedia.org/wiki/Precision\_and\_recall}
-      \field{title}{Precision and recall}
-      \field{year}{20 Feb. 2024}
+      \field{note}{From SDSMT D2L Website}
+      \field{title}{Assignment\_7.pdf}
+      \field{year}{2024}
     \endentry
   \enddatalist
 \endrefsection

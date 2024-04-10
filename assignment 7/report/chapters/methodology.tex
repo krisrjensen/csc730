@@ -33,13 +33,18 @@ Figure \ref{fig:nominal_train} shows a random selection of 16 nominal images fro
 \end{figure}
 
 \subsection{Isolation Forest Implementation}
-We implement the Isolation Forest algorithm from scratch using Python. The algorithm consists of two main components: Isolation Tree (iTree) and Isolation Forest (iForest).
+We implement the Isolation Forest algorithm from scratch using Python, Jupyter notebook, and VS code. The algorithm consists of two main components: Isolation Tree (iTree) and Isolation Forest (iForest). There is an additional class called isolation$\_$tree$\_$node that contains the detailed data of each node in the iTree.
 
 An iTree is a binary tree structure that recursively partitions the data based on randomly selected features and split points until instances are isolated or a maximum tree height is reached. The key idea is that anomalies require fewer partitions on average to be isolated compared to normal instances.
 
-The iForest is an ensemble of iTrees. It constructs multiple iTrees using subsamples of the training data and aggregates the anomaly scores obtained from each iTree to make the final prediction.
+The iForest is an ensemble, a forest of trees, of iTrees. It constructs multiple iTrees using subsamples of the training data and aggregates the anomaly scores obtained from each iTree to make the final prediction.
 
-The anomaly score of an instance is calculated based on the average path length it takes to be isolated in the iForest. Anomalies tend to have shorter average path lengths compared to normal instances.
+The anomaly score of an instance is calculated based on the average path length it takes to be isolated in the iForest. Anomalies tend to have shorter average path lengths compared to normal instances.\par
+
+Additionally, a visualization of an iTree is shown in Figure \ref{fig:itree}. Each node represents a partition of the data based on a randomly selected feature and split point, with leaf nodes representing the isolated instances. Anomalies are typically isolated closer to the root of the tree.\par
+
+This visualization was implemented using the Graphviz library to generate a graphical representation of the iTree structure.
+
 
 \subsection{Evaluation Metrics}
 To evaluate the performance of the Isolation Forest algorithm, we use the area under the Receiver Operating Characteristic (ROC) curve and the Precision-Recall (PR) curve. The ROC curve plots the true positive rate against the false positive rate at various threshold settings, while the PR curve plots precision against recall. Higher areas under these curves indicate better anomaly detection performance.
