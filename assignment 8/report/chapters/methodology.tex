@@ -1,50 +1,50 @@
 \section{Methodology}
+
+\subsection{Active Learning Algorithm Overview}
+The main components of the active learning algorithm include the following~\cite{tharwat2023survey}:
+\begin{itemize}
+    \item \textbf{Dataset:} The dataset consists of labeled and unlabeled instances. The labeled instances are used to train the model, while the unlabeled instances are used to select instances for labeling.
+    \item \textbf{Learning Algorithm:} The classifier is a machine learning model that is trained on the labeled data. The classifier is used to make predictions on the unlabeled data and select instances for labeling.    
+    \item \textbf{Query Strategy:} The query strategy determines which instances to query for labels. The query strategy selects instances that the model is most uncertain about, based on the current model's predictions.        
+    \item \textbf{Expert:} The expert is the user who provides labels for the selected instances. The expert labels the instances selected by the query strategy, and the labels are used to update the model.
+\end{itemize}
+
 \subsection{Dataset}
-The dataset used in this assignment was provided by the instructor. It consists of a set of instances, each labeled as either normal or anomalous. The specific details of the dataset, such as the number of features and the distribution of normal and anomalous instances, were not disclosed.
+The MNIST data set consists of 70,000 labelled points. Each point is a 28x28 image of a digit from 0 to 9. 
+The images are reshaped to a 1D array of length 784 and normalized to the range [0, 1]. 
+The data set is balanced, with an equal number of images for each digit class. \par
+In our example we created a 20\% split of the data set to be used as the test set. The training dataset was then put into a pool of unlabeled data.
 
-Figure \ref{fig:nominal_train} shows a random selection of 16 nominal images from the training set, while Figure \ref{fig:anomaly_train} displays a random selection of 16 anomalous images from the training set. Similarly, Figure \ref{fig:nominal_test} and Figure \ref{fig:anomaly_test} present random selections of nominal and anomalous images from the test set, respectively.
+A second list of the training data was created to be used as the labeled data. This method reminds of of the psuedo-labeling method used in semi-supervised learning that we recreated in assignment 4.\par
 
+Figure~\ref{fig:nominal_train} shows a random selection of 16 nominal images from the training set.
 \begin{figure}[htbp]
-\centering
-\includegraphics[width=0.5\textwidth]{resources/images/_nominal_train_random_selection.png}
-\caption{Random selection of nominal images from the training set}
-\label{fig:nominal_train}
-\end{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{resources/images/_nominal_train_random_selection.png}
+    \caption{Random selection of nominal images from the training set}
+    \label{fig:nominal_train}
+    \end{figure}
+\subsection{Learning Algorithm}
+There were two classifiers used in this assignment. The first classifier was a random forest classifier, and the second classifier was a support vector machine (SVM) classifier.
+The random forest classifier was used as the base classifier for the active learning algorithm. The SVM classifier was used to compare the performance of the active learning algorithm with a different classifier. 
+The classifiers were trained on the labeled data and used to make predictions on the unlabeled data. The predictions were used to select instances for labeling based on the query strategy. 
+The classifiers were updated with the newly labeled instances, and the process was repeated for either a maximum number of iterations or minimum single-class accuracy reaching a threshold of 95\%.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.5\textwidth]{resources/images/_anomaly_train_random_selection.png}
-\caption{Random selection of anomalous images from the training set}
-\label{fig:anomaly_train}
-\end{figure}
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.5\textwidth]{resources/images/_nominal_test_random_selection.png}
-\caption{Random selection of nominal images from the test set}
-\label{fig:nominal_test}
-\end{figure}
+\subsection{Query strategy}
+In this assignment, we implemented the following query strategies:
+\begin{itemize}
+    \item \textbf{Random Sampling:} Randomly select instances from the pool of unlabeled data for labeling. This strategy serves as a baseline for comparison with other query strategies.
+    \item \textbf{Highest Confidence:} Select instances for labeling based on the classifier's highest confidence in its predictions. The highest confidence is calculated as the highest predicted probability for each instance.
+    \item \textbf{Least Confidence:} Select instances for labeling based on the classifier's least confidence in its predictions. The least confidence is calculated as the difference between the highest and second-highest predicted probabilities for each instance.    
+    \item \textbf{Entropy Sampling:} Select instances for labeling based on the classifier's entropy of confidence in its predictions. The entropy is calculated as the negative sum of the predicted probabilities for each instance.
+    \item \textbf{Query by Committee:} Select instances for labeling based on the disagreement among multiple classifiers. The committee consists of multiple classifiers trained on the labeled data, and the disagreement is calculated as the variance of the predicted probabilities for each instance.
+\end{itemize}
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.5\textwidth]{resources/images/_anomaly_test_random_selection.png}
-\caption{Random selection of anomalous images from the test set}
-\label{fig:anomaly_test}
-\end{figure}
-
-\subsection{Isolation Forest Implementation}
-We implement the Isolation Forest algorithm from scratch using Python, Jupyter notebook, and VS code. The algorithm consists of two main components: Isolation Tree (iTree) and Isolation Forest (iForest). There is an additional class called isolation$\_$tree$\_$node that contains the detailed data of each node in the iTree.
-
-An iTree is a binary tree structure that recursively partitions the data based on randomly selected features and split points until instances are isolated or a maximum tree height is reached. The key idea is that anomalies require fewer partitions on average to be isolated compared to normal instances.
-
-The iForest is an ensemble, a forest of trees, of iTrees. It constructs multiple iTrees using subsamples of the training data and aggregates the anomaly scores obtained from each iTree to make the final prediction.
-
-The anomaly score of an instance is calculated based on the average path length it takes to be isolated in the iForest. Anomalies tend to have shorter average path lengths compared to normal instances.\par
-
-Additionally, a visualization of an iTree is shown in Figure \ref{fig:itree}. Each node represents a partition of the data based on a randomly selected feature and split point, with leaf nodes representing the isolated instances. Anomalies are typically isolated closer to the root of the tree.\par
-
-This visualization was implemented using the Graphviz library to generate a graphical representation of the iTree structure.
+\subsection{Expert}
+The expert in this assignment was simulated by selecting instances from the pool of unlabeled data for labeling. The instances were selected based on the query strategy, and the labels were used to update the model. The expert was assumed to provide accurate labels for the selected instances.
 
 
 \subsection{Evaluation Metrics}
-To evaluate the performance of the Isolation Forest algorithm, we use the area under the Receiver Operating Characteristic (ROC) curve and the Precision-Recall (PR) curve. The ROC curve plots the true positive rate against the false positive rate at various threshold settings, while the PR curve plots precision against recall. Higher areas under these curves indicate better anomaly detection performance.
+Confusion matrices and accuracy scores were used to evaluate the performance of the active learning algorithm. The confusion matrix shows the number of true positives, false positives, true negatives, and false negatives for each class.
+The accuracy score is the proportion of correctly classified instances out of the total number of instances. The confusion matrix and accuracy score were calculated at each iteration of the active learning algorithm to track the performance of the model over time.
