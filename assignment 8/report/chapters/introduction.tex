@@ -1,0 +1,25 @@
+\section{Introduction}
+Anomaly detection is a crucial task in various domains, from fraud detection in financial transactions to identifying rare diseases in medical diagnosis~\cite{liu2008isolation}. 
+Some times the data is not labeled, and it is expensive or difficult to label the data. In those instances active learning can be used to reduce the amount of labeled data required to train a model.
+
+
+The requirements for this assignment are as follows~\cite{assignment8}.\par
+\begin{enumerate}    
+    \item Get the MNIST dataset (the original, balanced – not MNIST-C).
+    \item Write your own version of an active learning classifier. This should follow the basic outline 
+    shown in the figure above. Assume that the algorithm will start by querying 1 point at random. 
+    You may choose whatever utility function and classifier model you like. You do NOT need to 
+    write the actual classifier model itself from scratch.
+    
+    \item Run your code on the dataset and determine accuracy and a confusion matrix.
+
+    \item Do this sequentially over a number of iterations sufficiently large to see performance flatten 
+    out, and plot accuracy vs. number of iterations. Show the confusion matrices at some selected 
+    points along the way. 
+    
+\end{enumerate}
+
+Active learning is a machine learning paradigm that aims to reduce the amount of labeled data required to train a model~\cite{tharwat2023survey}.
+In active learning, the model is allowed to query the user for labels of instances that it is uncertain about. 
+This allows the model to focus on the most informative instances, reducing the need for large amounts of labeled data. 
+In this assignment, we implement an active learning algorithm from scratch and evaluate its performance on the full MNIST dataset.\par
