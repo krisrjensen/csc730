@@ -1,7 +1,7 @@
 
 \section{Results and Discussion}
 
-There were a total of 10 trining simulations ran for this assigment. These simulations were broken up by two classifiers and five query strategies.
+There were a total of 10 trining simulations ran for this assignment. These simulations were broken up by two classifiers and five query strategies.
  The classifiers used were the SVM and the Random Forest. The query strategies used were Random, highest uncertainty, highest confidence, entropy, and lowest vote. 
  The results of these simulations are shown in the following tables.
 
@@ -9,10 +9,10 @@ There were a total of 10 trining simulations ran for this assigment. These simul
 \centering
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-~ & Highest & Highest &  ~ &  ~ & Query \\
-Classifier & Uncertaintity & Confidence & Random & Entropy & Committee  \\\hline
-Rand Forest & 232 & 557 & 339 & 256 & 200 \\ \hline
-SVM & 175 & 632 & 270 & 855 & 196 \\ \hline
+~& Highest & Highest &~&~&Lowest \\
+Classifier & Uncertainty & Confidence & Random & Entropy & Vote  \\\hline
+Rand Forest & 232 & 557 & 339 & 256 & 203 \\ \hline
+SVM & 175 & 632 & 270 & 855 & 195 \\ \hline
 \end{tabular}
 \caption{Number of queries required to reach 95\% accuracy}
 \end{table}

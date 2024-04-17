@@ -38,7 +38,7 @@ In this assignment, we implemented the following query strategies:
     \item \textbf{Highest Confidence:} Select instances for labeling based on the classifier's highest confidence in its predictions. The highest confidence is calculated as the highest predicted probability for each instance.
     \item \textbf{Least Confidence:} Select instances for labeling based on the classifier's least confidence in its predictions. The least confidence is calculated as the difference between the highest and second-highest predicted probabilities for each instance.    
     \item \textbf{Entropy Sampling:} Select instances for labeling based on the classifier's entropy of confidence in its predictions. The entropy is calculated as the negative sum of the predicted probabilities for each instance.
-    \item \textbf{Lowest Vote:} Select instances for labeling based on the disagreement among multiple classifiers. The committee consists of multiple classifiers trained on the labeled data, and the disagreement is calculated as the variance of the predicted probabilities for each instance.
+    \item \textbf{Lowest Vote:} Select instances for labeling based on the classifier's lowest vote in its predictions. The lowest vote is calculated as the lowest predicted probability for each instance.
 \end{itemize}
 
 \subsection{Expert}
