@@ -41,46 +41,6 @@
       \field{title}{Assignment\_9.pdf}
       \field{year}{2024}
     \endentry
-    \entry{tharwat2023survey}{article}{}
-      \name{author}{2}{}{%
-        {{hash=8db62a7cd281329eb4a66a0b4b986be8}{%
-           family={Tharwat},
-           familyi={T\bibinitperiod},
-           given={Alaa},
-           giveni={A\bibinitperiod}}}%
-        {{hash=39e3746155c30560bafa318f0e454887}{%
-           family={Schenck},
-           familyi={S\bibinitperiod},
-           given={Wolfram},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {MDPI}%
-      }
-      \strng{namehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
-      \strng{fullhash}{dc0a8e4e7df6cd713a6f378c21c0e828}
-      \strng{bibnamehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
-      \strng{authorbibnamehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
-      \strng{authornamehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
-      \strng{authorfullhash}{dc0a8e4e7df6cd713a6f378c21c0e828}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Mathematics}
-      \field{number}{4}
-      \field{title}{A survey on active learning: state-of-the-art, practical challenges and research directions}
-      \field{volume}{11}
-      \field{year}{2023}
-      \field{pages}{820}
-      \range{pages}{1}
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/math11040820
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/math11040820
-      \endverb
-    \endentry
   \enddatalist
 \endrefsection
 \endinput

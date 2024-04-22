@@ -1,10 +1,7 @@
-
 \section{Conclusion}
 
-We were succesful in implementing an active learning algorithm to train a classifier on a dataset of 60000 samples using only a small set of those samples. 
-The algorithm was able to reach a 95\% accuracy in far less than 1000 iterations.\par
-The SVM classifier performed better than the Random Forest classifier in most cases. 
-The highest uncertaintity query strategy was the most effective query strategy for the SVM classifier. 
-The lowest vote strategy was the most effective query strategy for the Random Forest classifier. The random query strategy proved to be a quite effective query strategy for both classifiers. 
-The entropy query strategy provided mixed results for each classifier.\par
-Due to the size of the graphs, they are added to the appendix.
+In this assignment, we implemented an active learning rare class discovery algorithm and evaluated its performance on the provided datasets. The results show that the active learning approach was able to discover all the classes in the dataset with significantly fewer queries compared to a random query strategy.
+
+The data visualization techniques, particularly the 3D t-SNE plot and the interactive movie, provided valuable insights into the structure of the datasets and helped inform the development of the active learning algorithm.
+
+Future work could involve exploring alternative query strategies, investigating the impact of different classifier models, and analyzing the performance of the algorithm on a wider range of datasets with varying levels of class imbalance and rarity.
