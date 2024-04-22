@@ -1,21 +1,18 @@
 
 \section{Results and Discussion}
+\subsection{Rare Class Discovery Performance}
+We ran the active learning rare class discovery algorithm on the provided datasets, tracking the number of classes discovered as a function of the number of queries. Figure~\ref{fig:classes_discovered} shows the results for both the active learning algorithm and a random query strategy.
 
-There were a total of 10 trining simulations ran for this assignment. These simulations were broken up by two classifiers and five query strategies.
- The classifiers used were the SVM and the Random Forest. The query strategies used were Random, highest uncertainty, highest confidence, entropy, and lowest vote. 
- The results of these simulations are shown in the following tables.
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=0.5\textwidth]{classes_discovered.png}
+%\caption{Number of Classes Discovered vs. Number of Queries}
+%\label{fig:classes_discovered}
+%\end{figure}
 
-\begin{table}[htbp]
-\centering
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-~& Highest & Highest &~&~&Lowest \\
-Classifier & Uncertainty & Confidence & Random & Entropy & Vote  \\\hline
-Rand Forest & 232 & 557 & 339 & 256 & 203 \\ \hline
-SVM & 175 & 632 & 270 & 855 & 195 \\ \hline
-\end{tabular}
-\caption{Number of queries required to reach 95\% accuracy}
-\end{table}
+The results indicate that the active learning algorithm was able to discover all the classes in the dataset with significantly fewer queries compared to the random query strategy. This demonstrates the effectiveness of the active learning approach in efficiently exploring the data and identifying rare classes.
 
-The training was performed to a stopping condition of either 95\% accuracy for the worst performing class or 1000 iterations.
-None of the simulations reached the 1000 iteration stopping condition. The SVM classifier performed better than the Random Forest classifier in most cases.
+\subsection{Insights from Data Visualization}
+The 2D and 3D t-SNE visualizations provided valuable insights into the structure of the datasets. The 3D t-SNE plot, in particular, allowed for a more nuanced understanding of the data, revealing potential clusters and outliers that were not as apparent in the 2D projection.
+
+The interactive 3D t-SNE movie further enhanced our ability to explore the data and gain a deeper understanding of the relationships between the different classes.
