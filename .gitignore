@@ -4,5 +4,4 @@ data/mnist/
 data/mnist_c/
 /data
 assignment 7/iforest_data.npz
-*.png
-assignment 9/report/resources/images/classes_discovered_KNeighborsClassifier_uncertainty_strategy_t-SNE 3D.png
+
