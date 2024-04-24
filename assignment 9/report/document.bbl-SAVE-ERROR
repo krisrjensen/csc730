@@ -1,0 +1,47 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{assignment9}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=a9f18d3185ffee52aaa3ca0b45ae2985}{%
+           family={Loveland},
+           familyi={L\bibinitperiod},
+           given={Rohan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{fullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{bibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorbibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authornamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorfullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{From SDSMT D2L Website}
+      \field{title}{Assignment\_9.pdf}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

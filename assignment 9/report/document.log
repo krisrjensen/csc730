@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  21 APR 2024 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.12)  23 APR 2024 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"h:/dev/git/csc730/assignment 9/report/document.tex"
-(h:/dev/git/csc730/assignment 9/report/document.tex
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-01>
+**"/Users/kjensen/Documents/GitHub/csc730/assignment 9/report/document.tex"
+(/Users/kjensen/Documents/GitHub/csc730/assignment 9/report/document.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
 (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -14,12 +14,12 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpdimenA=\dimen140
 \@IEEEtrantmpdimenB=\dimen141
 \@IEEEtrantmpdimenC=\dimen142
-\@IEEEtrantmpcountA=\count186
-\@IEEEtrantmpcountB=\count187
-\@IEEEtrantmpcountC=\count188
+\@IEEEtrantmpcountA=\count188
+\@IEEEtrantmpcountB=\count189
+\@IEEEtrantmpcountC=\count190
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(h:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -81,53 +81,53 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen156
 \IEEEiedmathlabelsep=\dimen157
 \IEEEiedtopsep=\skip48
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@IEEEsubequation=\count193
+\c@section=\count191
+\c@subsection=\count192
+\c@subsubsection=\count193
+\c@paragraph=\count194
+\c@IEEEsubequation=\count195
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\c@figure=\count194
-\c@table=\count195
-\@IEEEeqnnumcols=\count196
-\@IEEEeqncolcnt=\count197
-\@IEEEsubeqnnumrollback=\count198
+\c@figure=\count196
+\c@table=\count197
+\@IEEEeqnnumcols=\count198
+\@IEEEeqncolcnt=\count199
+\@IEEEsubeqnnumrollback=\count266
 \@IEEEquantizeheightA=\dimen158
 \@IEEEquantizeheightB=\dimen159
 \@IEEEquantizeheightC=\dimen160
 \@IEEEquantizeprevdepth=\dimen161
-\@IEEEquantizemultiple=\count199
+\@IEEEquantizemultiple=\count267
 \@IEEEquantizeboxA=\box51
 \@IEEEtmpitemindent=\dimen162
 \IEEEPARstartletwidth=\dimen163
-\c@IEEEbiography=\count266
+\c@IEEEbiography=\count268
 \@IEEEtranrubishbin=\box52
-) (./config/ieee-paper.sty (h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (./config/ieee-paper.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(h:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen164
-)) (h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen165
-) (h:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count267
+\inf@bad=\count269
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count268
-\leftroot@=\count269
+\uproot@=\count270
+\leftroot@=\count271
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count270
-\DOTSCASE@=\count271
+\classnum@=\count272
+\DOTSCASE@=\count273
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -140,20 +140,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count272
+\macc@depth=\count274
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count273
+\c@MaxMatrixCols=\count275
 \dotsspace@=\muskip16
-\c@parentequation=\count274
-\dspbrk@lvl=\count275
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
 \tag@help=\toks19
-\row@=\count276
-\column@=\count277
-\maxfields@=\count278
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
 \andhelp@=\toks20
 \eqnshift@=\dimen167
 \alignsep@=\dimen168
@@ -167,63 +167,63 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (h:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (h:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (h:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithmic.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (h:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (h:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-\c@ALC@unique=\count279
-\c@ALC@line=\count280
-\c@ALC@rem=\count281
-\c@ALC@depth=\count282
+\c@ALC@unique=\count281
+\c@ALC@line=\count282
+\c@ALC@rem=\count283
+\c@ALC@depth=\count284
 \ALC@tlm=\skip54
 \algorithmicindent=\skip55
-) (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (h:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (h:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (h:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (h:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
-) (h:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (h:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (h:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
- (h:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (h:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen175
 \lightrulewidth=\dimen176
@@ -235,46 +235,46 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen182
 \cmidrulekern=\dimen183
 \defaultaddspace=\dimen184
-\@cmidla=\count283
-\@cmidlb=\count284
+\@cmidla=\count285
+\@cmidlb=\count286
 \@aboverulesep=\dimen185
 \@belowrulesep=\dimen186
-\@thisruleclass=\count285
-\@lastruleclass=\count286
+\@thisruleclass=\count287
+\@lastruleclass=\count288
 \@thisrulewidth=\dimen187
-) (h:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
-) (h:/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
- (h:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
+\etb@tempcnta=\count289
 )
-\csq@reset=\count288
-\csq@gtype=\count289
-\csq@glevel=\count290
-\csq@qlevel=\count291
-\csq@maxlvl=\count292
-\csq@tshold=\count293
+\csq@reset=\count290
+\csq@gtype=\count291
+\csq@glevel=\count292
+\csq@qlevel=\count293
+\csq@maxlvl=\count294
+\csq@tshold=\count295
 \csq@ltx@everypar=\toks26
- (h:/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (h:/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (h:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/10/25 v3.96 The Babel package
-\babel@savecnt=\count294
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count296
 \U@D=\dimen188
 \l@unhyphenated=\language89
- (h:/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count295
- (h:/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
+\bbl@dirlevel=\count297
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -282,79 +282,79 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language23). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language23). Reported on input line 108.
-)) (h:/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (h:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (h:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (h:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (h:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (h:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (h:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (h:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (h:/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count296
- (h:/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count298
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (h:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count297
-\c@listtotal=\count298
-\c@listcount=\count299
-\c@liststart=\count300
-\c@liststop=\count301
-\c@citecount=\count302
-\c@citetotal=\count303
-\c@multicitecount=\count304
-\c@multicitetotal=\count305
-\c@instcount=\count306
-\c@maxnames=\count307
-\c@minnames=\count308
-\c@maxitems=\count309
-\c@minitems=\count310
-\c@citecounter=\count311
-\c@maxcitecounter=\count312
-\c@savedcitecounter=\count313
-\c@uniquelist=\count314
-\c@uniquename=\count315
-\c@refsection=\count316
-\c@refsegment=\count317
-\c@maxextratitle=\count318
-\c@maxextratitleyear=\count319
-\c@maxextraname=\count320
-\c@maxextradate=\count321
-\c@maxextraalpha=\count322
-\c@abbrvpenalty=\count323
-\c@highnamepenalty=\count324
-\c@lownamepenalty=\count325
-\c@maxparens=\count326
-\c@parenlevel=\count327
-\blx@tempcnta=\count328
-\blx@tempcntb=\count329
-\blx@tempcntc=\count330
-\c@blx@maxsection=\count331
-\blx@maxsegment@0=\count332
-\blx@notetype=\count333
-\blx@parenlevel@text=\count334
-\blx@parenlevel@foot=\count335
-\blx@sectionciteorder@0=\count336
-\blx@sectionciteorderinternal@0=\count337
-\blx@entrysetcounter=\count338
-\blx@biblioinstance=\count339
+\c@tabx@nest=\count299
+\c@listtotal=\count300
+\c@listcount=\count301
+\c@liststart=\count302
+\c@liststop=\count303
+\c@citecount=\count304
+\c@citetotal=\count305
+\c@multicitecount=\count306
+\c@multicitetotal=\count307
+\c@instcount=\count308
+\c@maxnames=\count309
+\c@minnames=\count310
+\c@maxitems=\count311
+\c@minitems=\count312
+\c@citecounter=\count313
+\c@maxcitecounter=\count314
+\c@savedcitecounter=\count315
+\c@uniquelist=\count316
+\c@uniquename=\count317
+\c@refsection=\count318
+\c@refsegment=\count319
+\c@maxextratitle=\count320
+\c@maxextratitleyear=\count321
+\c@maxextraname=\count322
+\c@maxextradate=\count323
+\c@maxextraalpha=\count324
+\c@abbrvpenalty=\count325
+\c@highnamepenalty=\count326
+\c@lownamepenalty=\count327
+\c@maxparens=\count328
+\c@parenlevel=\count329
+\blx@tempcnta=\count330
+\blx@tempcntb=\count331
+\blx@tempcntc=\count332
+\c@blx@maxsection=\count333
+\blx@maxsegment@0=\count334
+\blx@notetype=\count335
+\blx@parenlevel@text=\count336
+\blx@parenlevel@foot=\count337
+\blx@sectionciteorder@0=\count338
+\blx@sectionciteorderinternal@0=\count339
+\blx@entrysetcounter=\count340
+\blx@biblioinstance=\count341
 \labelnumberwidth=\skip56
 \labelalphawidth=\skip57
 \biblabelsep=\skip58
@@ -366,86 +366,86 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language90
-\c@mincomprange=\count340
-\c@maxcomprange=\count341
-\c@mincompwidth=\count342
+\c@mincomprange=\count342
+\c@maxcomprange=\count343
+\c@mincompwidth=\count344
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count343
-\c@savedafterword=\count344
-\c@annotator=\count345
-\c@savedannotator=\count346
-\c@author=\count347
-\c@savedauthor=\count348
-\c@bookauthor=\count349
-\c@savedbookauthor=\count350
-\c@commentator=\count351
-\c@savedcommentator=\count352
-\c@editor=\count353
-\c@savededitor=\count354
-\c@editora=\count355
-\c@savededitora=\count356
-\c@editorb=\count357
-\c@savededitorb=\count358
-\c@editorc=\count359
-\c@savededitorc=\count360
-\c@foreword=\count361
-\c@savedforeword=\count362
-\c@holder=\count363
-\c@savedholder=\count364
-\c@introduction=\count365
-\c@savedintroduction=\count366
-\c@namea=\count367
-\c@savednamea=\count368
-\c@nameb=\count369
-\c@savednameb=\count370
-\c@namec=\count371
-\c@savednamec=\count372
-\c@translator=\count373
-\c@savedtranslator=\count374
-\c@shortauthor=\count375
-\c@savedshortauthor=\count376
-\c@shorteditor=\count377
-\c@savedshorteditor=\count378
-\c@labelname=\count379
-\c@savedlabelname=\count380
-\c@institution=\count381
-\c@savedinstitution=\count382
-\c@lista=\count383
-\c@savedlista=\count384
-\c@listb=\count385
-\c@savedlistb=\count386
-\c@listc=\count387
-\c@savedlistc=\count388
-\c@listd=\count389
-\c@savedlistd=\count390
-\c@liste=\count391
-\c@savedliste=\count392
-\c@listf=\count393
-\c@savedlistf=\count394
-\c@location=\count395
-\c@savedlocation=\count396
-\c@organization=\count397
-\c@savedorganization=\count398
-\c@origlocation=\count399
-\c@savedoriglocation=\count400
-\c@origpublisher=\count401
-\c@savedorigpublisher=\count402
-\c@publisher=\count403
-\c@savedpublisher=\count404
-\c@language=\count405
-\c@savedlanguage=\count406
-\c@origlanguage=\count407
-\c@savedoriglanguage=\count408
-\c@pageref=\count409
-\c@savedpageref=\count410
+\c@afterword=\count345
+\c@savedafterword=\count346
+\c@annotator=\count347
+\c@savedannotator=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@bookauthor=\count351
+\c@savedbookauthor=\count352
+\c@commentator=\count353
+\c@savedcommentator=\count354
+\c@editor=\count355
+\c@savededitor=\count356
+\c@editora=\count357
+\c@savededitora=\count358
+\c@editorb=\count359
+\c@savededitorb=\count360
+\c@editorc=\count361
+\c@savededitorc=\count362
+\c@foreword=\count363
+\c@savedforeword=\count364
+\c@holder=\count365
+\c@savedholder=\count366
+\c@introduction=\count367
+\c@savedintroduction=\count368
+\c@namea=\count369
+\c@savednamea=\count370
+\c@nameb=\count371
+\c@savednameb=\count372
+\c@namec=\count373
+\c@savednamec=\count374
+\c@translator=\count375
+\c@savedtranslator=\count376
+\c@shortauthor=\count377
+\c@savedshortauthor=\count378
+\c@shorteditor=\count379
+\c@savedshorteditor=\count380
+\c@labelname=\count381
+\c@savedlabelname=\count382
+\c@institution=\count383
+\c@savedinstitution=\count384
+\c@lista=\count385
+\c@savedlista=\count386
+\c@listb=\count387
+\c@savedlistb=\count388
+\c@listc=\count389
+\c@savedlistc=\count390
+\c@listd=\count391
+\c@savedlistd=\count392
+\c@liste=\count393
+\c@savedliste=\count394
+\c@listf=\count395
+\c@savedlistf=\count396
+\c@location=\count397
+\c@savedlocation=\count398
+\c@organization=\count399
+\c@savedorganization=\count400
+\c@origlocation=\count401
+\c@savedoriglocation=\count402
+\c@origpublisher=\count403
+\c@savedorigpublisher=\count404
+\c@publisher=\count405
+\c@savedpublisher=\count406
+\c@language=\count407
+\c@savedlanguage=\count408
+\c@origlanguage=\count409
+\c@savedoriglanguage=\count410
+\c@pageref=\count411
+\c@savedpageref=\count412
 \shorthandwidth=\skip64
 \shortjournalwidth=\skip65
 \shortserieswidth=\skip66
@@ -462,58 +462,58 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip77
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count411
-\c@textcitetotal=\count412
-\c@textcitemaxnames=\count413
-\c@biburlbigbreakpenalty=\count414
-\c@biburlbreakpenalty=\count415
-\c@biburlnumpenalty=\count416
-\c@biburlucpenalty=\count417
-\c@biburllcpenalty=\count418
+\c@textcitecount=\count413
+\c@textcitetotal=\count414
+\c@textcitemaxnames=\count415
+\c@biburlbigbreakpenalty=\count416
+\c@biburlbreakpenalty=\count417
+\c@biburlnumpenalty=\count418
+\c@biburlucpenalty=\count419
+\c@biburllcpenalty=\count420
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count419
+\c@smartand=\count421
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count420
-\c@bbx:relatedtotal=\count421
+\c@bbx:relatedcount=\count422
+\c@bbx:relatedtotal=\count423
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
 File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count422
-\c@cbx@tempcntb=\count423
-\c@cbx@tempcntc=\count424
-\c@cbx@tempcntd=\count425
+\c@cbx@tempcnta=\count424
+\c@cbx@tempcntb=\count425
+\c@cbx@tempcntc=\count426
+\c@cbx@tempcntd=\count427
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -532,68 +532,68 @@ Package biblatex Info: Redefining '\cites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (h:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-11-01 L3 programming layer (loader) 
- (h:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count426
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count428
 \l__pdf_internal_box=\box55
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2023-11-01 L3 programming layer (loader) 
+(biblatex)             2024-02-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (h:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (h:/texlive/2023/texmf-dist/tex/latex/svg/svg.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
- (h:/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
 Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (h:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
- (h:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
- (h:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-) (h:/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-) (h:/texlive/2023/texmf-dist/tex/latex/tools/shellesc.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count427
+\c@svg@param@lastpage=\count429
 \svg@box=\box56
-\c@svg@param@currpage=\count428
-) (h:/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
+\c@svg@param@currpage=\count430
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
- (h:/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
- (h:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-))) (h:/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (h:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (h:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+))) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks27
 \pgfutil@tempdima=\dimen189
 \pgfutil@tempdimb=\dimen190
-) (h:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box57
-) (h:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (h:/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
-)) (h:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (h:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
- (h:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks30
 ))
 \pgf@x=\dimen191
@@ -608,43 +608,43 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen256
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count429
-\c@pgf@countb=\count430
-\c@pgf@countc=\count431
-\c@pgf@countd=\count432
+\c@pgf@counta=\count431
+\c@pgf@countb=\count432
+\c@pgf@countc=\count433
+\c@pgf@countd=\count434
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count433
- (h:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+\pgf@sys@id@count=\count435
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (h:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (h:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (h:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count434
-\pgfsyssoftpath@bigbuffer@items=\count435
-) (h:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+\pgfsyssoftpath@smallbuffer@items=\count436
+\pgfsyssoftpath@bigbuffer@items=\count437
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (h:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
- (h:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (h:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (h:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count436
+\XKV@depth=\count438
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (h:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (h:/texlive/2023/texmf-dist/tex/latex/adjustbox/trimclip.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (h:/texlive/2023/texmf-dist/tex/latex/collectbox/collectbox.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box58
 )
@@ -653,7 +653,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen259
 \tc@ury=\dimen260
 Package trimclip Info: Using driver 'tc-pdftex.def'.
- (h:/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen261
@@ -664,23 +664,23 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen266
 \adjbox@pdepth=\dimen267
 \adjbox@ptotalheight=\dimen268
- (h:/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count437
-) (h:/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
+\c@checkoddpage=\count439
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box59
-\sift@deathcycles=\count438
+\sift@deathcycles=\count440
 \@vwid@loff=\dimen269
 \@vwid@roff=\dimen270
-))) (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (h:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+))) (/usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count439
-\l__lipsum_a_int=\count440
-\l__lipsum_b_int=\count441
- (h:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./config/hyphenation.tex)
+\g__lipsum_par_int=\count441
+\l__lipsum_a_int=\count442
+\l__lipsum_b_int=\count443
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./config/hyphenation.tex)
 ** ATTENTION: Overriding command lockouts (line 8).
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -705,28 +705,28 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 
 -- Lines per column: 56 (exact).
-(h:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count442
+\scratchcounter=\count444
 \scratchdimen=\dimen271
 \scratchbox=\box60
-\nofMPsegments=\count443
-\nofMParguments=\count444
+\nofMPsegments=\count445
+\nofMParguments=\count446
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count445
+\MPscratchCnt=\count447
 \MPscratchDim=\dimen272
-\MPnumerator=\count446
-\makeMPintoPDFobject=\count447
+\MPnumerator=\count448
+\makeMPintoPDFobject=\count449
 \everyMPtoPDFconversion=\toks37
-) (h:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (h:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (h:/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -741,17 +741,23 @@ Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
  (./chapters/authors.tex) (./chapters/introduction.tex) (./chapters/methodology.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
- (h:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
- (h:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 21.
- (h:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+
+LaTeX Warning: Reference `fig:tsne_2d' on page 1 undefined on input line 32.
+
+
+LaTeX Warning: Reference `fig:tsne_3d' on page 1 undefined on input line 32.
+
 <resources/images/tsne_2d.png, id=4, 745.1037pt x 639.5895pt>
 File: resources/images/tsne_2d.png Graphic file (type png)
 <use resources/images/tsne_2d.png>
@@ -776,60 +782,748 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 43--44
 
 LaTeX Warning: Reference `fig:classes_discovered' on page 1 undefined on input line 4.
 
-[1{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{h:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]) (./chapters/conclusion.tex) (./chapters/appendix.tex [2 <./resources/images/tsne_2d.png> <./resources/images/tsne_3d.png>]
-<resources/images/active_learning_RandomForestClassifier_default_strategy_average.png, id=22, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_default_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_default_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_default_strategy_average.png  used on input line 9.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png, id=23, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png  used on input line 15.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_random_strategy_average.png, id=24, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_random_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_random_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_random_strategy_average.png  used on input line 21.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png, id=25, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png  used on input line 27.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png, id=26, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png  used on input line 33.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_default_strategy_average.png, id=27, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_default_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_default_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_default_strategy_average.png  used on input line 39.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_uncertainty_strategy_average.png, id=28, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_uncertainty_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_uncertainty_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_uncertainty_strategy_average.png  used on input line 45.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_random_strategy_average.png, id=29, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_random_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_random_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_random_strategy_average.png  used on input line 51.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_entropy_strategy_average.png, id=30, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_entropy_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_entropy_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_entropy_strategy_average.png  used on input line 57.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_lowest_vote_strategy_average.png, id=31, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_lowest_vote_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_lowest_vote_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_lowest_vote_strategy_average.png  used on input line 63.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
+]
+./chapters/results.tex:26: Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.26 ...5}{|l|}{\textbf{Data preparation TSNE 2D}}
+                                                   \
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:26: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.26 ...5}{|l|}{\textbf{Data preparation TSNE 2D}}
+                                                   \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:27: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.27 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:27: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.27 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:27: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.27 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:27: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.27 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:29: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.29 RandomForestClassifier randomstrategy &
+                                             49 & 81 & 118 & 129 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:30: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.30 KNeighborsClassifier randomstrategy & 57 &
+                                                86 & 119 & 132 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:31: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.31 SVC uncertaintystrategy & 84 & 136 &
+                                          148 & 151 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:32: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.32 ...ier uncertaintystrategy & 86 & 117 & 152 &
+                                                   153 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:34: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.34 SVC knnk10mahalanobisuncertaintystrategy &
+                                                51 & 90 & 121 & 132 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:35: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.35 ...nnk10mahalanobisuncertaintystrategy & 73 &
+                                                   96 & 123 & 129 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:36: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.36 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:36: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.36 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:36: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.36 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:36: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.36 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:37: Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.37 ...5}{|l|}{\textbf{Data preparation TSNE 3D}}
+                                                   \
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:38: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.38 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:38: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.38 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:38: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.38 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:38: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.38 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:39: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.39 ...nnk10mahalanobisuncertaintystrategy & 60 &
+                                                   84 & 113 & 130 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:40: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.40 SVC randomstrategy & 54 & 80 &
+                                    115 & 125 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:41: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.41 ...lassifier randomstrategy & 53 & 86 & 127 &
+                                                   139 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:43: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.43 SVC uncertaintystrategy &
+                               92 & 135 & 148 & 150 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:44: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.44 ...orestClassifier uncertaintystrategy & 95 &
+                                                   126 & 150 & 157 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:45: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.45 ...lassifier uncertaintystrategy & 92 & 124 &
+                                                   129 & 137 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:46: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.46 ...nobisuncertaintystrategy & 58 & 90 & 128 &
+                                                   139 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:48: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.48 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:48: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.48 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:48: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.48 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:48: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.48 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:49: Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.49 ...5}{|l|}{\textbf{Data preparation PCA 10D}}
+                                                   \
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:49: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.49 ...5}{|l|}{\textbf{Data preparation PCA 10D}}
+                                                   \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:50: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.50 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:50: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.50 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:50: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.50 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:50: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.50 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:52: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.52 SVC randomstrategy &
+                          59 & 99 & 122 & 136 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:53: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.53 RandomForestClassifier randomstrategy & 57 &
+                                                  96 & 129 & 137 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:54: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.54 ...hborsClassifier randomstrategy & 53 & 83 &
+                                                   125 & 134 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:55: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.55 SVC uncertaintystrategy & 92 & 135 & 158 &
+                                                159 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 KNeighborsClassifier uncertaintystrategy &
+                                                18 & 81 & 127 & 151 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:58: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.58 ...nnk10mahalanobisuncertaintystrategy & 59 &
+                                                   91 & 119 & 131 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:59: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.59 ...mahalanobisuncertaintystrategy & 51 & 79 &
+                                                   122 & 128 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:60: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.60 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:60: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.60 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:60: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.60 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:60: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.60 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:61: Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.61 \multicolumn{5}{|l|}{\textbf{Raw Data}}
+                                             \
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:62: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.62 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:62: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.62 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:62: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.62 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:62: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.62 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/results.tex:63: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.63 ...mahalanobisuncertaintystrategy & 54 & 88 &
+                                                   118 & 130 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:64: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.64 SVC randomstrategy & 45 & 83 & 122 &
+                                          134 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:66: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.66 KNeighborsClassifier randomstrategy &
+                                           49 & 81 & 128 & 135 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:67: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.67 SVC uncertaintystrategy & 98 &
+                                    133 & 155 & 157 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:68: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.68 ...lassifier uncertaintystrategy & 88 & 133 &
+                                                   150 & 156 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:69: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.69 ...fier uncertaintystrategy & 47 & 69 & 138 &
+                                                   142 \
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./chapters/results.tex:70: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.70 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./chapters/results.tex:70: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.70 \hline
+           
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/results.tex:70: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.70 \hline
+           
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/results.tex:70: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.70 \hline
+           
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (897.4717pt too wide) in paragraph at lines 22--72
+ [][] 
+ []
+
+) (./chapters/conclusion.tex) [2 <./resources/images/tsne_2d.png> <./resources/images/tsne_3d.png>] (./chapters/appendix.tex [3
+
+]
+
+LaTeX Warning: File `resources/images/active_learning_RandomForestClassifier_default_strategy_average.png' not found on input line 9.
+
+
+./chapters/appendix.tex:9: Package pdftex.def Error: File `resources/images/active_learning_RandomForestClassifier_default_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...estClassifier_default_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png' not found on input line 15.
+
+
+./chapters/appendix.tex:15: Package pdftex.def Error: File `resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...assifier_uncertainty_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_RandomForestClassifier_random_strategy_average.png' not found on input line 21.
+
+
+./chapters/appendix.tex:21: Package pdftex.def Error: File `resources/images/active_learning_RandomForestClassifier_random_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...estClassifier_random_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png' not found on input line 27.
+
+
+./chapters/appendix.tex:27: Package pdftex.def Error: File `resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...stClassifier_entropy_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png' not found on input line 33.
+
+
+./chapters/appendix.tex:33: Package pdftex.def Error: File `resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...assifier_lowest_vote_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_SVC_default_strategy_average.png' not found on input line 39.
+
+
+./chapters/appendix.tex:39: Package pdftex.def Error: File `resources/images/active_learning_SVC_default_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...learning_SVC_default_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_SVC_uncertainty_strategy_average.png' not found on input line 45.
+
+
+./chapters/appendix.tex:45: Package pdftex.def Error: File `resources/images/active_learning_SVC_uncertainty_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...ning_SVC_uncertainty_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_SVC_random_strategy_average.png' not found on input line 51.
+
+
+./chapters/appendix.tex:51: Package pdftex.def Error: File `resources/images/active_learning_SVC_random_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ..._learning_SVC_random_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_SVC_entropy_strategy_average.png' not found on input line 57.
+
+
+./chapters/appendix.tex:57: Package pdftex.def Error: File `resources/images/active_learning_SVC_entropy_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...learning_SVC_entropy_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `resources/images/active_learning_SVC_lowest_vote_strategy_average.png' not found on input line 63.
+
+
+./chapters/appendix.tex:63: Package pdftex.def Error: File `resources/images/active_learning_SVC_lowest_vote_strategy_average.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...ning_SVC_lowest_vote_strategy_average.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 )
 
 ** Conference Paper **
@@ -842,34 +1536,42 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
- <./resources/images/active_learning_RandomForestClassifier_default_strategy_average.png>] [4 <./resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png>] [5 <./resources/images/active_learning_RandomForestClassifier_random_strategy_average.png>] [6 <./resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png>] [7 <./resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png>] [8 <./resources/images/active_learning_SVC_default_strategy_average.png>] [9 <./resources/images/active_learning_SVC_uncertainty_strategy_average.png>] [10 <./resources/images/active_learning_SVC_random_strategy_average.png>] [11 <./resources/images/active_learning_SVC_entropy_strategy_average.png>] [12 <./resources/images/active_learning_SVC_lowest_vote_strategy_average.png>] (./document.aux)
+] [5] [6] [7] [8] [9] [10] [11] [12] [13] (./document.aux)
  ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-01>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
  ***********
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                document
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17664 strings out of 474271
- 338752 string characters out of 5751521
- 1940533 words of memory out of 5000000
- 39569 multiletter control sequences out of 15000+600000
- 588554 words of font info for 93 fonts, out of 8000000 for 9000
+ 17915 strings out of 474116
+ 361949 string characters out of 5743682
+ 1957187 words of memory out of 5000000
+ 39965 multiletter control sequences out of 15000+600000
+ 594485 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,8n,107p,1105b,1756s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (12 pages, 1909661 bytes).
+ 109i,9n,107p,1126b,1759s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on document.pdf (13 pages, 485283 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
