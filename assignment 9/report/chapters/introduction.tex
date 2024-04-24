@@ -1,0 +1,24 @@
+\section{Introduction}
+%TODO: discussion of the problem and its significance
+The goal of this assignment is to discover all the classes in the provided datasets with as few queries to the oracle as possible, using the information gained along the way to inform the choice of which point to query next. This is in contrast to the previous assignment~\cite{assignment8}, where the goal was to build a classifier with high accuracy.
+
+%TODO: description of active learning
+Active learning is a machine learning paradigm that aims to reduce the amount of labeled data required to train a model. In active learning, the model is allowed to query the user for labels of instances that it is uncertain about. This allows the model to focus on the most informative instances, reducing the need for large amounts of labeled data~\cite{tharwat2023survey}.
+
+%TODO: description of rare class discovery
+Rare class discovery is the task of identifying all the classes in a dataset, even if some of the classes are represented by only a few instances. This is particularly challenging when the dataset is imbalanced, with some classes being much rarer than others~\cite{zhou2023rare}.
+
+%TODO: description of the datasets
+The datasets used in this assignment were provided by the instructor. They include the MNIST-C derived dataset and the MNIST-skewed dataset. The MNIST-C dataset is a corrupted version of the original MNIST dataset, while the MNIST-skewed dataset has a skewed distribution of the classes. Importantly, the non-corrupted MNIST dataset used in this assignment has a balanced number of entries for each class.
+
+The requirements for this assignment are as follows~\cite{assignment9}.
+\begin{enumerate}    
+    \item Get the provided datasets from D2L. Then for each dataset:
+    \item Visualize the data w/ labels using 2 or 3-D tSNE.
+    \item Write your own version of an active learning rare class discovery algorithm.
+    \item Run your code on the dataset and keep track of the number of classes discovered vs. number of queries.
+    \item Plot that (\# classes discovered vs. \# queries).
+    \item Rerun the same experiment using a random query strategy.
+    \item Plot the results from the random algorithm on the same plot.    
+\end{enumerate}
+

@@ -1,0 +1,145 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{assignment8}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=a9f18d3185ffee52aaa3ca0b45ae2985}{%
+           family={Loveland},
+           familyi={L\bibinitperiod},
+           given={Rohan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{fullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{bibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorbibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authornamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorfullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{From SDSMT D2L Website}
+      \field{title}{Assignment\_8.pdf}
+      \field{year}{2024}
+    \endentry
+    \entry{tharwat2023survey}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8db62a7cd281329eb4a66a0b4b986be8}{%
+           family={Tharwat},
+           familyi={T\bibinitperiod},
+           given={Alaa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39e3746155c30560bafa318f0e454887}{%
+           family={Schenck},
+           familyi={S\bibinitperiod},
+           given={Wolfram},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
+      \strng{fullhash}{dc0a8e4e7df6cd713a6f378c21c0e828}
+      \strng{bibnamehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
+      \strng{authorbibnamehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
+      \strng{authornamehash}{dc0a8e4e7df6cd713a6f378c21c0e828}
+      \strng{authorfullhash}{dc0a8e4e7df6cd713a6f378c21c0e828}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics}
+      \field{number}{4}
+      \field{title}{A survey on active learning: state-of-the-art, practical challenges and research directions}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{820}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/math11040820
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/math11040820
+      \endverb
+    \endentry
+    \entry{zhou2023rare}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f8a3af2c1c0ac62d6ba238c7e62d60df}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Dawei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ea7bdf20fe091d1e71ea405a122559a5}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jingrui},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY}%
+      }
+      \strng{namehash}{75938231229aa13446552abec908efd8}
+      \strng{fullhash}{75938231229aa13446552abec908efd8}
+      \strng{bibnamehash}{75938231229aa13446552abec908efd8}
+      \strng{authorbibnamehash}{75938231229aa13446552abec908efd8}
+      \strng{authornamehash}{75938231229aa13446552abec908efd8}
+      \strng{authorfullhash}{75938231229aa13446552abec908efd8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{5}
+      \field{title}{Rare Category Analysis for Complex Data: A Review}
+      \field{volume}{56}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+    \endentry
+    \entry{assignment9}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=a9f18d3185ffee52aaa3ca0b45ae2985}{%
+           family={Loveland},
+           familyi={L\bibinitperiod},
+           given={Rohan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{fullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{bibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorbibnamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authornamehash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \strng{authorfullhash}{a9f18d3185ffee52aaa3ca0b45ae2985}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{From SDSMT D2L Website}
+      \field{title}{Assignment\_9.pdf}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
