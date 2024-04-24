@@ -1,7 +1,8 @@
 
 \section{Results and Discussion}
 \subsection{Rare Class Discovery Performance}
-We ran the active learning rare class discovery algorithm on the provided datasets, tracking the number of classes discovered as a function of the number of queries. Figure~\ref{fig:classes_discovered} shows the results for both the active learning algorithm and a random query strategy.
+We ran the active learning rare class discovery algorithm on the provided datasets, tracking the number of classes discovered as a function of the number of queries. Figures~\ref{fig:classes_discovered_begin} to \ref{fig:classes_discovered_end} shows the results for both phases of our discovery. The results are consistent with our expectations, showing that the active learning algorithm was able to discover all the classes in the dataset with significantly fewer queries compared to the random query strategy. 
+This demonstrates the effectiveness of the active learning approach in efficiently exploring the data and identifying rare classes. We only ran our experiments to 2000 iterations, but we could have run them for more iterations to see if the active learning algorithm would have discovered all the classes in the dataset with even fewer queries. The total compute time for this assignment exceeded 60 hours of single-core time between two data analysis compute machines.
 
 %\begin{figure}[htbp]
 %\centering
@@ -16,59 +17,85 @@ The results indicate that the active learning algorithm was able to discover all
 The 2D and 3D t-SNE visualizations provided valuable insights into the structure of the datasets. The 3D t-SNE plot, in particular, allowed for a more nuanced understanding of the data, revealing potential clusters and outliers that were not as apparent in the 2D projection.
 
 The interactive 3D t-SNE movie further enhanced our ability to explore the data and gain a deeper understanding of the relationships between the different classes.
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Method} & \textbf{500} & \textbf{1000} & \textbf{1500} & \textbf{2000} \\
+    \hline
+    SVC random & 45 & 83 & 122 & 134 \\
+    RandomForest random & 58 & 86 & 124 & 139 \\
+    KNeighbors random & 49 & 81 & 128 & 135 \\
+    SVC uncertainty & 98 & 133 & 155 & 157 \\
+    RandomForest uncertainty & 88 & 133 & 150 & 156 \\
+    KNeighbors uncertainty & 47 & 69 & 138 & 142 \\
+    \hline
+    \end{tabular}
+    \caption{Performance comparison of different methods for Data preparation Raw Data}
+    \label{tab:raw_data}
+\end{table}
 
 \begin{table}[htbp]
     \centering
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Method} & \textbf{25} & \textbf{50} & \textbf{75} & \textbf{100} \
-\hline
-\multicolumn{5}{|l|}{\textbf{Data preparation TSNE 2D}} \
-\hline
-SVC randomstrategy & 49 & 84 & 124 & 134 \
-RandomForestClassifier randomstrategy & 49 & 81 & 118 & 129 \
-KNeighborsClassifier randomstrategy & 57 & 86 & 119 & 132 \
-SVC uncertaintystrategy & 84 & 136 & 148 & 151 \
-RandomForestClassifier uncertaintystrategy & 86 & 117 & 152 & 153 \
-KNeighborsClassifier uncertaintystrategy & 77 & 116 & 132 & 138 \
-SVC knnk10mahalanobisuncertaintystrategy & 51 & 90 & 121 & 132 \
-RandomForestClassifier knnk10mahalanobisuncertaintystrategy & 73 & 96 & 123 & 129 \
-\hline
-\multicolumn{5}{|l|}{\textbf{Data preparation TSNE 3D}} \
-\hline
-KNeighborsClassifier knnk10mahalanobisuncertaintystrategy & 60 & 84 & 113 & 130 \
-SVC randomstrategy & 54 & 80 & 115 & 125 \
-RandomForestClassifier randomstrategy & 53 & 86 & 127 & 139 \
-KNeighborsClassifier randomstrategy & 61 & 84 & 125 & 130 \
-SVC uncertaintystrategy & 92 & 135 & 148 & 150 \
-RandomForestClassifier uncertaintystrategy & 95 & 126 & 150 & 157 \
-KNeighborsClassifier uncertaintystrategy & 92 & 124 & 129 & 137 \
-SVC knnk10mahalanobisuncertaintystrategy & 58 & 90 & 128 & 139 \
-RandomForestClassifier knnk10mahalanobisuncertaintystrategy & 63 & 82 & 122 & 135 \
-\hline
-\multicolumn{5}{|l|}{\textbf{Data preparation PCA 10D}} \
-\hline
-KNeighborsClassifier knnk10mahalanobisuncertaintystrategy & 56 & 90 & 130 & 135 \
-SVC randomstrategy & 59 & 99 & 122 & 136 \
-RandomForestClassifier randomstrategy & 57 & 96 & 129 & 137 \
-KNeighborsClassifier randomstrategy & 53 & 83 & 125 & 134 \
-SVC uncertaintystrategy & 92 & 135 & 158 & 159 \
-RandomForestClassifier uncertaintystrategy & 107 & 139 & 155 & 158 \
-KNeighborsClassifier uncertaintystrategy & 18 & 81 & 127 & 151 \
-SVC knnk10mahalanobisuncertaintystrategy & 59 & 91 & 119 & 131 \
-RandomForestClassifier knnk10mahalanobisuncertaintystrategy & 51 & 79 & 122 & 128 \
-\hline
-\multicolumn{5}{|l|}{\textbf{Raw Data}} \
-\hline
-KNeighborsClassifier knnk10mahalanobisuncertaintystrategy & 54 & 88 & 118 & 130 \
-SVC randomstrategy & 45 & 83 & 122 & 134 \
-RandomForestClassifier randomstrategy & 58 & 86 & 124 & 139 \
-KNeighborsClassifier randomstrategy & 49 & 81 & 128 & 135 \
-SVC uncertaintystrategy & 98 & 133 & 155 & 157 \
-RandomForestClassifier uncertaintystrategy & 88 & 133 & 150 & 156 \
-KNeighborsClassifier uncertaintystrategy & 47 & 69 & 138 & 142 \
-\hline
-\end{tabular}
-\caption{Performance comparison of different methods across various data preparations}
-\label{tab:performance_comparison}
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Method} & \textbf{500} & \textbf{1000} & \textbf{1500} & \textbf{2000} \\
+    \hline
+    SVC random & 59 & 99 & 122 & 136 \\
+    RandomForest random & 57 & 96 & 129 & 137 \\
+    KNeighbors random & 53 & 83 & 125 & 134 \\
+    SVC uncertainty & 92 & 135 & 158 & 159 \\
+    RandomForest uncertainty & 107 & 139 & 155 & 158 \\
+    KNeighbors uncertainty & 18 & 81 & 127 & 151 \\
+    SVC mahalanobis uncertainty & 59 & 91 & 119 & 131 \\
+    RandomForest mahalanobis uncertainty & 51 & 79 & 122 & 128 \\
+    KNeighbors mahalanobis uncertainty & 54 & 88 & 118 & 130 \\
+    \hline
+    \end{tabular}
+    \caption{Performance comparison of different methods for Data preparation PCA 10D}
+    \label{tab:pca_10d}
 \end{table}
+
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Method} & \textbf{500} & \textbf{1000} & \textbf{1500} & \textbf{2000} \\
+    \hline
+    SVC random & 54 & 80 & 115 & 125 \\
+    RandomForest random & 53 & 86 & 127 & 139 \\
+    KNeighbors random & 61 & 84 & 125 & 130 \\
+    SVC uncertainty & 92 & 135 & 148 & 150 \\
+    RandomForest uncertainty & 95 & 126 & 150 & 157 \\
+    KNeighbors uncertainty & 92 & 124 & 129 & 137 \\
+    SVC mahalanobis uncertainty & 58 & 90 & 128 & 139 \\
+    RandomForest mahalanobis uncertainty & 63 & 82 & 122 & 135 \\
+    KNeighbors mahalanobis uncertainty & 56 & 90 & 130 & 135 \\
+    \hline
+    \end{tabular}
+    \caption{Performance comparison of different methods for Data preparation TSNE 3D}
+    \label{tab:tsne_3d}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Method} & \textbf{500} & \textbf{1000} & \textbf{1500} & \textbf{2000} \\
+    \hline
+    SVC random & 49 & 84 & 124 & 134 \\
+    RandomForest random & 49 & 81 & 118 & 129 \\
+    KNeighbors random & 57 & 86 & 119 & 132 \\
+    SVC uncertainty & 84 & 136 & 148 & 151 \\
+    RandomForest uncertainty & 86 & 117 & 152 & 153 \\
+    KNeighbors uncertainty & 77 & 116 & 132 & 138 \\
+    SVC mahalanobis uncertainty & 51 & 90 & 121 & 132 \\
+    RandomForest mahalanobis uncertainty & 73 & 96 & 123 & 129 \\
+    KNeighbors mahalanobis uncertainty & 60 & 84 & 113 & 130 \\
+    \hline
+    \end{tabular}
+    \caption{Performance comparison of different methods for Data preparation TSNE 2D}
+    \label{tab:tsne_2d}
+\end{table}
+

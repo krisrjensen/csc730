@@ -2366,7 +2366,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">assignment9</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">assignment8</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">tharwat2023survey</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">zhou2023rare</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">assignment9</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
