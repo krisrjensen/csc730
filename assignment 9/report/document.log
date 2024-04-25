@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  21 APR 2024 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.4)  23 APR 2024 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -748,89 +748,87 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
  (h:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 21.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 35.
  (h:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<resources/images/tsne_2d.png, id=4, 745.1037pt x 639.5895pt>
+) [1{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{h:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<resources/images/tsne_2d.png, id=13, 745.1037pt x 639.5895pt>
 File: resources/images/tsne_2d.png Graphic file (type png)
 <use resources/images/tsne_2d.png>
-Package pdftex.def Info: resources/images/tsne_2d.png  used on input line 36.
+Package pdftex.def Info: resources/images/tsne_2d.png  used on input line 50.
 (pdftex.def)             Requested size: 258.0pt x 221.45888pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 36--37
+Overfull \hbox (6.0pt too wide) in paragraph at lines 50--51
  [][] 
  []
 
-<resources/images/tsne_3d.png, id=6, 722.7pt x 722.7pt>
+<resources/images/tsne_3d.png, id=15, 722.7pt x 722.7pt>
 File: resources/images/tsne_3d.png Graphic file (type png)
 <use resources/images/tsne_3d.png>
-Package pdftex.def Info: resources/images/tsne_3d.png  used on input line 43.
+Package pdftex.def Info: resources/images/tsne_3d.png  used on input line 57.
 (pdftex.def)             Requested size: 258.0pt x 257.99937pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 43--44
+Overfull \hbox (6.0pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
-) (./chapters/results.tex
+) (./chapters/results.tex) (./chapters/conclusion.tex [2 <./resources/images/tsne_2d.png> <./resources/images/tsne_3d.png>]) (./chapters/appendix.tex [3]
+<resources/images/rev2_classes_discovered_raw_data.png, id=25, 726.3135pt x 744.381pt>
+File: resources/images/rev2_classes_discovered_raw_data.png Graphic file (type png)
+<use resources/images/rev2_classes_discovered_raw_data.png>
+Package pdftex.def Info: resources/images/rev2_classes_discovered_raw_data.png  used on input line 9.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/rev2_classes_discovered_10d.png, id=26, 726.3135pt x 744.381pt>
+File: resources/images/rev2_classes_discovered_10d.png Graphic file (type png)
+<use resources/images/rev2_classes_discovered_10d.png>
+Package pdftex.def Info: resources/images/rev2_classes_discovered_10d.png  used on input line 16.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/rev2_classes_discovered_tsne3d.png, id=27, 726.3135pt x 744.381pt>
+File: resources/images/rev2_classes_discovered_tsne3d.png Graphic file (type png)
+<use resources/images/rev2_classes_discovered_tsne3d.png>
+Package pdftex.def Info: resources/images/rev2_classes_discovered_tsne3d.png  used on input line 22.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/rev2_classes_discovered_tsne2d.png, id=28, 726.3135pt x 744.381pt>
+File: resources/images/rev2_classes_discovered_tsne2d.png Graphic file (type png)
+<use resources/images/rev2_classes_discovered_tsne2d.png>
+Package pdftex.def Info: resources/images/rev2_classes_discovered_tsne2d.png  used on input line 28.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/classes_discovered_pca_2d.png, id=29, 726.3135pt x 744.381pt>
+File: resources/images/classes_discovered_pca_2d.png Graphic file (type png)
+<use resources/images/classes_discovered_pca_2d.png>
+Package pdftex.def Info: resources/images/classes_discovered_pca_2d.png  used on input line 34.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/classes_discovered_pca_3d.png, id=30, 726.3135pt x 744.381pt>
+File: resources/images/classes_discovered_pca_3d.png Graphic file (type png)
+<use resources/images/classes_discovered_pca_3d.png>
+Package pdftex.def Info: resources/images/classes_discovered_pca_3d.png  used on input line 40.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/classes_discovered_pca_4d.png, id=31, 726.3135pt x 744.381pt>
+File: resources/images/classes_discovered_pca_4d.png Graphic file (type png)
+<use resources/images/classes_discovered_pca_4d.png>
+Package pdftex.def Info: resources/images/classes_discovered_pca_4d.png  used on input line 46.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/classes_discovered_pca_5d.png, id=32, 726.3135pt x 744.381pt>
+File: resources/images/classes_discovered_pca_5d.png Graphic file (type png)
+<use resources/images/classes_discovered_pca_5d.png>
+Package pdftex.def Info: resources/images/classes_discovered_pca_5d.png  used on input line 52.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/classes_discovered_tsne_2d.png, id=33, 726.3135pt x 744.381pt>
+File: resources/images/classes_discovered_tsne_2d.png Graphic file (type png)
+<use resources/images/classes_discovered_tsne_2d.png>
+Package pdftex.def Info: resources/images/classes_discovered_tsne_2d.png  used on input line 58.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+<resources/images/classes_discovered_tsne_3d.png, id=34, 726.3135pt x 744.381pt>
+File: resources/images/classes_discovered_tsne_3d.png Graphic file (type png)
+<use resources/images/classes_discovered_tsne_3d.png>
+Package pdftex.def Info: resources/images/classes_discovered_tsne_3d.png  used on input line 64.
+(pdftex.def)             Requested size: 464.39685pt x 475.95924pt.
+ [4
 
-LaTeX Warning: Reference `fig:classes_discovered' on page 1 undefined on input line 4.
-
-[1{h:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{h:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-]) (./chapters/conclusion.tex) (./chapters/appendix.tex [2 <./resources/images/tsne_2d.png> <./resources/images/tsne_3d.png>]
-<resources/images/active_learning_RandomForestClassifier_default_strategy_average.png, id=22, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_default_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_default_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_default_strategy_average.png  used on input line 9.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png, id=23, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png  used on input line 15.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_random_strategy_average.png, id=24, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_random_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_random_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_random_strategy_average.png  used on input line 21.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png, id=25, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png  used on input line 27.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png, id=26, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png  used on input line 33.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_default_strategy_average.png, id=27, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_default_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_default_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_default_strategy_average.png  used on input line 39.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_uncertainty_strategy_average.png, id=28, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_uncertainty_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_uncertainty_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_uncertainty_strategy_average.png  used on input line 45.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_random_strategy_average.png, id=29, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_random_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_random_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_random_strategy_average.png  used on input line 51.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_entropy_strategy_average.png, id=30, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_entropy_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_entropy_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_entropy_strategy_average.png  used on input line 57.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-<resources/images/active_learning_SVC_lowest_vote_strategy_average.png, id=31, 1445.4pt x 1445.4pt>
-File: resources/images/active_learning_SVC_lowest_vote_strategy_average.png Graphic file (type png)
-<use resources/images/active_learning_SVC_lowest_vote_strategy_average.png>
-Package pdftex.def Info: resources/images/active_learning_SVC_lowest_vote_strategy_average.png  used on input line 63.
-(pdftex.def)             Requested size: 464.39685pt x 464.39008pt.
-)
+ <./resources/images/rev2_classes_discovered_raw_data.png>] [5 <./resources/images/rev2_classes_discovered_10d.png>] [6 <./resources/images/rev2_classes_discovered_tsne3d.png>] [7 <./resources/images/rev2_classes_discovered_tsne2d.png>] [8 <./resources/images/classes_discovered_pca_2d.png>] [9 <./resources/images/classes_discovered_pca_3d.png>] [10 <./resources/images/classes_discovered_pca_4d.png>] [11 <./resources/images/classes_discovered_pca_5d.png>] [12 <./resources/images/classes_discovered_tsne_2d.png>] [13 <./resources/images/classes_discovered_tsne_3d.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -842,34 +840,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[14
 
- <./resources/images/active_learning_RandomForestClassifier_default_strategy_average.png>] [4 <./resources/images/active_learning_RandomForestClassifier_uncertainty_strategy_average.png>] [5 <./resources/images/active_learning_RandomForestClassifier_random_strategy_average.png>] [6 <./resources/images/active_learning_RandomForestClassifier_entropy_strategy_average.png>] [7 <./resources/images/active_learning_RandomForestClassifier_lowest_vote_strategy_average.png>] [8 <./resources/images/active_learning_SVC_default_strategy_average.png>] [9 <./resources/images/active_learning_SVC_uncertainty_strategy_average.png>] [10 <./resources/images/active_learning_SVC_random_strategy_average.png>] [11 <./resources/images/active_learning_SVC_entropy_strategy_average.png>] [12 <./resources/images/active_learning_SVC_lowest_vote_strategy_average.png>] (./document.aux)
+
+] (./document.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17664 strings out of 474271
- 338752 string characters out of 5751521
- 1940533 words of memory out of 5000000
- 39569 multiletter control sequences out of 15000+600000
- 588554 words of font info for 93 fonts, out of 8000000 for 9000
+ 17707 strings out of 474271
+ 337693 string characters out of 5751521
+ 1954533 words of memory out of 5000000
+ 39604 multiletter control sequences out of 15000+600000
+ 593378 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,8n,107p,1105b,1756s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,9n,107p,1105b,1750s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <h:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><h:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (12 pages, 1909661 bytes).
+Output written on document.pdf (14 pages, 2387180 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
