@@ -124,9 +124,11 @@ provided by the instructor. The dataset contains normal and
 anomalous instances, and our goal is to assess the effectiveness
 of the Isolation Forest algorithm in detecting anomalies.
 
+![_TSNE_contour_plot](https://github.com/krisrjensen/csc730/assets/7505620/de56caa4-1ce6-4fff-a44e-c28778dac421)
+
 
 ![itree_tsne_graph](https://github.com/krisrjensen/csc730/assets/7505620/d6f9764d-8cf5-432b-8adf-9a491c0c8fc3)
-![itree_tsne_graph](https://github.com/krisrjensen/csc730/assets/7505620/98aa60b2-48ab-40c8-aa61-6a5ba52ace25)
+
 
 ### Assignment 8: Active Learning - How many labels do we really need, anyway?
 Kris Jensen  
