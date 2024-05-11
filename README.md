@@ -3,11 +3,9 @@
 
 ### Assignment 1: Introduction to Anomaly Detection
 Jacob James, Kris Jensen  
-The first assignment of this course tasked us with an-
-alyzing a set of skewed data from the MNIST dataset.
+The first assignment of this course tasked us with analyzing a set of skewed data from the MNIST dataset.
 This skewed dataset contained eight classes from a
-total set of ten classes. Also, each class was not rep-
-resented with equivalent frequency. The dataset con-
+total set of ten classes. Also, each class was not represented with equivalent frequency. The dataset con-
 tains 12244 records of data. Each record contains a
 784-element list that represents a 28x28 image of a
 handwriting sample.
@@ -23,8 +21,7 @@ the other was python executed on Google Colab.
 ### Assignment 2: Fuzzy C-Means
 Jacob James, John Nelson, Kris Jensen  
 The second assignment of this course tasked us with
-implementing a Fuzzy C-Means (FCM) clustering al-
-gorithm ‘from scratch’ on a set of skewed data from
+implementing a Fuzzy C-Means (FCM) clustering algorithm ‘from scratch’ on a set of skewed data from
 the MNIST dataset. This skewed dataset contained
 eight classes from a total set of ten classes. Also, each
 class was not represented with equivalent frequency.
@@ -42,8 +39,7 @@ All code was executed in python on VS code.
 ### Assignment 3: Analyzing Optigrid
 Carson Price, Kris Jensen  
 Our task with assignment three is to describe the
-OptiGrid algorithm, analyze the Optigrid code avail-
-able on Github [1], in great detail. After analyzing
+OptiGrid algorithm, analyze the Optigrid code available on Github [1], in great detail. After analyzing
 the algorithm and the code, we will modify the demo
 example to accept a 2D dataset of 30000 points and
 create visualizations of the data points and cutting
@@ -60,13 +56,11 @@ dataset of 30000 points.
 Kris Jensen  
 The fourth assignment of this course is meant
 to introduce semi-supervised classification methods.
-Semi-supervised learning is a type of machine learn-
-ing that uses a small amount of labeled data and a
+Semi-supervised learning is a type of machine learning that uses a small amount of labeled data and a
 large amount of unlabeled data to train models. This
 is in contrast to supervised learning, which only uses
 labeled data, and unsupervised learning, which only
-uses unlabeled data. Semi-supervised learning is par-
-ticularly useful when labeled data is scarce, as is often
+uses unlabeled data. Semi-supervised learning is particularly useful when labeled data is scarce, as is often
 the case in practice [1].
 The assignment is divided into three parts. The
 first part of the assignment is to select a supervised
@@ -81,10 +75,9 @@ method to implement semi-supervised learning.
 ![img12](https://github.com/krisrjensen/csc730/assets/7505620/558e846b-31fb-477e-9c36-34993d6720e6)
 
 ### Assignment 5: DBench – Installing and taking it for a test drive
-Kris Jensen
+Kris Jensen  
 For assignment 5 we are tasked to learn about ADBench, a
-so-called anomaly detection toolset. This toolset is a compila-
-tion of 57 datasets and 30 anomaly detection algorithms. These
+so-called anomaly detection toolset. This toolset is a compilation of 57 datasets and 30 anomaly detection algorithms. These
 algorithms can be classified as supervised, semi-supervised,
 and unsupervised. ADBench was presented in a paper by
 Han et al. in 2022 and at the 36th Conference on Neural
@@ -92,8 +85,7 @@ Information Processing Systems (NeurIPS 2022). The paper
 is titled ”AD-Bench: A Benchmark for Anomaly Detection in
 High-Dimensional Data” [1].
 The assignement objectives are listed in the next section.
-One of the common themes of this assignment is the re-
-utilization of the ’skewed MNIST‘ dataset. In this report
+One of the common themes of this assignment is the reutilization of the ’skewed MNIST‘ dataset. In this report
 we will discuss the installation of ADBench, the application
 of two algorithms to the ‘skewed MNIST‘ dataset, and the
 characterization of the results.
@@ -101,8 +93,7 @@ characterization of the results.
 
 ### Assignment 6: Measuring Performance – ROC and PR Curves
 Kris Jensen  
-In this assignment, we generate Receiver Operating Char-
-acteristic (ROC) and Precision-Recall (PR) curves using the
+In this assignment, we generate Receiver Operating Characteristic (ROC) and Precision-Recall (PR) curves using the
 MNIST and MNIST-C data on a probability density-based
 anomaly detection method of our choice. The MNIST-C
 dataset is a corrupted version of the original MNIST dataset,
@@ -122,8 +113,7 @@ ROC and PR curves.
 Kris Jensen  
 Anomaly detection is a crucial task in various domains,
 from fraud detection in financial transactions to identifying
-rare diseases in medical diagnosis. Traditional anomaly detec-
-tion methods often focus on profiling normal instances and
+rare diseases in medical diagnosis. Traditional anomaly detection methods often focus on profiling normal instances and
 identifying instances that deviate from this normal profile.
 However, a novel approach called Isolation Forest (iForest)
 takes a fundamentally different approach by explicitly isolating
@@ -137,8 +127,7 @@ scores for each point for your chosen parameter settings.
 precision-recall curve.
 5) Generate the equivalent of the following figure from
 your forest.
-In this assignment, we implement the Isolation Forest algo-
-rithm from scratch and evaluate its performance on a dataset
+In this assignment, we implement the Isolation Forest algorithm from scratch and evaluate its performance on a dataset
 provided by the instructor. The dataset contains normal and
 anomalous instances, and our goal is to assess the effectiveness
 of the Isolation Forest algorithm in detecting anomalies.
@@ -166,8 +155,7 @@ function and classifier model you like. You do NOT need
 to write the actual classifier model itself from scratch.
 3) Run your code on the dataset and determine accuracy
 and a confusion matrix.
-4) Do this sequentially over a number of iterations suf-
-ficiently large to see performance flatten out, and plot
+4) Do this sequentially over a number of iterations sufficiently large to see performance flatten out, and plot
 accuracy vs. number of iterations. Show the confusion
 matrices at some selected points along the way.
 Active learning is a machine learning paradigm that aims to
