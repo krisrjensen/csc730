@@ -2,7 +2,7 @@
 ## Assignments
 
 ### Assignment 1: Introduction to Anomaly Detection
-Jacob James, Kris Jensen
+Jacob James, Kris Jensen  
 The first assignment of this course tasked us with an-
 alyzing a set of skewed data from the MNIST dataset.
 This skewed dataset contained eight classes from a
@@ -21,7 +21,7 @@ the other was python executed on Google Colab.
 ![fft_7](https://github.com/krisrjensen/csc730/assets/7505620/8da2c6c5-cc68-4d31-ad84-82395e924c41)
 
 ### Assignment 2: Fuzzy C-Means
-Jacob James, John Nelson, Kris Jensen
+Jacob James, John Nelson, Kris Jensen  
 The second assignment of this course tasked us with
 implementing a Fuzzy C-Means (FCM) clustering al-
 gorithm ‘from scratch’ on a set of skewed data from
@@ -40,7 +40,7 @@ All code was executed in python on VS code.
 ![pca_cluster_means](https://github.com/krisrjensen/csc730/assets/7505620/fecaadc7-338b-41df-9b2c-96179a2256f8)
 
 ### Assignment 3: Analyzing Optigrid
-Carson Price, Kris Jensen
+Carson Price, Kris Jensen  
 Our task with assignment three is to describe the
 OptiGrid algorithm, analyze the Optigrid code avail-
 able on Github [1], in great detail. After analyzing
@@ -57,7 +57,7 @@ dataset of 30000 points.
 ![3d_img_yz](https://github.com/krisrjensen/csc730/assets/7505620/b3324f36-71e4-4588-9aa2-21aaed3408c6)
 
 ### Assignment 4: Semi-supervised learning, wrapper methods
-Kris Jensen
+Kris Jensen  
 The fourth assignment of this course is meant
 to introduce semi-supervised classification methods.
 Semi-supervised learning is a type of machine learn-
@@ -100,7 +100,7 @@ characterization of the results.
 
 
 ### Assignment 6: Measuring Performance – ROC and PR Curves
-Kris Jensen
+Kris Jensen  
 In this assignment, we generate Receiver Operating Char-
 acteristic (ROC) and Precision-Recall (PR) curves using the
 MNIST and MNIST-C data on a probability density-based
@@ -119,7 +119,7 @@ ROC and PR curves.
 ![roc_curve_knn_canny_edges_dotted_line_stripe](https://github.com/krisrjensen/csc730/assets/7505620/92f2ef40-aae9-4911-af8e-2a21c6ed4ca5)
 
 #### Assignment 7: Isolation Forests - Anomaly Detection by Isolating Anomalies
-Kris Jensen
+Kris Jensen  
 Anomaly detection is a crucial task in various domains,
 from fraud detection in financial transactions to identifying
 rare diseases in medical diagnosis. Traditional anomaly detec-
@@ -148,7 +148,7 @@ of the Isolation Forest algorithm in detecting anomalies.
 ![itree_tsne_graph](https://github.com/krisrjensen/csc730/assets/7505620/98aa60b2-48ab-40c8-aa61-6a5ba52ace25)
 
 ### Assignment 8: Active Learning - How many labels do we really need, anyway?
-Kris Jensen
+Kris Jensen  
 Anomaly detection is a crucial task in various domains,
 from fraud detection in financial transactions to identifying
 rare diseases in medical diagnosis [1]. Some times the data is
@@ -183,7 +183,7 @@ evaluate its performance on the full MNIST dataset.
 ![active_learning_SVC_lowest_vote_strategy_average](https://github.com/krisrjensen/csc730/assets/7505620/e8ae7e3d-e7d8-4cd7-b7e3-ba4c1cf9e059)
 
 ### Assignment 9: Active Learning Based Rare Class Discovery
-Kris Jensen
+Kris Jensen  
 The goal of this assignment is to discover all the classes
 in the provided datasets with as few queries to the oracle as
 possible, using the information gained along the way to inform
