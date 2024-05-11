@@ -117,16 +117,8 @@ rare diseases in medical diagnosis. Traditional anomaly detection methods often 
 identifying instances that deviate from this normal profile.
 However, a novel approach called Isolation Forest (iForest)
 takes a fundamentally different approach by explicitly isolating
-anomalies instead of profiling normal points [1].
-The requirements for this assignment are as follows[2].
-1) Get the provided dataset from D2L.
-2) Write your own version of isolation forest code.
-3) Run your code on the dataset to obtain anomalousness
-scores for each point for your chosen parameter settings.
-4) Sort the points by anomalousness scores and generate a
-precision-recall curve.
-5) Generate the equivalent of the following figure from
-your forest.
+anomalies instead of profiling normal points [1].  
+
 In this assignment, we implement the Isolation Forest algorithm from scratch and evaluate its performance on a dataset
 provided by the instructor. The dataset contains normal and
 anomalous instances, and our goal is to assess the effectiveness
@@ -143,21 +135,8 @@ from fraud detection in financial transactions to identifying
 rare diseases in medical diagnosis [1]. Some times the data is
 not labeled, and it is expensive or difficult to label the data.
 In those instances active learning can be used to reduce the
-amount of labeled data required to train a model.
-The requirements for this assignment are as follows [2].
-1) Get the MNIST dataset (the original, balanced – not
-MNIST-C).
-2) Write your own version of an active learning classifier.
-This should follow the basic outline shown in the figure
-above. Assume that the algorithm will start by querying
-1 point at random. You may choose whatever utility
-function and classifier model you like. You do NOT need
-to write the actual classifier model itself from scratch.
-3) Run your code on the dataset and determine accuracy
-and a confusion matrix.
-4) Do this sequentially over a number of iterations sufficiently large to see performance flatten out, and plot
-accuracy vs. number of iterations. Show the confusion
-matrices at some selected points along the way.
+amount of labeled data required to train a model.  
+
 Active learning is a machine learning paradigm that aims to
 reduce the amount of labeled data required to train a model [3].
 In active learning, the model is allowed to query the user for
